@@ -1,0 +1,284 @@
+[
+  {
+    "id": "wildlife-dawn",
+    "title": {
+      "es": "Amanecer con la Fauna",
+      "en": "Wildlife Dawn Experience"
+    },
+    "description": {
+      "es": "Despierta con los sonidos de la selva y observa la vida silvestre en su momento más activo. Perfecto para avistar primates, aves tropicales y otros habitantes del bosque.",
+      "en": "Wake up to the sounds of the rainforest and observe wildlife at their most active time. Perfect for spotting primates, tropical birds and other forest inhabitants."
+    },
+    "duration": {
+      "es": "4 horas",
+      "en": "4 hours"
+    },
+    "difficulty": "easy",
+    "schedule": ["sunrise"],
+    "interests": ["wildlife", "birdwatching"],
+    "rating": 4.8,
+    "reviewCount": 127,
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1574938384464-8b4b8eabb9e9?w=800&h=600&fit=crop",
+    "departurePoint": {
+      "es": "Lodge principal - 5:30 AM",
+      "en": "Main lodge - 5:30 AM"
+    },
+    "includes": {
+      "es": [
+        "Guía naturalista experto",
+        "Binoculares",
+        "Desayuno ligero",
+        "Transporte en canoa",
+        "Agua y snacks"
+      ],
+      "en": [
+        "Expert naturalist guide",
+        "Binoculars", 
+        "Light breakfast",
+        "Canoe transportation",
+        "Water and snacks"
+      ]
+    },
+    "recommendations": {
+      "es": "Usar ropa cómoda de colores neutros, repelente de insectos y zapatos cerrados.",
+      "en": "Wear comfortable neutral-colored clothing, insect repellent and closed shoes."
+    },
+    "featured": true
+  },
+  {
+    "id": "river-exploration",
+    "title": {
+      "es": "Exploración Fluvial",
+      "en": "River Exploration"
+    },
+    "description": {
+      "es": "Navegación por los ríos amazónicos en busca de delfines rosados, caimanes y una increíble variedad de aves acuáticas. Una aventura única en canoa tradicional.",
+      "en": "Navigate Amazon rivers searching for pink dolphins, caimans and incredible variety of aquatic birds. A unique adventure in traditional canoe."
+    },
+    "duration": {
+      "es": "6 horas",
+      "en": "6 hours"
+    },
+    "difficulty": "moderate",
+    "schedule": ["fullDay"],
+    "interests": ["wildlife", "adventure"],
+    "rating": 4.9,
+    "reviewCount": 203,
+    "price": 89,
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+    "departurePoint": {
+      "es": "Muelle del lodge - 8:00 AM",
+      "en": "Lodge dock - 8:00 AM"
+    },
+    "includes": {
+      "es": [
+        "Guía especializado en fauna acuática",
+        "Canoa tradicional",
+        "Almuerzo típico",
+        "Equipo de pesca artesanal",
+        "Bebidas y refrigerios"
+      ],
+      "en": [
+        "Specialized aquatic wildlife guide",
+        "Traditional canoe",
+        "Typical lunch",
+        "Artisanal fishing equipment", 
+        "Drinks and refreshments"
+      ]
+    },
+    "recommendations": {
+      "es": "Llevar protector solar, sombrero, cámara impermeable y cambio de ropa.",
+      "en": "Bring sunscreen, hat, waterproof camera and change of clothes."
+    },
+    "featured": true
+  },
+  {
+    "id": "indigenous-community",
+    "title": {
+      "es": "Comunidad Indígena Kichwa",
+      "en": "Kichwa Indigenous Community"
+    },
+    "description": {
+      "es": "Experiencia cultural auténtica visitando una comunidad Kichwa. Aprende sobre medicina tradicional, artesanías y la relación ancestral con la naturaleza.",
+      "en": "Authentic cultural experience visiting a Kichwa community. Learn about traditional medicine, crafts and the ancestral relationship with nature."
+    },
+    "duration": {
+      "es": "8 horas",
+      "en": "8 hours"
+    },
+    "difficulty": "easy",
+    "schedule": ["fullDay"],
+    "interests": ["community", "culture"],
+    "rating": 4.7,
+    "reviewCount": 89,
+    "price": 95,
+    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    "departurePoint": {
+      "es": "Lodge principal - 7:00 AM",
+      "en": "Main lodge - 7:00 AM"
+    },
+    "includes": {
+      "es": [
+        "Guía cultural bilingüe",
+        "Transporte fluvial",
+        "Almuerzo comunitario",
+        "Demostración de artesanías",
+        "Ceremonia tradicional"
+      ],
+      "en": [
+        "Bilingual cultural guide",
+        "River transportation",
+        "Community lunch", 
+        "Craft demonstration",
+        "Traditional ceremony"
+      ]
+    },
+    "recommendations": {
+      "es": "Mostrar respeto por las tradiciones locales, llevar regalos pequeños para los niños.",
+      "en": "Show respect for local traditions, bring small gifts for children."
+    },
+    "featured": false
+  },
+  {
+    "id": "night-sounds",
+    "title": {
+      "es": "Sinfonía Nocturna",
+      "en": "Night Symphony"
+    },
+    "description": {
+      "es": "Expedición nocturna para descubrir los sonidos y criaturas de la noche amazónica. Una experiencia sensorial única guiada por expertos locales.",
+      "en": "Night expedition to discover the sounds and creatures of the Amazon night. A unique sensory experience guided by local experts."
+    },
+    "duration": {
+      "es": "3 horas",
+      "en": "3 hours"
+    },
+    "difficulty": "moderate",
+    "schedule": ["night"],
+    "interests": ["wildlife", "adventure"],
+    "rating": 4.6,
+    "reviewCount": 156,
+    "price": 55,
+    "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop",
+    "departurePoint": {
+      "es": "Lodge principal - 7:30 PM",
+      "en": "Main lodge - 7:30 PM"
+    },
+    "includes": {
+      "es": [
+        "Guía especializado nocturno",
+        "Linternas profesionales",
+        "Repelente natural", 
+        "Bebida caliente al regreso",
+        "Equipo de grabación de sonidos"
+      ],
+      "en": [
+        "Specialized night guide",
+        "Professional flashlights",
+        "Natural repellent",
+        "Hot drink upon return",
+        "Sound recording equipment"
+      ]
+    },
+    "recommendations": {
+      "es": "Usar ropa oscura, zapatos antideslizantes y mantener silencio durante la caminata.",
+      "en": "Wear dark clothing, non-slip shoes and maintain silence during the walk."
+    },
+    "featured": false
+  },
+  {
+    "id": "canopy-adventure",
+    "title": {
+      "es": "Aventura en las Copas",
+      "en": "Canopy Adventure"
+    },
+    "description": {
+      "es": "Explora el dosel amazónico desde plataformas elevadas. Observa la vida arbórea, aves y primates desde una perspectiva única a 30 metros de altura.",
+      "en": "Explore the Amazon canopy from elevated platforms. Observe arboreal life, birds and primates from a unique perspective 30 meters high."
+    },
+    "duration": {
+      "es": "5 horas",
+      "en": "5 hours"
+    },
+    "difficulty": "challenging",
+    "schedule": ["fullDay"],
+    "interests": ["adventure", "wildlife"],
+    "rating": 4.8,
+    "reviewCount": 94,
+    "price": 125,
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+    "departurePoint": {
+      "es": "Centro de equipamiento - 8:30 AM",
+      "en": "Equipment center - 8:30 AM"
+    },
+    "includes": {
+      "es": [
+        "Equipo de seguridad completo",
+        "Guía de aventura certificado",
+        "Almuerzo en plataforma",
+        "Binoculares especializados",
+        "Seguro de actividad"
+      ],
+      "en": [
+        "Complete safety equipment",
+        "Certified adventure guide", 
+        "Platform lunch",
+        "Specialized binoculars",
+        "Activity insurance"
+      ]
+    },
+    "recommendations": {
+      "es": "Buena condición física requerida. No recomendado para personas con miedo a las alturas.",
+      "en": "Good physical condition required. Not recommended for people with fear of heights."
+    },
+    "featured": true
+  },
+  {
+    "id": "medicinal-plants",
+    "title": {
+      "es": "Plantas Medicinales",
+      "en": "Medicinal Plants"
+    },
+    "description": {
+      "es": "Caminata educativa para conocer las propiedades medicinales de las plantas amazónicas. Aprende de la sabiduría ancestral de los sanadores locales.",
+      "en": "Educational walk to learn about the medicinal properties of Amazon plants. Learn from the ancestral wisdom of local healers."
+    },
+    "duration": {
+      "es": "4 horas",
+      "en": "4 hours"
+    },
+    "difficulty": "easy",
+    "schedule": ["halfDay"],
+    "interests": ["community", "culture"],
+    "rating": 4.5,
+    "reviewCount": 67,
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+    "departurePoint": {
+      "es": "Sendero medicinal - 9:00 AM",
+      "en": "Medicinal trail - 9:00 AM"
+    },
+    "includes": {
+      "es": [
+        "Chamán local como guía",
+        "Cuaderno de plantas",
+        "Muestras de preparados",
+        "Té de hierbas medicinales",
+        "Kit básico de plantas"
+      ],
+      "en": [
+        "Local shaman as guide",
+        "Plant notebook",
+        "Prepared samples",
+        "Medicinal herbal tea",
+        "Basic plant kit"
+      ]
+    },
+    "recommendations": {
+      "es": "Llevar cuaderno para notas, consultar alergias antes del tour.",
+      "en": "Bring notebook for notes, check allergies before the tour."
+    },
+    "featured": false
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "name": "María González",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616c595653c?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-01-15",
+    "travelerType": "family",
+    "title": {
+      "es": "¡Experiencia inolvidable!",
+      "en": "Unforgettable experience!"
+    },
+    "text": {
+      "es": "Río Delfín Lodge superó todas nuestras expectativas. Las cabañas son cómodas y auténticas, los guías extremadamente conocedores y las expediciones fascinantes. Vimos delfines rosados, monos y una increíble variedad de aves. ¡Definitivamente regresaremos!",
+      "en": "Río Delfín Lodge exceeded all our expectations. The cabins are comfortable and authentic, guides extremely knowledgeable and expeditions fascinating. We saw pink dolphins, monkeys and an incredible variety of birds. We'll definitely return!"
+    },
+    "helpful": 24,
+    "location": "Madrid, España"
+  },
+  {
+    "id": "2",
+    "name": "James Mitchell",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    "rating": 4,
+    "date": "2024-01-10", 
+    "travelerType": "couple",
+    "title": {
+      "es": "Perfecto para desconectar",
+      "en": "Perfect for disconnecting"
+    },
+    "text": {
+      "es": "Mi pareja y yo buscábamos una escapada auténtica y la encontramos aquí. Sin wifi ni distracciones, solo la naturaleza en su estado más puro. La comida local es deliciosa y el personal muy atento. Una pequeña sugerencia: más opciones vegetarianas.",
+      "en": "My partner and I were looking for an authentic getaway and found it here. No wifi or distractions, just nature in its purest state. The local food is delicious and staff very attentive. One small suggestion: more vegetarian options."
+    },
+    "helpful": 18,
+    "location": "Vancouver, Canada"
+  },
+  {
+    "id": "3",
+    "name": "Ana Rodríguez",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-01-05",
+    "travelerType": "solo",
+    "title": {
+      "es": "Aventura sola pero nunca solitaria",
+      "en": "Solo adventure but never lonely"
+    },
+    "text": {
+      "es": "Como mujer viajando sola, me sentí segura y bienvenida desde el primer momento. Los otros huéspedes y el equipo crearon un ambiente muy familiar. La expedición nocturna fue mi favorita: ¡los sonidos de la selva son indescriptibles!",
+      "en": "As a woman traveling alone, I felt safe and welcome from the first moment. The other guests and team created a very family-like atmosphere. The night expedition was my favorite: the sounds of the jungle are indescribable!"
+    },
+    "helpful": 31,
+    "location": "Buenos Aires, Argentina"
+  },
+  {
+    "id": "4",
+    "name": "David Chen",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    "rating": 4,
+    "date": "2023-12-28",
+    "travelerType": "friends",
+    "title": {
+      "es": "Fotografía y naturaleza perfectas",
+      "en": "Perfect photography and nature"
+    },
+    "text": {
+      "es": "Vine con un grupo de amigos fotógrafos y quedamos encantados. La diversidad de fauna y paisajes es impresionante. Los guías conocen los mejores spots y horarios para cada especie. Las cabañas tienen buena luz natural para revisar las fotos por la noche.",
+      "en": "I came with a group of photographer friends and we were delighted. The diversity of fauna and landscapes is impressive. The guides know the best spots and times for each species. The cabins have good natural light for reviewing photos at night."
+    },
+    "helpful": 22,
+    "location": "San Francisco, USA"
+  },
+  {
+    "id": "5",
+    "name": "Isabella Santos",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2023-12-20",
+    "travelerType": "family",
+    "title": {
+      "es": "Perfecto para niños curiosos",
+      "en": "Perfect for curious children"
+    },
+    "text": {
+      "es": "Viajamos con nuestros hijos de 8 y 12 años y fue mágico verlos descubrir la selva. Los guías son muy pacientes con los niños y adaptan las explicaciones a su edad. La visita a la comunidad Kichwa fue muy educativa. ¡Los niños aún hablan de los monos!",
+      "en": "We traveled with our 8 and 12 year old children and it was magical to see them discover the jungle. The guides are very patient with children and adapt explanations to their age. The visit to the Kichwa community was very educational. The kids still talk about the monkeys!"
+    },
+    "helpful": 27,
+    "location": "São Paulo, Brasil"
+  },
+  {
+    "id": "6",
+    "name": "Thomas Weber",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+    "rating": 4,
+    "date": "2023-12-15",
+    "travelerType": "couple",
+    "title": {
+      "es": "Sostenibilidad real",
+      "en": "Real sustainability"
+    },
+    "text": {
+      "es": "Como ambientalista, valoré mucho el compromiso real del lodge con la conservación. No es solo marketing verde: realmente trabajan con las comunidades locales y protegen el ecosistema. La energía solar funciona perfectamente y la comida es 100% local.",
+      "en": "As an environmentalist, I greatly valued the lodge's real commitment to conservation. It's not just green marketing: they really work with local communities and protect the ecosystem. Solar energy works perfectly and food is 100% local."
+    },
+    "helpful": 19,
+    "location": "Berlin, Germany"
+  }
+]

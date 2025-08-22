@@ -1,0 +1,143 @@
+{
+  "nav": {
+    "home": "Home",
+    "lodge": "Lodge",
+    "cabins": "Cabins",
+    "expeditions": "Expeditions", 
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "book": "Book",
+    "bookNow": "Book Now",
+    "bookAdventure": "Book Your Adventure"
+  },
+  "hero": {
+    "rating": "4.9 Excellence",
+    "subtitle": "Luxury Amazon Experience",
+    "title": {
+      "part1": "Welcome To Your",
+      "part2": "Nature Retreat"
+    },
+    "description": "Experience the pristine Ecuadorian Amazon with expert naturalist guidance. Luxury accommodations and world-class wildlife encounters await.",
+    "buttons": {
+      "book": "Book Now",
+      "explore": "View More"
+    },
+    "stats": {
+      "experience": "Years of Experience",
+      "guests": "Guests Hosted",
+      "species": "Species Spotted",
+      "satisfaction": "Guest Satisfaction"
+    }
+  },
+  "common": {
+    "bookNow": "Book Now",
+    "viewDetails": "View details",
+    "readMore": "Read more",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "loading": "Loading...",
+    "noResults": "No results found for those filters.",
+    "viewAll": "View all",
+    "from": "From",
+    "perNight": "per night",
+    "guests": "guests",
+    "duration": "Duration",
+    "difficulty": "Difficulty",
+    "includes": "Includes",
+    "rating": "Rating",
+    "reviews": "reviews",
+    "perPerson": "per person"
+  },
+  "home": {
+    "hero": {
+      "title": "Río Delfín",
+      "subtitle": "Amazon Expeditions",
+      "description": "Wildlife, Ecological and Cultural Experience in the Ecuadorian Amazon. Guided by expert naturalist Jacob Tangoy.",
+      "bookAdventure": "Book Your Adventure",
+      "viewPackages": "View Packages",
+      "certificate": "TripAdvisor Certificate of Excellence",
+      "reviewsCount": "reviews"
+    },
+    "quickInfo": {
+      "location": "Francisco de Orellana, Ecuador",
+      "groupSize": "Small groups (2-8 people)",
+      "guide": "Certified Naturalist Guide",
+      "fromPrice": "From $340 USD per person"
+    },
+    "jacob": {
+      "title": "Meet Jacob Tangoy",
+      "subtitle": "Your Expert Amazon Naturalist Guide",
+      "description": "With over 15 years of experience in the Amazon rainforest, Jacob is a certified bilingual naturalist guide (English, French, Spanish) who will take you deep into the heart of the world's most biodiverse ecosystem.",
+      "expeditionsLed": "Expeditions Led",
+      "satisfactionRate": "Satisfaction Rate", 
+      "contact": "Contact Jacob",
+      "whatsapp": "WhatsApp: +593 99 065 7053"
+    },
+    "packages": {
+      "title": "Amazon Expedition Packages",
+      "description": "Choose your perfect Amazon adventure. All packages include accommodation, meals, expert guide, and unforgettable wildlife experiences.",
+      "threeDays": "3 Days / 2 Nights - Wildlife & Culture",
+      "fourDays": "4 Days / 3 Nights - Complete Amazon Experience",
+      "threeDaysLocation": "Monkey Frog Lodge & Limoncocha",
+      "fourDaysLocation": "Yasuní National Park & Limoncocha",
+      "highlights": "Highlights:",
+      "viewDetailsBook": "View Details & Book",
+      "saveWishlist": "Save to wishlist",
+      "difficulty": {
+        "easy": "Easy",
+        "moderate": "Moderate"
+      },
+      "groupSize": "Min 2 people",
+      "threeDaysHighlights": {
+        "birdTower": "Bird watching tower",
+        "fishing": "Piranha fishing",
+        "fireflies": "Fireflies tour", 
+        "cultural": "Cultural experience"
+      },
+      "fourDaysHighlights": {
+        "yasuni": "Yasuní National Park",
+        "parrots": "Clay licks parrots",
+        "napo": "Napo River",
+        "refuge": "Wildlife refuge"
+      }
+    },
+    "gallery": {
+      "title": "Experience the Amazon",
+      "description": "See what awaits you in your Amazon adventure",
+      "viewGallery": "View Full Gallery"
+    },
+    "whyChoose": {
+      "title": "Why Choose Río Delfín Expeditions?",
+      "expertGuide": {
+        "title": "Expert Local Guide",
+        "description": "Jacob Tangoy, certified naturalist with 15+ years experience and perfect safety record"
+      },
+      "smallGroup": {
+        "title": "Small Group Experience",
+        "description": "Maximum 8 people per group ensures personalized attention and minimal environmental impact"
+      },
+      "exceptionalReviews": {
+        "title": "Exceptional Reviews",
+        "description": "4.9/5 stars on TripAdvisor with 200+ verified reviews from satisfied adventurers"
+      }
+    },
+    "cta": {
+      "title": "Ready for Your Amazon Adventure?",
+      "description": "Contact Jacob directly to plan your perfect Amazon expedition. Bilingual service in English, French, and Spanish.",
+      "whatsapp": "WhatsApp: +593 99 065 7053",
+      "email": "Email: jacobtangoy@gmail.com"
+    }
+  },
+  "footer": {
+    "tagline": "Authentic expeditions in the Ecuadorian Amazon with expert naturalist guide. Eco-friendly accommodations and unique wildlife encounters.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "partners": "Sister Lodges",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "sustainability": "Sustainable Tourism"
+  }
+}

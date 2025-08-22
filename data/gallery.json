@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "url": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&h=600&fit=crop",
+    "category": "river",
+    "caption": {
+      "es": "Atardecer dorado sobre el río amazónico",
+      "en": "Golden sunset over the Amazon river"
+    }
+  },
+  {
+    "id": "2", 
+    "url": "https://images.unsplash.com/photo-1574938384464-8b4b8eabb9e9?w=800&h=600&fit=crop",
+    "category": "fauna",
+    "caption": {
+      "es": "Mono capuchino en su hábitat natural", 
+      "en": "Capuchin monkey in its natural habitat"
+    }
+  },
+  {
+    "id": "3",
+    "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+    "category": "cabins",
+    "caption": {
+      "es": "Cabaña rústico-elegante con vista al río",
+      "en": "Rustic-elegant cabin with river view"
+    }
+  },
+  {
+    "id": "4",
+    "url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+    "category": "expeditions",
+    "caption": {
+      "es": "Exploración en canoa tradicional",
+      "en": "Exploration in traditional canoe"
+    }
+  },
+  {
+    "id": "5",
+    "url": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+    "category": "community",
+    "caption": {
+      "es": "Encuentro con la comunidad Kichwa local",
+      "en": "Meeting with the local Kichwa community"
+    }
+  },
+  {
+    "id": "6",
+    "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop",
+    "category": "fauna",
+    "caption": {
+      "es": "Jaguar descansando en la selva tropical",
+      "en": "Jaguar resting in the tropical rainforest"
+    }
+  },
+  {
+    "id": "7",
+    "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+    "category": "expeditions",
+    "caption": {
+      "es": "Sendero en el corazón de la Amazonía",
+      "en": "Trail in the heart of the Amazon"
+    }
+  },
+  {
+    "id": "8",
+    "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
+    "category": "cabins",
+    "caption": {
+      "es": "Interior acogedor con mosquiteros naturales",
+      "en": "Cozy interior with natural mosquito nets"
+    }
+  },
+  {
+    "id": "9",
+    "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop",
+    "category": "river",
+    "caption": {
+      "es": "Aguas cristalinas del río amazónico",
+      "en": "Crystal clear waters of the Amazon river"
+    }
+  },
+  {
+    "id": "10",
+    "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+    "category": "cabins",
+    "caption": {
+      "es": "Terraza privada con hamacas y vista panorámica",
+      "en": "Private terrace with hammocks and panoramic view"
+    }
+  },
+  {
+    "id": "11",
+    "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+    "category": "fauna",
+    "caption": {
+      "es": "Coloridos loros en las copas de los árboles",
+      "en": "Colorful parrots in the treetops"
+    }
+  },
+  {
+    "id": "12",
+    "url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+    "category": "community",
+    "caption": {
+      "es": "Artesanías tradicionales de la comunidad",
+      "en": "Traditional community crafts"
+    }
+  },
+  {
+    "id": "13",
+    "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&h=600&fit=crop",
+    "category": "expeditions",
+    "caption": {
+      "es": "Puente colgante sobre el dosel del bosque",
+      "en": "Suspension bridge over the forest canopy"
+    }
+  },
+  {
+    "id": "14",
+    "url": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=800&h=600&fit=crop",
+    "category": "fauna",
+    "caption": {
+      "es": "Tucán toco posando entre las ramas",
+      "en": "Toucan posing among the branches"
+    }
+  },
+  {
+    "id": "15",
+    "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop",
+    "category": "river",
+    "caption": {
+      "es": "Amanecer místico sobre las aguas del río",
+      "en": "Mystical sunrise over the river waters"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "contact": {
+    "address": {
+      "es": "Francisco de Orellana, Orellana, Ecuador",
+      "en": "Francisco de Orellana, Orellana, Ecuador"
+    },
+    "phone": "+593 99 123 4567",
+    "email": "info@riodelfin.com",
+    "whatsapp": "593991234567"
+  },
+  "coordinates": {
+    "lat": -0.4686,
+    "lng": -76.9834
+  },
+  "social": {
+    "facebook": "https://facebook.com/riodelfin",
+    "instagram": "https://instagram.com/riodelfin",
+    "tripadvisor": "https://tripadvisor.com/hotel/riodelfin"
+  },
+  "partners": {
+    "colibri": {
+      "name": "Colibrí Lodge",
+      "facebook": "https://facebook.com/ColibriLodge",
+      "description": {
+        "es": "Lodge hermano especializado en observación de aves",
+        "en": "Sister lodge specialized in birdwatching"
+      }
+    },
+    "monkeyFrog": {
+      "name": "Monkey Frog Lodge", 
+      "facebook": "https://facebook.com/MonkeyFrogLodge",
+      "description": {
+        "es": "Lodge asociado enfocado en conservación de anfibios",
+        "en": "Associated lodge focused on amphibian conservation"
+      }
+    }
+  }
+}

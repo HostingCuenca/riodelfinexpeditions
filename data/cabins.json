@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "cabin-rio",
+    "title": {
+      "es": "Cabaña Río",
+      "en": "River Cabin"
+    },
+    "description": {
+      "es": "Cabaña rústico-elegante con vista panorámica al río. Construida con materiales locales sostenibles, cuenta con mosquiteros, energía solar y ventilación natural. Perfecta para una experiencia auténtica en la selva.",
+      "en": "Rustic-elegant cabin with panoramic river views. Built with sustainable local materials, features mosquito nets, solar energy and natural ventilation. Perfect for an authentic rainforest experience."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop", 
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop"
+    ],
+    "capacity": 4,
+    "bedType": {
+      "es": "1 cama king + 1 litera",
+      "en": "1 king bed + 1 bunk bed"
+    },
+    "amenities": {
+      "es": [
+        "Vista al río",
+        "Baño privado con ducha",
+        "Mosquiteros",
+        "Energía solar", 
+        "Ventilación natural",
+        "Terraza privada",
+        "Hamacas",
+        "Agua potable"
+      ],
+      "en": [
+        "River view",
+        "Private bathroom with shower",
+        "Mosquito nets",
+        "Solar energy",
+        "Natural ventilation", 
+        "Private terrace",
+        "Hammocks",
+        "Drinking water"
+      ]
+    },
+    "pricePerNight": 120,
+    "featured": true
+  },
+  {
+    "slug": "cabin-delfin",
+    "title": {
+      "es": "Cabaña Delfín",
+      "en": "Dolphin Cabin"
+    },
+    "description": {
+      "es": "Espaciosa cabaña familiar con vistas espectaculares de la selva. Diseñada para grupos más grandes, combina comodidad moderna con arquitectura tradicional amazónica. Ideal para familias y grupos de amigos.",
+      "en": "Spacious family cabin with spectacular rainforest views. Designed for larger groups, it combines modern comfort with traditional Amazon architecture. Ideal for families and groups of friends."
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&h=600&fit=crop"
+    ],
+    "capacity": 6,
+    "bedType": {
+      "es": "2 camas queen + 1 litera",
+      "en": "2 queen beds + 1 bunk bed"
+    },
+    "amenities": {
+      "es": [
+        "Vista a la selva",
+        "Baño privado amplio",
+        "Mosquiteros premium",
+        "Sistema solar mejorado",
+        "Ventiladores de techo",
+        "Sala de estar", 
+        "Terraza grande",
+        "Mini-refrigerador"
+      ],
+      "en": [
+        "Rainforest view",
+        "Large private bathroom",
+        "Premium mosquito nets",
+        "Enhanced solar system",
+        "Ceiling fans",
+        "Living area",
+        "Large terrace",
+        "Mini-fridge"
+      ]
+    },
+    "pricePerNight": 180,
+    "featured": true
+  }
+]

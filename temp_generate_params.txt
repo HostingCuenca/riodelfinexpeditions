@@ -1,0 +1,12 @@
+export function generateStaticParams() {
+  const cabinParams = [];
+  
+  for (const cabin of cabinsData) {
+    cabinParams.push(
+      { locale: "es", slug: cabin.slug },
+      { locale: "en", slug: cabin.slug }
+    );
+  }
+  
+  return cabinParams;
+}
