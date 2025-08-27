@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { getMessages, isValidLocale, type Locale } from '@/lib/i18n';
 import Navbar from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 
 export function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
         {children}
       </main>
       <Footer messages={messages} />
+      <FloatingWhatsApp locale={params.locale as Locale} />
     </div>
   );
 }

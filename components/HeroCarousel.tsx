@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Star, ChevronLeft, ChevronRight, Play, Pause } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -87,7 +88,7 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
   }, [nextSlide, prevSlide, isPlaying]);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden">
       {/* Background Images */}
       <div className="absolute inset-0">
         {heroImages.map((image, index) => (
@@ -123,7 +124,7 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
 
       {/* Main Content - Centered like reference */}
       <div className="relative z-20 h-full flex items-center justify-center">
-        <div className="text-center text-white max-w-4xl px-6">
+        <div className="text-center text-white max-w-4xl px-6 pb-24 sm:pb-8">
           
           {/* Trust Badge */}
           <div className="flex justify-center mb-8">
@@ -145,7 +146,7 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
               {messages ? getNestedMessage(messages, 'hero.subtitle') : 'Luxury Amazon Experience'}
             </h2>
             
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white">
               {messages ? getNestedMessage(messages, 'hero.title.part1') : 'Welcome To Your'}
               <br />
               <span className="text-lightOrange">
@@ -163,19 +164,31 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button 
-              size="lg" 
-              className="bg-amazonGreen hover:bg-emerald text-white font-semibold px-8 py-4 text-base transition-all duration-300 border-0 shadow-lg hover:shadow-xl hover:scale-105"
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-32 sm:mb-16 px-4">
+            <a
+              href={`https://wa.me/593990657053?text=${encodeURIComponent(
+                locale === 'es' 
+                  ? '¡Hola! Me gustaría reservar una expedición amazónica con Río Delfín Lodge. ¿Podrían ayudarme con información sobre disponibilidad y precios?'
+                  : 'Hello! I would like to book an Amazon expedition with Río Delfín Lodge. Could you help me with information about availability and prices?'
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {messages ? getNestedMessage(messages, 'hero.buttons.book') : 'Book Now'}
-            </Button>
-            <Button 
-              size="lg" 
-              className="bg-lightNavy border-2 border-lightNavy text-white hover:bg-white hover:text-lightNavy font-semibold px-8 py-4 text-base transition-all duration-300 shadow-lg hover:scale-105"
-            >
-              {messages ? getNestedMessage(messages, 'hero.buttons.explore') : 'View More'}
-            </Button>
+              <Button 
+                size="lg" 
+                className="bg-amazonGreen hover:bg-emerald text-white font-semibold min-h-[48px] px-6 py-3 sm:px-8 sm:py-4 text-base transition-all duration-300 border-0 shadow-lg hover:shadow-xl hover:scale-105"
+              >
+                {messages ? getNestedMessage(messages, 'hero.buttons.book') : 'Book Now'}
+              </Button>
+            </a>
+            <Link href={`/${locale || 'es'}/expeditions`}>
+              <Button 
+                size="lg" 
+                className="bg-lightNavy border-2 border-lightNavy text-white hover:bg-white hover:text-lightNavy font-semibold min-h-[48px] px-6 py-3 sm:px-8 sm:py-4 text-base transition-all duration-300 shadow-lg hover:scale-105"
+              >
+                {messages ? getNestedMessage(messages, 'hero.buttons.explore') : 'View More'}
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -183,29 +196,29 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
       {/* Statistics Section - Like reference design */}
       <div className="absolute bottom-0 left-0 right-0 z-30">
         <div className="bg-black/70 backdrop-blur-sm border-t border-white/10">
-          <div className="max-w-6xl mx-auto px-6 py-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+          <div className="max-w-6xl mx-auto px-6 py-6 sm:py-8">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-center text-white">
               <div className="space-y-2">
-                <div className="text-3xl lg:text-4xl font-bold text-lightOrange">15+</div>
-                <div className="text-sm text-gray-300 uppercase tracking-wide">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">15+</div>
+                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
                   {messages ? getNestedMessage(messages, 'hero.stats.experience') : 'Years of Experience'}
                 </div>
               </div>
               <div className="space-y-2">
-                <div className="text-3xl lg:text-4xl font-bold text-lightOrange">1.5K</div>
-                <div className="text-sm text-gray-300 uppercase tracking-wide">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">1.5K</div>
+                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
                   {messages ? getNestedMessage(messages, 'hero.stats.guests') : 'Guests Hosted'}
                 </div>
               </div>
               <div className="space-y-2">
-                <div className="text-3xl lg:text-4xl font-bold text-lightOrange">300+</div>
-                <div className="text-sm text-gray-300 uppercase tracking-wide">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">300+</div>
+                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
                   {messages ? getNestedMessage(messages, 'hero.stats.species') : 'Species Spotted'}
                 </div>
               </div>
               <div className="space-y-2">
-                <div className="text-3xl lg:text-4xl font-bold text-lightOrange">98%</div>
-                <div className="text-sm text-gray-300 uppercase tracking-wide">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">98%</div>
+                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
                   {messages ? getNestedMessage(messages, 'hero.stats.satisfaction') : 'Guest Satisfaction'}
                 </div>
               </div>

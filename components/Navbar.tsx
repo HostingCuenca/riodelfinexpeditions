@@ -35,18 +35,60 @@ export default function Navbar({ messages }: NavbarProps) {
   // Cerrar dropdown al hacer click fuera
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
+      // Don't close if clicking inside the dropdown
       if (langRef.current && !langRef.current.contains(event.target as Node)) {
         setIsLangOpen(false);
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
+    // Use a delay to avoid conflicts with button clicks
+    const timer = setTimeout(() => {
+      document.addEventListener('mousedown', handleClickOutside);
+    }, 100);
+    
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isLangOpen]);
 
   const switchLanguage = (newLocale: string) => {
-    const newPath = pathname?.replace(`/${locale}`, `/${newLocale}`) || `/${newLocale}`;
-    router.push(newPath);
+    console.log('switchLanguage called:', { newLocale, pathname, currentLocale: locale });
+    
+    if (!pathname) {
+      console.log('No pathname, returning');
+      return;
+    }
+    
+    let newPath = '';
+    
+    // Handle the root path case
+    if (pathname === `/${locale}` || pathname === `/`) {
+      newPath = `/${newLocale}`;
+      console.log('Root path case:', newPath);
+      router.push(newPath);
+      return;
+    }
+    
+    // Handle paths with existing locale
+    if (pathname.startsWith(`/${locale}/`)) {
+      newPath = pathname.replace(`/${locale}/`, `/${newLocale}/`);
+      console.log('Path with locale case:', newPath);
+      router.push(newPath);
+      return;
+    }
+    
+    // Handle paths without locale prefix (fallback)
+    if (pathname.startsWith('/')) {
+      const pathWithoutSlash = pathname.substring(1);
+      newPath = `/${newLocale}/${pathWithoutSlash}`;
+      console.log('Path without locale case:', newPath);
+      router.push(newPath);
+    } else {
+      newPath = `/${newLocale}`;
+      console.log('Default fallback case:', newPath);
+      router.push(newPath);
+    }
   };
 
   const navItems = [
@@ -152,9 +194,13 @@ export default function Navbar({ messages }: NavbarProps) {
                 </button>
                 
                 {isLangOpen && (
-                  <div className="absolute top-full mt-2 right-0 bg-white border border-gray-200 rounded-lg shadow-lg py-2 z-50 min-w-[120px]">
+                  <div className="absolute top-full mt-2 right-0 bg-white border border-gray-200 rounded-lg shadow-xl py-2 z-[100] min-w-[120px]">
                     <button
-                      onClick={() => { switchLanguage('es'); setIsLangOpen(false); }}
+                      onClick={() => {
+                        console.log('Desktop: Switching to Spanish, current locale:', locale);
+                        setIsLangOpen(false);
+                        switchLanguage('es');
+                      }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors duration-200 ${
                         locale === 'es' ? 'text-deepBlue font-medium bg-lightOrange/10' : 'text-gray-700'
                       }`}
@@ -162,7 +208,11 @@ export default function Navbar({ messages }: NavbarProps) {
                       Español
                     </button>
                     <button
-                      onClick={() => { switchLanguage('en'); setIsLangOpen(false); }}
+                      onClick={() => {
+                        console.log('Desktop: Switching to English, current locale:', locale);
+                        setIsLangOpen(false);
+                        switchLanguage('en');
+                      }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors duration-200 ${
                         locale === 'en' ? 'text-deepBlue font-medium bg-lightOrange/10' : 'text-gray-700'
                       }`}
@@ -174,24 +224,72 @@ export default function Navbar({ messages }: NavbarProps) {
               </div>
               
               {/* Book Now Button */}
-              <Button className="bg-deepBlue hover:bg-lightNavy text-white font-semibold px-8 py-3 text-base shadow-lg hover:shadow-xl transition-all duration-300 border-0 hover:scale-105">
-                {messages ? getNestedMessage(messages, 'nav.bookNow') : 'Book Now'}
-              </Button>
+              <a
+                href={`https://wa.me/593990657053?text=${encodeURIComponent(
+                  locale === 'es' 
+                    ? '¡Hola! Me gustaría reservar una experiencia amazónica. ¿Podrían ayudarme con información y disponibilidad?'
+                    : 'Hello! I would like to book an Amazon experience. Could you help me with information and availability?'
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-deepBlue hover:bg-lightNavy text-white font-semibold px-8 py-3 text-base shadow-lg hover:shadow-xl transition-all duration-300 border-0 hover:scale-105">
+                  {messages ? getNestedMessage(messages, 'nav.bookNow') : 'Book Now'}
+                </Button>
+              </a>
             </div>
 
             {/* Mobile menu button */}
             <div className="lg:hidden flex items-center space-x-3">
               {/* Mobile Language Switcher */}
-              <button
-                onClick={() => setIsLangOpen(!isLangOpen)}
-                className="flex items-center space-x-1 px-3 py-2 bg-gray-50 rounded border border-gray-200 relative"
-              >
-                <Globe className="h-4 w-4 text-deepBlue" />
-                <span className="text-sm font-medium text-deepBlue">
-                  {locale === 'es' ? 'ES' : 'EN'}
-                </span>
-                <ChevronDown className={`h-3 w-3 text-deepBlue transition-transform duration-200 ${isLangOpen ? 'rotate-180' : ''}`} />
-              </button>
+              <div className="relative" ref={langRef}>
+                <button
+                  onClick={() => setIsLangOpen(!isLangOpen)}
+                  className="flex items-center space-x-1 px-3 py-2 bg-gray-50 rounded border border-gray-200"
+                >
+                  <Globe className="h-4 w-4 text-deepBlue" />
+                  <span className="text-sm font-medium text-deepBlue">
+                    {locale === 'es' ? 'ES' : 'EN'}
+                  </span>
+                  <ChevronDown className={`h-3 w-3 text-deepBlue transition-transform duration-200 ${isLangOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {/* Mobile Language Dropdown */}
+                {isLangOpen && (
+                  <div className="absolute top-full mt-2 right-0 bg-white border border-gray-200 rounded-lg shadow-xl py-2 z-[100] min-w-[100px]">
+                    <button
+                      onClick={(e) => { 
+                        e.preventDefault(); 
+                        e.stopPropagation();
+                        console.log('Mobile: Switching to Spanish');
+                        switchLanguage('es'); 
+                        setIsLangOpen(false); 
+                      }}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors duration-200 ${
+                        locale === 'es' ? 'text-deepBlue font-medium bg-lightOrange/10' : 'text-gray-700'
+                      }`}
+                      type="button"
+                    >
+                      Español
+                    </button>
+                    <button
+                      onClick={(e) => { 
+                        e.preventDefault(); 
+                        e.stopPropagation();
+                        console.log('Mobile: Switching to English');
+                        switchLanguage('en'); 
+                        setIsLangOpen(false); 
+                      }}
+                      className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors duration-200 ${
+                        locale === 'en' ? 'text-deepBlue font-medium bg-lightOrange/10' : 'text-gray-700'
+                      }`}
+                      type="button"
+                    >
+                      English
+                    </button>
+                  </div>
+                )}
+              </div>
               
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}

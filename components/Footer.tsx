@@ -126,9 +126,9 @@ export function Footer({ messages }: FooterProps) {
             <div className="space-y-3 mb-6">
               <div className="flex items-center space-x-2">
                 <img 
-                  src="/tripadvisor-logo.png" 
+                  src="https://static.tacdn.com/img2/brand_refresh_2025/logos/wordmark.svg" 
                   alt="TripAdvisor" 
-                  className="w-6 h-6"
+                  className="w-6 h-6 brightness-0 invert"
                 />
                 <span className="text-sm text-emerald font-medium">
                   Certificate of Excellence

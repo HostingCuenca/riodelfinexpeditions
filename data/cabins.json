@@ -1,94 +1,149 @@
 [
   {
-    "slug": "cabin-rio",
+    "slug": "colibri-lodge-cabins",
     "title": {
-      "es": "Cabaña Río",
-      "en": "River Cabin"
+      "es": "Cabañas Colibri Amazon Lodge",
+      "en": "Colibri Amazon Lodge Cabins"
     },
     "description": {
-      "es": "Cabaña rústico-elegante con vista panorámica al río. Construida con materiales locales sostenibles, cuenta con mosquiteros, energía solar y ventilación natural. Perfecta para una experiencia auténtica en la selva.",
-      "en": "Rustic-elegant cabin with panoramic river views. Built with sustainable local materials, features mosquito nets, solar energy and natural ventilation. Perfect for an authentic rainforest experience."
+      "es": "Cabañas privadas con vistas al río, construidas con materiales locales y diseñadas para ofrecer comodidad sin perder la conexión con la naturaleza. Perfectas para parejas y familias pequeñas que buscan una experiencia auténtica en la Amazonía.",
+      "en": "Private cabins with river views, built with local materials and designed to offer comfort without losing connection with nature. Perfect for couples and small families seeking an authentic Amazon experience."
     },
     "images": [
-      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop", 
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop"
+      "/assets/colibrilodge/colibricabañas1.jpg",
+      "/assets/colibrilodge/cabañashermosas.jpg", 
+      "/assets/detallescabaña/habitacion1.png",
+      "/assets/detallescabaña/baño.png",
+      "/assets/detallescabaña/desayunos.png",
+      "/assets/detallescabaña/gastronomiadesayunos.png"
     ],
     "capacity": 4,
     "bedType": {
-      "es": "1 cama king + 1 litera",
-      "en": "1 king bed + 1 bunk bed"
+      "es": "Cama matrimonial + literas",
+      "en": "Double bed + bunk beds"
     },
     "amenities": {
       "es": [
-        "Vista al río",
-        "Baño privado con ducha",
-        "Mosquiteros",
-        "Energía solar", 
+        "Vista al río Napo",
+        "Baño privado completo",
+        "Mosquiteros y protección",
         "Ventilación natural",
-        "Terraza privada",
-        "Hamacas",
-        "Agua potable"
+        "Terraza privada con hamacas",
+        "Desayunos incluidos",
+        "Agua potable",
+        "Energía solar"
       ],
       "en": [
-        "River view",
-        "Private bathroom with shower",
-        "Mosquito nets",
-        "Solar energy",
-        "Natural ventilation", 
-        "Private terrace",
-        "Hammocks",
-        "Drinking water"
+        "Napo River view",
+        "Full private bathroom",
+        "Mosquito nets & protection", 
+        "Natural ventilation",
+        "Private terrace with hammocks",
+        "Breakfast included",
+        "Drinking water",
+        "Solar energy"
       ]
     },
-    "pricePerNight": 120,
-    "featured": true
+    "location": "Colibri Amazon Lodge - Río Napo",
+    "featured": true,
+    "lodge": "colibri"
   },
   {
-    "slug": "cabin-delfin",
+    "slug": "monkey-frog-lodge-cabins",
     "title": {
-      "es": "Cabaña Delfín",
-      "en": "Dolphin Cabin"
+      "es": "Cabañas Monkey Frog Lodge",
+      "en": "Monkey Frog Lodge Cabins"
     },
     "description": {
-      "es": "Espaciosa cabaña familiar con vistas espectaculares de la selva. Diseñada para grupos más grandes, combina comodidad moderna con arquitectura tradicional amazónica. Ideal para familias y grupos de amigos.",
-      "en": "Spacious family cabin with spectacular rainforest views. Designed for larger groups, it combines modern comfort with traditional Amazon architecture. Ideal for families and groups of friends."
+      "es": "Alojamiento comunitario en estilo tradicional amazónico. Ideal para viajeros que buscan una experiencia más rústica y mayor interacción con las comunidades locales. Perfecto para grupos y aventureros que quieren vivir la selva de manera auténtica.",
+      "en": "Community accommodation in traditional Amazonian style. Ideal for travelers seeking a more rustic experience and greater interaction with local communities. Perfect for groups and adventurers who want to live the jungle authentically."
     },
     "images": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&h=600&fit=crop",
-      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&h=600&fit=crop"
+      "/assets/1cabañahamacavertical.jpeg",
+      "/assets/detallescabaña/habitacion.png",
+      "/assets/riodelfin/hamacas.jpg",
+      "/assets/detallescabaña/gastronomia3.png",
+      "/assets/1seccioncasa.jpeg",
+      "/assets/detallescabaña/gastronomia4.png"
+    ],
+    "capacity": 8,
+    "bedType": {
+      "es": "Habitaciones compartidas + hamacas",
+      "en": "Shared rooms + hammocks"
+    },
+    "amenities": {
+      "es": [
+        "Vistas a la selva",
+        "Instalaciones compartidas",
+        "Interacción comunitaria",
+        "Estilo tradicional",
+        "Comidas caseras incluidas",
+        "Actividades culturales",
+        "Guías locales",
+        "Experiencia inmersiva"
+      ],
+      "en": [
+        "Jungle views",
+        "Shared facilities",
+        "Community interaction",
+        "Traditional style", 
+        "Home-cooked meals included",
+        "Cultural activities",
+        "Local guides",
+        "Immersive experience"
+      ]
+    },
+    "location": "Monkey Frog Lodge - Limoncocha",
+    "featured": true,
+    "lodge": "monkey-frog"
+  },
+  {
+    "slug": "expedition-camping",
+    "title": {
+      "es": "Campamento de Expedición",
+      "en": "Expedition Camping"
+    },
+    "description": {
+      "es": "Para los más aventureros, ofrecemos experiencias de camping en sitios remotos de la selva. Equipos completos de camping, guías expertos y la oportunidad única de dormir bajo las estrellas de la Amazonía. Solo para grupos pequeños y experimentados.",
+      "en": "For the most adventurous, we offer camping experiences in remote jungle sites. Complete camping equipment, expert guides and the unique opportunity to sleep under the Amazon stars. Only for small and experienced groups."
+    },
+    "images": [
+      "/assets/riodelfin/cieloestrelladovertical.jpg",
+      "/assets/colibrilodge/bosquecolibrilodge.jpg",
+      "/assets/riodelfin/atardecer.jpg", 
+      "/assets/detallescabaña/experiencias inolvidables.jpg",
+      "/assets/colibrilodge/en lancha 1 expedicion.jpg",
+      "/assets/colibrilodge/grupoenamazonia.jpg"
     ],
     "capacity": 6,
     "bedType": {
-      "es": "2 camas queen + 1 litera",
-      "en": "2 queen beds + 1 bunk bed"
+      "es": "Tiendas de campaña + hamacas",
+      "en": "Tents + hammocks"
     },
     "amenities": {
       "es": [
-        "Vista a la selva",
-        "Baño privado amplio",
-        "Mosquiteros premium",
-        "Sistema solar mejorado",
-        "Ventiladores de techo",
-        "Sala de estar", 
-        "Terraza grande",
-        "Mini-refrigerador"
+        "Equipo de camping completo",
+        "Guía experto 24/7",
+        "Comidas al aire libre",
+        "Fogata nocturna",
+        "Observación de estrellas",
+        "Sonidos nocturnos",
+        "Experiencia extrema",
+        "Grupos pequeños"
       ],
       "en": [
-        "Rainforest view",
-        "Large private bathroom",
-        "Premium mosquito nets",
-        "Enhanced solar system",
-        "Ceiling fans",
-        "Living area",
-        "Large terrace",
-        "Mini-fridge"
+        "Complete camping equipment",
+        "Expert guide 24/7",
+        "Outdoor meals",
+        "Night campfire",
+        "Stargazing",
+        "Night sounds",
+        "Extreme experience",
+        "Small groups"
       ]
     },
-    "pricePerNight": 180,
-    "featured": true
+    "location": "Sitios remotos - Yasuní",
+    "featured": false,
+    "lodge": "expedition"
   }
 ]

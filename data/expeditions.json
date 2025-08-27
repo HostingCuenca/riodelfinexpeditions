@@ -1,284 +1,310 @@
 [
   {
-    "id": "wildlife-dawn",
+    "slug": "3-days-wildlife-cultural",
     "title": {
-      "es": "Amanecer con la Fauna",
-      "en": "Wildlife Dawn Experience"
+      "es": "Expedición Vida Silvestre y Cultura - 3 Días",
+      "en": "Wildlife & Cultural Experience - 3 Days"
     },
-    "description": {
-      "es": "Despierta con los sonidos de la selva y observa la vida silvestre en su momento más activo. Perfecto para avistar primates, aves tropicales y otros habitantes del bosque.",
-      "en": "Wake up to the sounds of the rainforest and observe wildlife at their most active time. Perfect for spotting primates, tropical birds and other forest inhabitants."
+    "subtitle": {
+      "es": "Monkey Frog Lodge & Laguna Limoncocha",
+      "en": "Monkey Frog Lodge & Limoncocha Lagoon"
     },
     "duration": {
-      "es": "4 horas",
-      "en": "4 hours"
+      "es": "3 Días / 2 Noches",
+      "en": "3 Days / 2 Nights"
+    },
+    "description": {
+      "es": "Sumérgete en una selva tropical viva donde la naturaleza susurra entre los árboles, las aves vuelan sobre copas milenarias, y las tradiciones indígenas cobran vida. Esta expedición amazónica de 3 días combina biodiversidad, inmersión cultural y aventura auténtica.",
+      "en": "Step into a living rainforest where nature whispers through the trees, birds soar above ancient canopies, and Indigenous traditions come alive. This 3-day Amazon expedition blends biodiversity, cultural immersion, and true adventure."
+    },
+    "images": [
+      "/assets/colibrilodge/en lancha 1 expedicion.jpg",
+      "/assets/colibrilodge/observacionaves1.jpg",
+      "/assets/colibrilodge/fishingtrip.jpg",
+      "/assets/riodelfin/delfinesrosadosvertical.jpg",
+      "/assets/colibrilodge/grupoenamazonia.jpg",
+      "/assets/detallescabaña/experiencias inolvidables.jpg"
+    ],
+    "price": {
+      "amount": 340,
+      "currency": "USD",
+      "per": "persona (mínimo 2 participantes)"
     },
     "difficulty": "easy",
-    "schedule": ["sunrise"],
-    "interests": ["wildlife", "birdwatching"],
-    "rating": 4.8,
-    "reviewCount": 127,
-    "price": 65,
-    "image": "https://images.unsplash.com/photo-1574938384464-8b4b8eabb9e9?w=800&h=600&fit=crop",
-    "departurePoint": {
-      "es": "Lodge principal - 5:30 AM",
-      "en": "Main lodge - 5:30 AM"
-    },
-    "includes": {
+    "groupSize": "2-8 personas",
+    "itinerary": {
       "es": [
-        "Guía naturalista experto",
-        "Binoculares",
-        "Desayuno ligero",
-        "Transporte en canoa",
-        "Agua y snacks"
+        {
+          "day": 1,
+          "title": "Bienvenida a la Selva",
+          "description": "Tu aventura comienza en El Coca con recibimiento por tu guía naturalista bilingüe. Viajamos en canoa al Monkey Frog Lodge, observando aves coloridas, monos y paisajes exuberantes. Visita a isla pequeña para presenciar preparación tradicional de tortillas de yuca por comunidad Siona. Por la tarde, exploración de río en canoa, natación y observación del atardecer. Caminata nocturna guiada para observar anfibios, insectos y la rana mono de líneas blancas.",
+          "highlights": ["Transporte en canoa", "Comunidad Siona", "Natación en río", "Caminata nocturna"]
+        },
+        {
+          "day": 2,
+          "title": "Aves, Laguna y Luciérnagas",
+          "description": "Madrugada en torre de observación de aves de 35 metros para presenciar el despertar colorido de loros, guacamayos y aves exóticas. Después del desayuno, viaje a Laguna Limoncocha, reserva de biosfera rica en vida silvestre. Pesca tradicional de pirañas, paseo en canoa entre vegetación flotante y manglares, observación de vida silvestre. Tour nocturno en canoa para ver luciérnagas brillantes y caimanes bajo las estrellas.",
+          "highlights": ["Torre de aves 35m", "Laguna Limoncocha", "Pesca de pirañas", "Luciérnagas nocturnas"]
+        },
+        {
+          "day": 3,
+          "title": "Encuentros con Vida Silvestre y Despedida",
+          "description": "Después del desayuno, regreso al Monkey Frog Lodge para caminata final por refugio de vida silvestre buscando ranas venenosas, monos y aves tropicales coloridas. Después del almuerzo, partida en canoa hacia Puerto Francisco de Orellana y continuación a El Coca, llegada aproximadamente a las 5:00 PM.",
+          "highlights": ["Refugio de vida silvestre", "Ranas venenosas", "Monos", "Regreso a El Coca"]
+        }
       ],
       "en": [
-        "Expert naturalist guide",
-        "Binoculars", 
-        "Light breakfast",
-        "Canoe transportation",
-        "Water and snacks"
+        {
+          "day": 1,
+          "title": "Welcome to the Jungle",
+          "description": "Your journey begins in El Coca with warm greeting by bilingual naturalist guide. Travel by canoe to Monkey Frog Lodge, spotting colorful birds, monkeys, and lush landscapes. Visit small island to witness traditional yucca tortilla preparation by Siona Indigenous community. Afternoon river exploration by canoe, swimming and sunset watching. Guided night jungle walk to observe amphibians, insects, and white-lined monkey frog.",
+          "highlights": ["Canoe transportation", "Siona community", "River swimming", "Night walk"]
+        },
+        {
+          "day": 2,
+          "title": "Birds, Lagoon & Fireflies",
+          "description": "Early morning at 35-meter birdwatching tower to witness colorful awakening of parrots, macaws and exotic birds. After breakfast, journey to Limoncocha Lagoon, wildlife-rich biosphere reserve. Traditional piranha fishing, canoe ride through floating vegetation and mangroves, wildlife observation. Evening canoe tour to see glowing fireflies and caimans under the stars.",
+          "highlights": ["35m bird tower", "Limoncocha Lagoon", "Piranha fishing", "Night fireflies"]
+        },
+        {
+          "day": 3,
+          "title": "Wildlife Encounters & Farewell",
+          "description": "After breakfast, return to Monkey Frog Lodge for final walk through wildlife refuge searching for poison dart frogs, monkeys, and colorful tropical birds. After lunch, departure by canoe to Puerto Francisco de Orellana and continue to El Coca, arriving around 5:00 PM.",
+          "highlights": ["Wildlife refuge", "Poison dart frogs", "Monkeys", "Return to El Coca"]
+        }
       ]
     },
-    "recommendations": {
-      "es": "Usar ropa cómoda de colores neutros, repelente de insectos y zapatos cerrados.",
-      "en": "Wear comfortable neutral-colored clothing, insect repellent and closed shoes."
+    "included": {
+      "es": [
+        "Todo el transporte terrestre y fluvial",
+        "Alojamiento (2 noches)",
+        "Todas las comidas (incluye desayuno Día 1)",
+        "Agua potable purificada",
+        "Guía naturalista bilingüe (Inglés/Francés/Español)",
+        "Botas de caucho para caminatas",
+        "Tarifas de entrada a Laguna Limoncocha y sitios culturales"
+      ],
+      "en": [
+        "All land and river transportation",
+        "Accommodation (2 nights)",
+        "All meals (including breakfast on Day 1)",
+        "Purified drinking water",
+        "Bilingual naturalist guide (English/French/Spanish)",
+        "Rubber boots for jungle walks",
+        "Entrance fees to Limoncocha Lagoon & cultural sites"
+      ]
     },
-    "featured": true
+    "notIncluded": {
+      "es": [
+        "Cena el día final",
+        "Bebidas extra",
+        "Propinas para guías y personal"
+      ],
+      "en": [
+        "Dinner on the final day",
+        "Extra beverages",
+        "Tips for guides and staff"
+      ]
+    },
+    "whatToBring": {
+      "es": [
+        "Repelente fuerte para insectos (base DEET, no spray)",
+        "Protector solar, gafas de sol y sombrero",
+        "Traje de baño y toalla",
+        "Chaqueta impermeable o poncho",
+        "Pantalones y camisas cómodas de manga larga",
+        "Linterna o lámpara frontal",
+        "Sandalias y zapatos cerrados para caminar",
+        "Binoculares y cámara (baterías extra)",
+        "Efectivo pequeño para souvenirs o apoyo comunitario"
+      ],
+      "en": [
+        "Strong insect repellent (DEET-based, non-spray)",
+        "Sunscreen, sunglasses, and hat",
+        "Swimsuit and towel",
+        "Waterproof jacket or poncho",
+        "Comfortable long pants and long-sleeve shirts",
+        "Flashlight or headlamp",
+        "Sandals and closed walking shoes",
+        "Binoculars and camera (with extra batteries)",
+        "Small cash for souvenirs or community support"
+      ]
+    },
+    "featured": true,
+    "location": "Monkey Frog Lodge & Limoncocha",
+    "contacts": [
+      {
+        "name": "Jacob Tangoy",
+        "whatsapp": "+593990657053",
+        "whatsapp2": "+593962190756"
+      },
+      {
+        "name": "Juan Grefa",
+        "whatsapp": "+593994862058"
+      },
+      {
+        "name": "Gissela Quintero",
+        "whatsapp": "+593992991985",
+        "location": "Monkey Frog Lodge / Wildlife Refuge"
+      }
+    ]
   },
   {
-    "id": "river-exploration",
+    "slug": "4-days-yasuni-complete",
     "title": {
-      "es": "Exploración Fluvial",
-      "en": "River Exploration"
+      "es": "Expedición Completa Yasuní - 4 Días",
+      "en": "Complete Yasuní Experience - 4 Days"
     },
-    "description": {
-      "es": "Navegación por los ríos amazónicos en busca de delfines rosados, caimanes y una increíble variedad de aves acuáticas. Una aventura única en canoa tradicional.",
-      "en": "Navigate Amazon rivers searching for pink dolphins, caimans and incredible variety of aquatic birds. A unique adventure in traditional canoe."
+    "subtitle": {
+      "es": "Monkey Frog Lodge, Limoncocha & Parque Nacional Yasuní",
+      "en": "Monkey Frog Lodge, Limoncocha & Yasuní National Park"
     },
     "duration": {
-      "es": "6 horas",
-      "en": "6 hours"
+      "es": "4 Días / 3 Noches",
+      "en": "4 Days / 3 Nights"
+    },
+    "description": {
+      "es": "Sumérgete profundamente en una selva tropical viva donde la naturaleza susurra entre los árboles, las aves vuelan sobre copas milenarias, y las tradiciones indígenas cobran vida. Esta expedición amazónica de 4 días combina biodiversidad, inmersión cultural y aventura auténtica para una conexión más profunda.",
+      "en": "Step deeper into a living rainforest where nature whispers through the trees, birds soar above ancient canopies, and Indigenous traditions come alive. This 4-day Amazon expedition blends biodiversity, cultural immersion, and true adventure for deeper connection."
+    },
+    "images": [
+      "/assets/riodelfin/atardecer.jpg",
+      "/assets/colibrilodge/observacionaves2.jpg",
+      "/assets/colibrilodge/bosquecolibrilodge.jpg",
+      "/assets/riodelfin/delfinesrosadosvertical.jpg",
+      "/assets/colibrilodge/turistas con jacobtangoy.jpg",
+      "/assets/riodelfin/cieloestrelladovertical.jpg"
+    ],
+    "price": {
+      "amount": 495,
+      "currency": "USD",
+      "per": "persona (mínimo 2 participantes)"
     },
     "difficulty": "moderate",
-    "schedule": ["fullDay"],
-    "interests": ["wildlife", "adventure"],
-    "rating": 4.9,
-    "reviewCount": 203,
-    "price": 89,
-    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
-    "departurePoint": {
-      "es": "Muelle del lodge - 8:00 AM",
-      "en": "Lodge dock - 8:00 AM"
-    },
-    "includes": {
+    "groupSize": "2-8 personas",
+    "itinerary": {
       "es": [
-        "Guía especializado en fauna acuática",
-        "Canoa tradicional",
-        "Almuerzo típico",
-        "Equipo de pesca artesanal",
-        "Bebidas y refrigerios"
+        {
+          "day": 1,
+          "title": "Bienvenida a la Selva",
+          "description": "Tu aventura comienza en El Coca con recibimiento caloroso por tu guía naturalista bilingüe. Viajamos a Puerto Francisco de Orellana y abordamos canoa hacia Monkey Frog Lodge. Durante el viaje: observación de aves coloridas, monos y paisajes exuberantes. Parada en isla pequeña para observar preparación tradicional de tortillas de yuca por familia indígena Siona. Después del almuerzo, exploración de río cercano en canoa, natación y observación del atardecer. Caminata nocturna guiada para observar la famosa rana mono de líneas blancas.",
+          "highlights": ["Recibimiento en El Coca", "Comunidad Siona", "Exploración en canoa", "Caminata nocturna"]
+        },
+        {
+          "day": 2,
+          "title": "Aves, Lagunas y Luciérnagas",
+          "description": "Comenzamos temprano (5:30 AM) con visita a torre de observación de aves de 35 metros para presenciar el despertar de la selva y su vibrante vida aviar. Después del desayuno, viaje a Laguna Limoncocha para día completo de aventura: pesca tradicional de pirañas, paseos en canoa entre vegetación flotante y manglares, observación de vida silvestre en biosfera tranquila y escénica. Por la noche, remamos nuevamente para presenciar espectáculo mágico de luciérnagas brillando sobre el agua y bosque.",
+          "highlights": ["Torre de aves 35m", "Laguna Limoncocha", "Pesca de pirañas", "Espectáculo de luciérnagas"]
+        },
+        {
+          "day": 3,
+          "title": "Expedición Parque Nacional Yasuní",
+          "description": "Hoy nos aventuramos en el Parque Nacional Yasuní, uno de los lugares más biodiversos de la Tierra. Por la mañana: visita a dos saladeros naturales donde loros y guacamayos se reúnen en espectáculo impresionante de color y sonido, aprendizaje sobre ecología de Yasuní con guía experto. Por la tarde: paseo en canoa por majestuoso Río Napo, natación refrescante y relajación con naturaleza circundante. Regreso por la noche para cena merecida y descanso en el lodge.",
+          "highlights": ["Saladeros naturales", "Loros y guacamayos", "Río Napo", "Natación"]
+        },
+        {
+          "day": 4,
+          "title": "Despedida del Bosque",
+          "description": "Después del desayuno, disfrutamos una caminata final por la naturaleza para avistar monos, aves y ranas alrededor del Refugio de Vida Silvestre. A la 1:00 PM, partimos en canoa de regreso a Puerto Francisco de Orellana y continuamos a El Coca, donde nos despedimos llenos de recuerdos y conexión con la Amazonía.",
+          "highlights": ["Refugio de Vida Silvestre", "Avistamiento final", "Regreso a El Coca", "Recuerdos amazónicos"]
+        }
       ],
       "en": [
-        "Specialized aquatic wildlife guide",
-        "Traditional canoe",
-        "Typical lunch",
-        "Artisanal fishing equipment", 
-        "Drinks and refreshments"
+        {
+          "day": 1,
+          "title": "Welcome to the Jungle",
+          "description": "Your journey begins in El Coca with warm greeting by bilingual naturalist guide. We head to Puerto Francisco de Orellana and board canoe to Monkey Frog Lodge. Along the way: spot colorful birds, monkeys, and lush forest landscapes. Stop at small island to observe traditional yucca tortilla preparation by Siona Indigenous family. After lunch, explore nearby river by canoe, swim and watch sunset. At night, guided jungle walk awaits—perfect for spotting the famous white-lined monkey frog.",
+          "highlights": ["El Coca greeting", "Siona community", "Canoe exploration", "Night jungle walk"]
+        },
+        {
+          "day": 2,
+          "title": "Birds, Lagoons & Fireflies",
+          "description": "Start early (5:30 AM) with visit to 35-meter bird observation tower to witness awakening rainforest and vibrant birdlife. After breakfast, head to Limoncocha Lagoon for full day of adventure: traditional piranha fishing, canoe rides through floating vegetation and mangroves, wildlife observation in calm scenic biosphere. In evening, paddle out again to witness magical display of fireflies glowing over water and forest.",
+          "highlights": ["35m bird tower", "Limoncocha Lagoon", "Piranha fishing", "Firefly spectacle"]
+        },
+        {
+          "day": 3,
+          "title": "Yasuní National Park Expedition",
+          "description": "Today we venture into Yasuní National Park, one of most biodiverse places on Earth. Morning: visit two natural clay licks where parrots and macaws gather in breathtaking spectacle of color and sound, learn about Yasuní ecology from expert guide. Afternoon: canoe ride on majestic Napo River, refreshing swim and relaxation with surrounding nature. Return in evening for well-deserved dinner and rest at lodge.",
+          "highlights": ["Natural clay licks", "Parrots and macaws", "Napo River", "Swimming"]
+        },
+        {
+          "day": 4,
+          "title": "Farewell to the Forest",
+          "description": "After breakfast, enjoy final nature walk to spot monkeys, birds, and frogs around Wildlife Refuge. At 1:00 PM, depart by canoe back to Puerto Francisco de Orellana and continue to El Coca, where we say goodbye—full of memories and connection to the Amazon.",
+          "highlights": ["Wildlife Refuge", "Final spotting", "Return to El Coca", "Amazon memories"]
+        }
       ]
     },
-    "recommendations": {
-      "es": "Llevar protector solar, sombrero, cámara impermeable y cambio de ropa.",
-      "en": "Bring sunscreen, hat, waterproof camera and change of clothes."
-    },
-    "featured": true
-  },
-  {
-    "id": "indigenous-community",
-    "title": {
-      "es": "Comunidad Indígena Kichwa",
-      "en": "Kichwa Indigenous Community"
-    },
-    "description": {
-      "es": "Experiencia cultural auténtica visitando una comunidad Kichwa. Aprende sobre medicina tradicional, artesanías y la relación ancestral con la naturaleza.",
-      "en": "Authentic cultural experience visiting a Kichwa community. Learn about traditional medicine, crafts and the ancestral relationship with nature."
-    },
-    "duration": {
-      "es": "8 horas",
-      "en": "8 hours"
-    },
-    "difficulty": "easy",
-    "schedule": ["fullDay"],
-    "interests": ["community", "culture"],
-    "rating": 4.7,
-    "reviewCount": 89,
-    "price": 95,
-    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
-    "departurePoint": {
-      "es": "Lodge principal - 7:00 AM",
-      "en": "Main lodge - 7:00 AM"
-    },
-    "includes": {
+    "included": {
       "es": [
-        "Guía cultural bilingüe",
-        "Transporte fluvial",
-        "Almuerzo comunitario",
-        "Demostración de artesanías",
-        "Ceremonia tradicional"
+        "Transporte terrestre y fluvial",
+        "Alojamiento (3 noches)",
+        "Todas las comidas (incluye desayuno Día 1)",
+        "Agua potable purificada",
+        "Guía bilingüe (Inglés, Francés, Español)",
+        "Botas de caucho para caminatas por la selva",
+        "Tarifas de entrada a Laguna Limoncocha, Parque Nacional Yasuní y sitios culturales"
       ],
       "en": [
-        "Bilingual cultural guide",
-        "River transportation",
-        "Community lunch", 
-        "Craft demonstration",
-        "Traditional ceremony"
+        "Land and river transportation",
+        "Accommodation (3 nights)",
+        "All meals (including breakfast on Day 1)",
+        "Purified drinking water",
+        "Bilingual guide (English, French, Spanish)",
+        "Rubber boots for jungle hikes",
+        "Entrance fees to Limoncocha Lagoon, Yasuní National Park, and cultural sites"
       ]
     },
-    "recommendations": {
-      "es": "Mostrar respeto por las tradiciones locales, llevar regalos pequeños para los niños.",
-      "en": "Show respect for local traditions, bring small gifts for children."
-    },
-    "featured": false
-  },
-  {
-    "id": "night-sounds",
-    "title": {
-      "es": "Sinfonía Nocturna",
-      "en": "Night Symphony"
-    },
-    "description": {
-      "es": "Expedición nocturna para descubrir los sonidos y criaturas de la noche amazónica. Una experiencia sensorial única guiada por expertos locales.",
-      "en": "Night expedition to discover the sounds and creatures of the Amazon night. A unique sensory experience guided by local experts."
-    },
-    "duration": {
-      "es": "3 horas",
-      "en": "3 hours"
-    },
-    "difficulty": "moderate",
-    "schedule": ["night"],
-    "interests": ["wildlife", "adventure"],
-    "rating": 4.6,
-    "reviewCount": 156,
-    "price": 55,
-    "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=800&h=600&fit=crop",
-    "departurePoint": {
-      "es": "Lodge principal - 7:30 PM",
-      "en": "Main lodge - 7:30 PM"
-    },
-    "includes": {
+    "notIncluded": {
       "es": [
-        "Guía especializado nocturno",
-        "Linternas profesionales",
-        "Repelente natural", 
-        "Bebida caliente al regreso",
-        "Equipo de grabación de sonidos"
+        "Cena el último día",
+        "Bebidas extra"
       ],
       "en": [
-        "Specialized night guide",
-        "Professional flashlights",
-        "Natural repellent",
-        "Hot drink upon return",
-        "Sound recording equipment"
+        "Dinner on the last day",
+        "Extra drinks"
       ]
     },
-    "recommendations": {
-      "es": "Usar ropa oscura, zapatos antideslizantes y mantener silencio durante la caminata.",
-      "en": "Wear dark clothing, non-slip shoes and maintain silence during the walk."
-    },
-    "featured": false
-  },
-  {
-    "id": "canopy-adventure",
-    "title": {
-      "es": "Aventura en las Copas",
-      "en": "Canopy Adventure"
-    },
-    "description": {
-      "es": "Explora el dosel amazónico desde plataformas elevadas. Observa la vida arbórea, aves y primates desde una perspectiva única a 30 metros de altura.",
-      "en": "Explore the Amazon canopy from elevated platforms. Observe arboreal life, birds and primates from a unique perspective 30 meters high."
-    },
-    "duration": {
-      "es": "5 horas",
-      "en": "5 hours"
-    },
-    "difficulty": "challenging",
-    "schedule": ["fullDay"],
-    "interests": ["adventure", "wildlife"],
-    "rating": 4.8,
-    "reviewCount": 94,
-    "price": 125,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
-    "departurePoint": {
-      "es": "Centro de equipamiento - 8:30 AM",
-      "en": "Equipment center - 8:30 AM"
-    },
-    "includes": {
+    "whatToBring": {
       "es": [
-        "Equipo de seguridad completo",
-        "Guía de aventura certificado",
-        "Almuerzo en plataforma",
-        "Binoculares especializados",
-        "Seguro de actividad"
+        "Repelente fuerte para insectos (preferiblemente base DEET, no spray)",
+        "Protector solar, traje de baño, sombrero, gafas de sol",
+        "Chaqueta impermeable o poncho",
+        "Ropa cómoda de manga larga y pantalones",
+        "Linterna o lámpara frontal",
+        "Binoculares, cámara (baterías extra)",
+        "Sandalias y zapatos para caminar",
+        "Efectivo pequeño para souvenirs o donaciones comunitarias"
       ],
       "en": [
-        "Complete safety equipment",
-        "Certified adventure guide", 
-        "Platform lunch",
-        "Specialized binoculars",
-        "Activity insurance"
+        "Strong insect repellent (preferably DEET-based, non-spray)",
+        "Sunscreen, swimsuit, hat, sunglasses",
+        "Waterproof jacket or poncho",
+        "Comfortable long-sleeve clothing and pants",
+        "Flashlight or headlamp",
+        "Binoculars, camera (extra batteries)",
+        "Sandals and walking shoes",
+        "Small cash for souvenirs or community donations"
       ]
     },
-    "recommendations": {
-      "es": "Buena condición física requerida. No recomendado para personas con miedo a las alturas.",
-      "en": "Good physical condition required. Not recommended for people with fear of heights."
-    },
-    "featured": true
-  },
-  {
-    "id": "medicinal-plants",
-    "title": {
-      "es": "Plantas Medicinales",
-      "en": "Medicinal Plants"
-    },
-    "description": {
-      "es": "Caminata educativa para conocer las propiedades medicinales de las plantas amazónicas. Aprende de la sabiduría ancestral de los sanadores locales.",
-      "en": "Educational walk to learn about the medicinal properties of Amazon plants. Learn from the ancestral wisdom of local healers."
-    },
-    "duration": {
-      "es": "4 horas",
-      "en": "4 hours"
-    },
-    "difficulty": "easy",
-    "schedule": ["halfDay"],
-    "interests": ["community", "culture"],
-    "rating": 4.5,
-    "reviewCount": 67,
-    "price": 45,
-    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
-    "departurePoint": {
-      "es": "Sendero medicinal - 9:00 AM",
-      "en": "Medicinal trail - 9:00 AM"
-    },
-    "includes": {
-      "es": [
-        "Chamán local como guía",
-        "Cuaderno de plantas",
-        "Muestras de preparados",
-        "Té de hierbas medicinales",
-        "Kit básico de plantas"
-      ],
-      "en": [
-        "Local shaman as guide",
-        "Plant notebook",
-        "Prepared samples",
-        "Medicinal herbal tea",
-        "Basic plant kit"
-      ]
-    },
-    "recommendations": {
-      "es": "Llevar cuaderno para notas, consultar alergias antes del tour.",
-      "en": "Bring notebook for notes, check allergies before the tour."
-    },
-    "featured": false
+    "featured": true,
+    "location": "Monkey Frog Lodge, Limoncocha & Yasuní",
+    "contacts": [
+      {
+        "name": "Jacob Tangoy",
+        "whatsapp": "+593990657053",
+        "whatsapp2": "+593962190756"
+      },
+      {
+        "name": "Juan Grefa",
+        "whatsapp": "+593994862058"
+      },
+      {
+        "name": "Gissela Quintero",
+        "whatsapp": "+593992991985",
+        "location": "Monkey Frog Lodge / Wildlife Refuge"
+      }
+    ]
   }
 ]

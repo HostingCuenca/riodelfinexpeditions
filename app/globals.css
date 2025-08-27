@@ -80,3 +80,88 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  /* Custom responsive utilities for mobile optimization */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  .touch-target-large {
+    @apply min-h-[48px] min-w-[48px];
+  }
+  
+  /* Improve text legibility on small screens */
+  .text-responsive-xs {
+    @apply text-xs sm:text-sm;
+  }
+  
+  .text-responsive-sm {
+    @apply text-sm sm:text-base;
+  }
+  
+  .text-responsive-base {
+    @apply text-base sm:text-lg;
+  }
+  
+  /* Dynamic viewport height for mobile browsers */
+  .h-screen-safe {
+    height: 100vh;
+    height: 100dvh;
+  }
+  
+  .min-h-screen-safe {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+  
+  /* WhatsApp Float Button Animations */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+  .animation-delay-150 {
+    animation-delay: 150ms;
+  }
+  
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-green {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes bounce-notification {
+  0%, 20%, 53%, 80%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  40%, 43% {
+    transform: translate(-2px, -2px) rotate(-5deg);
+  }
+  70% {
+    transform: translate(2px, -2px) rotate(5deg);
+  }
+  90% {
+    transform: translate(-2px, 0px) rotate(-3deg);
+  }
+}

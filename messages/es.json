@@ -85,6 +85,8 @@
       "highlights": "Destacados:",
       "viewDetailsBook": "Ver Detalles y Reservar",
       "saveWishlist": "Guardar en lista de deseos",
+      "priceOnRequest": "Precio bajo consulta",
+      "whatsappQuote": "Cotizar por WhatsApp",
       "difficulty": {
         "easy": "Fácil",
         "moderate": "Moderado"
@@ -102,6 +104,31 @@
         "napo": "Río Napo",
         "refuge": "Refugio de vida silvestre"
       }
+    },
+    "fireflies": {
+      "title": "Tours de Luciérnagas",
+      "subtitle": "Una Experiencia Mágica Nocturna",
+      "description": "Sumérgete en uno de los espectáculos más fascinantes de la naturaleza. Nuestros tours nocturnos te llevarán a presenciar el baile luminoso de miles de luciérnagas que iluminan la selva amazónica como estrellas vivientes.",
+      "features": {
+        "timing": "Tours nocturnos de 2-3 horas",
+        "season": "Experiencia inolvidable",
+        "experience": "Guía naturalista experto",
+        "magic": "Espectáculo natural único"
+      },
+      "highlights": [
+        "Observación de luciérnagas en su hábitat natural",
+        "Navegación nocturna por ríos y lagunas",
+        "Sonidos nocturnos de la selva amazónica",
+        "Fotografía nocturna con asistencia del guía"
+      ],
+      "cta": "Reservar Tour de Luciérnagas"
+    },
+    "cabins": {
+      "title": "Nuestras Cabañas",
+      "description": "Alojamientos cómodos y auténticos en el corazón de la Amazonía",
+      "viewCabins": "Ver Todas las Cabañas",
+      "capacity": "personas",
+      "features": "Características destacadas"
     },
     "gallery": {
       "title": "Experimenta la Amazonía",
@@ -128,6 +155,286 @@
       "description": "Contacta a Jacob directamente para planificar tu expedición amazónica perfecta. Servicio bilingüe en inglés, francés y español.",
       "whatsapp": "WhatsApp: +593 99 065 7053",
       "email": "Email: jacobtangoy@gmail.com"
+    }
+  },
+  "lodge": {
+    "hero": {
+      "title": "Nuestros Lodges Amazónicos",
+      "description": "Descubre dos experiencias únicas en el corazón de la Amazonía ecuatoriana. Operados por Río Delfín Expeditions con la familia Kichwa local para una auténtica aventura amazónica.",
+      "location": "Yasuní, Cuyabeno y Limoncocha - Amazonía Ecuatoriana",
+      "whatsapp": "Contactar por WhatsApp",
+      "contact": "Llamar Ahora"
+    },
+    "colibri": {
+      "title": "Colibri Amazon Lodge",
+      "subtitle": "Nuestro lodge estrella operado por una auténtica familia Kichwa. Ubicado en bosque primario con acceso exclusivo a los ecosistemas más ricos de la Amazonía.",
+      "features": {
+        "family": {
+          "title": "Familia Auténtica",
+          "description": "Operado por una familia indígena local que te hace sentir parte de la Amazonía, compartiendo conocimientos ancestrales y cultura milenaria."
+        },
+        "location": {
+          "title": "Ubicación Privilegiada",
+          "description": "En bosque primario protegido con acceso directo a múltiples ecosistemas: río Napo, lagunas y selva profunda."
+        },
+        "cultural": {
+          "title": "Experiencia Cultural",
+          "description": "Interacción auténtica con comunidades Kichwa locales, aprendizaje de tradiciones y forma de vida amazónica."
+        },
+        "conservation": {
+          "title": "Conservación Activa",
+          "description": "Proyecto de conservación real con beneficios directos a comunidades locales y protección del ecosistema."
+        }
+      }
+    },
+    "cabins": {
+      "title": "Nuestras Cabañas Amazónicas",
+      "subtitle": "Dos opciones de alojamiento diseñadas para diferentes experiencias, todas con la comodidad esencial y el contacto directo con la naturaleza.",
+      "colibri": {
+        "name": "Cabañas Colibri Amazon Lodge",
+        "description": "Cabañas privadas con vista al río, construidas con materiales locales y diseñadas para ofrecer comodidad sin perder la conexión con la naturaleza. Perfectas para parejas y familias pequeñas."
+      },
+      "monkeyFrog": {
+        "name": "Cabañas Monkey Frog Lodge",
+        "description": "Alojamiento comunitario en estilo tradicional amazónico. Ideal para viajeros que buscan una experiencia más rústica y mayor interacción con las comunidades locales."
+      },
+      "inquire": "Consultar Disponibilidad"
+    },
+    "experiences": {
+      "title": "Experiencias Desde Nuestros Lodges",
+      "subtitle": "Cada día trae nuevas aventuras y descubrimientos en el corazón de la Amazonía"
+    },
+    "features": {
+      "title": "¿Qué Hace Especial a Nuestro Lodge?",
+      "subtitle": "Experimenta la perfecta combinación de comodidad y naturaleza salvaje",
+      "pristineLocation": {
+        "title": "Ubicación Prístina",
+        "description": "Situado en el corazón del Parque Nacional Yasuní, rodeado de la biodiversidad más rica del mundo."
+      },
+      "intimateExperience": {
+        "title": "Experiencia Íntima",
+        "description": "Capacidad máxima de 16 huéspedes garantiza un ambiente familiar y atención personalizada."
+      },
+      "expertGuides": {
+        "title": "Guías Expertos",
+        "description": "Nuestro equipo de naturalistas locales conoce cada sonido, huella y secreto de la selva."
+      },
+      "sustainable": {
+        "title": "Turismo Sostenible",
+        "description": "Operaciones eco-amigables que apoyan la conservación y las comunidades locales."
+      }
+    },
+    "amenities": {
+      "title": "Comodidades del Lodge",
+      "subtitle": "Todo lo que necesitas para una estancia cómoda en la selva",
+      "wifi": "WiFi en áreas comunes",
+      "privateBath": "Baños privados",
+      "restaurant": "Restaurante con comida local",
+      "transport": "Transporte incluido",
+      "security": "Área segura",
+      "fishing": "Equipo de pesca",
+      "mosquitoNets": "Mosquiteros y protección",
+      "riverView": "Vista al río",
+      "naturalVentilation": "Ventilación natural",
+      "sharedFacilities": "Facilidades compartidas",
+      "jungleViews": "Vistas de la selva",
+      "communityInteraction": "Interacción comunitaria",
+      "traditionalStyle": "Estilo tradicional"
+    },
+    "gallery": {
+      "title": "Vista del Lodge"
+    },
+    "location": {
+      "title": "Ubicación y Acceso",
+      "description1": "Río Delfín Lodge está estratégicamente ubicado en el corazón de la Amazonía ecuatoriana, ofreciendo fácil acceso a los ecosistemas más diversos del mundo.",
+      "description2": "Desde Francisco de Orellana (El Coca), un corto viaje en bote por el río te lleva a nuestro refugio amazónico, donde la aventura comienza inmediatamente.",
+      "description3": "La ubicación privilegiada nos permite acceder tanto al Parque Nacional Yasuní como a la Reserva de Producción Faunística Cuyabeno.",
+      "coordinates": "Coordenadas GPS disponibles al reservar",
+      "transport": "Transporte desde El Coca incluido"
+    },
+    "cta": {
+      "title": "¿Listo para tu Aventura Amazónica?",
+      "description": "Contacta directamente con Jacob Tangoy y su equipo. Te ayudaremos a planificar la experiencia amazónica perfecta según tus intereses y tiempo disponible.",
+      "contact": "Contactar Ahora",
+      "viewCabins": "Ver Cabañas",
+      "viewMore": "Ver Más Fotos"
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Galería Fotográfica",
+      "description": "Explora la belleza de la Amazonía a través de nuestras imágenes"
+    },
+    "main": {
+      "title": "Nuestras Experiencias Capturadas",
+      "subtitle": "Cada imagen cuenta la historia de una aventura amazónica única"
+    },
+    "categories": {
+      "all": "Todo",
+      "fauna": "Fauna",
+      "river": "Ríos",
+      "cabins": "Cabañas",
+      "expeditions": "Expediciones",
+      "community": "Comunidad"
+    },
+    "cta": {
+      "title": "¿Listo para Crear tus Propios Recuerdos?",
+      "description": "Únete a nosotros y captura tu propia aventura amazónica",
+      "book": "Reservar Expedición",
+      "contact": "Contactar"
+    }
+  },
+  "reviews": {
+    "hero": {
+      "title": "Lo Que Dicen Nuestros Huéspedes",
+      "description": "Más de {count} aventureros han compartido sus experiencias amazónicas con nosotros"
+    },
+    "stats": {
+      "totalReviews": "reseñas totales",
+      "distribution": "Distribución de Calificaciones",
+      "travelerTypes": "Tipos de Viajeros"
+    },
+    "travelerTypes": {
+      "family": "Familias",
+      "couple": "Parejas", 
+      "solo": "Viajero Solo",
+      "friends": "Amigos"
+    },
+    "list": {
+      "title": "Reseñas Verificadas",
+      "subtitle": "Experiencias reales de huéspedes reales"
+    },
+    "helpful": "Útil",
+    "reviewId": "Reseña",
+    "writeReview": {
+      "title": "¿Visitaste Río Delfín Lodge?",
+      "description": "Comparte tu experiencia y ayuda a otros viajeros a descubrir la magia de la Amazonía",
+      "button": "Escribir Reseña"
+    },
+    "cta": {
+      "title": "Únete a Nuestros Huéspedes Satisfechos",
+      "description": "Experimenta por qué el 98% de nuestros huéspedes recomiendan Río Delfín Lodge",
+      "book": "Reservar Ahora",
+      "contact": "Contactar"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "Desde 2008",
+      "title": "Nuestra Historia",
+      "description": "Más de 15 años conectando aventureros con la magia de la Amazonía ecuatoriana"
+    },
+    "story": {
+      "title": "Cómo Comenzó Todo",
+      "paragraph1": "Río Delfín Lodge nació en 2008 del sueño de Jacob Tangoy, un apasionado naturalista local que quería compartir la increíble biodiversidad de su hogar amazónico con el mundo.",
+      "paragraph2": "Lo que comenzó como expediciones informales para amigos se convirtió en una operación reconocida internacionalmente, manteniendo siempre el toque personal y la autenticidad que nos caracteriza.",
+      "paragraph3": "Hoy, seguimos siendo una empresa familiar que se enorgullece de ofrecer experiencias íntimas y auténticas, trabajando mano a mano con las comunidades locales para preservar este paraíso natural."
+    },
+    "stats": {
+      "experience": "Años de Experiencia",
+      "guests": "Huéspedes Recibidos",
+      "rating": "Calificación Promedio"
+    },
+    "timeline": {
+      "title": "Nuestra Evolución",
+      "subtitle": "Los momentos clave que definieron nuestro crecimiento",
+      "2008": {
+        "title": "Fundación del Lodge",
+        "description": "Jacob Tangoy establece las primeras cabañas y comienza las expediciones guiadas oficiales."
+      },
+      "2012": {
+        "title": "Expansión de Servicios",
+        "description": "Se añaden nuevas cabañas y se establecen alianzas con comunidades Kichwa locales."
+      },
+      "2018": {
+        "title": "Reconocimiento Internacional",
+        "description": "Recibimos el Certificado de Excelencia de TripAdvisor y reconocimiento por turismo sostenible."
+      },
+      "2024": {
+        "title": "Liderazgo en Ecoturismo",
+        "description": "Consolidación como referente en turismo responsable y conservación amazónica."
+      }
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "subtitle": "Los principios que guían cada expedición y experiencia",
+      "conservation": {
+        "title": "Conservación",
+        "description": "Protegemos activamente los ecosistemas amazónicos y educamos sobre la importancia de la biodiversidad."
+      },
+      "community": {
+        "title": "Comunidad",
+        "description": "Trabajamos directamente con las comunidades locales, generando beneficios económicos sostenibles."
+      },
+      "authenticity": {
+        "title": "Autenticidad",
+        "description": "Ofrecemos experiencias genuinas, sin artificios, conectando a nuestros huéspedes con la verdadera Amazonía."
+      },
+      "excellence": {
+        "title": "Excelencia",
+        "description": "Mantenemos los más altos estándares en seguridad, servicio y experiencias educativas."
+      }
+    },
+    "jacob": {
+      "title": "Conoce a Nuestro Fundador",
+      "badge": "Fundador y Guía Principal",
+      "bio1": "Jacob Tangoy es un naturalista nativo de la región amazónica ecuatoriana con más de 15 años de experiencia en ecoturismo.",
+      "bio2": "Su pasión por la vida silvestre y su profundo conocimiento de los ecosistemas locales lo convierten en uno de los guías más respetados de la región.",
+      "bio3": "Habla español, inglés y francés con fluidez, y ha guiado a más de 2000 aventureros de todo el mundo.",
+      "years": "Años de Experiencia",
+      "expeditions": "Expediciones Dirigidas",
+      "satisfaction": "Satisfacción del Cliente"
+    },
+    "location": {
+      "title": "Nuestra Ubicación",
+      "subtitle": "En el corazón de la biodiversidad mundial",
+      "accessibility": {
+        "title": "Fácil Acceso",
+        "description": "A solo 2.5 horas en bote desde Francisco de Orellana (El Coca), con transporte organizado incluido."
+      },
+      "duration": {
+        "title": "Flexibilidad de Tiempo",
+        "description": "Expediciones desde 3 hasta 7 días, adaptándonos a tu disponibilidad y intereses específicos."
+      },
+      "setting": {
+        "title": "Entorno Único",
+        "description": "Ubicados entre el Parque Nacional Yasuní y Cuyabeno, accediendo a los ecosistemas más ricos del planeta."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Conocer Nuestra Historia en Persona?",
+      "description": "Ven y sé parte de la próxima página de nuestra historia amazónica",
+      "book": "Reservar Aventura",
+      "contact": "Contactar"
+    }
+  },
+  "breadcrumbs": {
+    "home": "Inicio",
+    "contact": "Contacto",
+    "cabins": "Cabañas",
+    "expeditions": "Expediciones",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "lodge": "Lodge"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Listo para tu aventura amazónica? Estamos aquí para ayudarte a planear la experiencia perfecta.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "checkIn": "Fecha de llegada",
+      "checkOut": "Fecha de salida",
+      "guests": "Número de huéspedes",
+      "cabin": "Tipo de alojamiento",
+      "expedition": "Expedición de interés",
+      "message": "Mensaje",
+      "submit": "Enviar consulta"
+    },
+    "info": {
+      "address": "Francisco de Orellana (El Coca), Provincia de Orellana, Ecuador",
+      "whatsapp": "Contactar por WhatsApp"
     }
   },
   "footer": {

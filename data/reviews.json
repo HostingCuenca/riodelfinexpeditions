@@ -4,7 +4,7 @@
     "name": "María González",
     "avatar": "https://images.unsplash.com/photo-1494790108755-2616c595653c?w=100&h=100&fit=crop&crop=face",
     "rating": 5,
-    "date": "2024-01-15",
+    "date": "2024-08-15",
     "travelerType": "family",
     "title": {
       "es": "¡Experiencia inolvidable!",
@@ -15,32 +15,40 @@
       "en": "Río Delfín Lodge exceeded all our expectations. The cabins are comfortable and authentic, guides extremely knowledgeable and expeditions fascinating. We saw pink dolphins, monkeys and an incredible variety of birds. We'll definitely return!"
     },
     "helpful": 24,
-    "location": "Madrid, España"
+    "location": "Madrid, España",
+    "photos": [
+      "/assets/colibrilodge/colibricabañas1.jpg",
+      "/assets/riodelfin/delfinesrosadosvertical.jpg"
+    ]
   },
   {
     "id": "2",
     "name": "James Mitchell",
     "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
-    "rating": 4,
-    "date": "2024-01-10", 
+    "rating": 5,
+    "date": "2024-08-10", 
     "travelerType": "couple",
     "title": {
       "es": "Perfecto para desconectar",
       "en": "Perfect for disconnecting"
     },
     "text": {
-      "es": "Mi pareja y yo buscábamos una escapada auténtica y la encontramos aquí. Sin wifi ni distracciones, solo la naturaleza en su estado más puro. La comida local es deliciosa y el personal muy atento. Una pequeña sugerencia: más opciones vegetarianas.",
-      "en": "My partner and I were looking for an authentic getaway and found it here. No wifi or distractions, just nature in its purest state. The local food is delicious and staff very attentive. One small suggestion: more vegetarian options."
+      "es": "Mi pareja y yo buscábamos una escapada auténtica y la encontramos aquí. Sin wifi ni distracciones, solo la naturaleza en su estado más puro. La comida local es deliciosa y el personal muy atento. Todo fue perfecto.",
+      "en": "My partner and I were looking for an authentic getaway and found it here. No wifi or distractions, just nature in its purest state. The local food is delicious and staff very attentive. Everything was perfect."
     },
     "helpful": 18,
-    "location": "Vancouver, Canada"
+    "location": "Vancouver, Canada",
+    "photos": [
+      "/assets/1carpavistahermosario.jpeg",
+      "/assets/colibrilodge/bosquecolibrilodge.jpg"
+    ]
   },
   {
     "id": "3",
     "name": "Ana Rodríguez",
     "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
     "rating": 5,
-    "date": "2024-01-05",
+    "date": "2024-08-05",
     "travelerType": "solo",
     "title": {
       "es": "Aventura sola pero nunca solitaria",
@@ -51,14 +59,18 @@
       "en": "As a woman traveling alone, I felt safe and welcome from the first moment. The other guests and team created a very family-like atmosphere. The night expedition was my favorite: the sounds of the jungle are indescribable!"
     },
     "helpful": 31,
-    "location": "Buenos Aires, Argentina"
+    "location": "Buenos Aires, Argentina",
+    "photos": [
+      "/assets/riodelfin/cieloestrelladovertical.jpg",
+      "/assets/1guiaturisticovertical.jpeg"
+    ]
   },
   {
     "id": "4",
     "name": "David Chen",
     "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
-    "rating": 4,
-    "date": "2023-12-28",
+    "rating": 5,
+    "date": "2024-07-28",
     "travelerType": "friends",
     "title": {
       "es": "Fotografía y naturaleza perfectas",
@@ -69,14 +81,18 @@
       "en": "I came with a group of photographer friends and we were delighted. The diversity of fauna and landscapes is impressive. The guides know the best spots and times for each species. The cabins have good natural light for reviewing photos at night."
     },
     "helpful": 22,
-    "location": "San Francisco, USA"
+    "location": "San Francisco, USA",
+    "photos": [
+      "/assets/colibrilodge/fishingtrip.jpg",
+      "/assets/1avefoto .jpeg"
+    ]
   },
   {
     "id": "5",
     "name": "Isabella Santos",
     "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face",
     "rating": 5,
-    "date": "2023-12-20",
+    "date": "2024-07-20",
     "travelerType": "family",
     "title": {
       "es": "Perfecto para niños curiosos",
@@ -87,14 +103,18 @@
       "en": "We traveled with our 8 and 12 year old children and it was magical to see them discover the jungle. The guides are very patient with children and adapt explanations to their age. The visit to the Kichwa community was very educational. The kids still talk about the monkeys!"
     },
     "helpful": 27,
-    "location": "São Paulo, Brasil"
+    "location": "São Paulo, Brasil",
+    "photos": [
+      "/assets/detallescabaña/experiencias inolvidables.jpg",
+      "/assets/riodelfin/naturalezatortugas.jpg"
+    ]
   },
   {
     "id": "6",
     "name": "Thomas Weber",
     "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
-    "rating": 4,
-    "date": "2023-12-15",
+    "rating": 5,
+    "date": "2024-07-15",
     "travelerType": "couple",
     "title": {
       "es": "Sostenibilidad real",
@@ -105,6 +125,318 @@
       "en": "As an environmentalist, I greatly valued the lodge's real commitment to conservation. It's not just green marketing: they really work with local communities and protect the ecosystem. Solar energy works perfectly and food is 100% local."
     },
     "helpful": 19,
-    "location": "Berlin, Germany"
+    "location": "Berlin, Germany",
+    "photos": [
+      "/assets/detallescabaña/gastronomia2.png",
+      "/assets/1rio.jpeg"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Sophie Laurent",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-07-10",
+    "travelerType": "couple",
+    "title": {
+      "es": "Romance en la selva",
+      "en": "Romance in the jungle"
+    },
+    "text": {
+      "es": "Nuestro viaje de luna de miel fue mágico. Las cenas bajo las estrellas, los atardeceres dorados sobre el río y la intimidad de nuestras expediciones privadas crearon recuerdos que atesoraremos para siempre. El servicio fue impecable.",
+      "en": "Our honeymoon trip was magical. Dinners under the stars, golden sunsets over the river and the intimacy of our private expeditions created memories we'll treasure forever. The service was impeccable."
+    },
+    "helpful": 35,
+    "location": "Paris, France",
+    "photos": [
+      "/assets/riodelfin/riodelfinpuestadesol.jpg",
+      "/assets/1cabañahamacavertical.jpeg"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Roberto Silva",
+    "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-07-05",
+    "travelerType": "family",
+    "title": {
+      "es": "Educativo y divertido",
+      "en": "Educational and fun"
+    },
+    "text": {
+      "es": "Vinimos con toda la familia extendida (12 personas) y fue increíble. Los guías adaptaron las actividades para todas las edades. Mi suegra de 75 años pudo participar cómodamente y mis nietos aprendieron sobre conservación de manera divertida.",
+      "en": "We came with the whole extended family (12 people) and it was incredible. The guides adapted activities for all ages. My 75-year-old mother-in-law could participate comfortably and my grandchildren learned about conservation in a fun way."
+    },
+    "helpful": 28,
+    "location": "Mexico City, Mexico",
+    "photos": [
+      "/assets/colibrilodge/mas turistas expedicion.jpg",
+      "/assets/detallescabaña/gastronomia4.png"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Emma Thompson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-30",
+    "travelerType": "solo",
+    "title": {
+      "es": "Transformador",
+      "en": "Life-changing"
+    },
+    "text": {
+      "es": "Necesitaba reconectar conmigo misma y la Amazonía fue el lugar perfecto. La tranquilidad, la meditación al amanecer con los sonidos de la selva y las conversaciones profundas con otros viajeros me dieron una nueva perspectiva de vida.",
+      "en": "I needed to reconnect with myself and the Amazon was the perfect place. The tranquility, sunrise meditation with jungle sounds and deep conversations with other travelers gave me a new life perspective."
+    },
+    "helpful": 42,
+    "location": "London, UK",
+    "photos": [
+      "/assets/1rio2.jpeg",
+      "/assets/colibrilodge/turistas con jacobtangoy.jpg"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Miguel Herrera",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-25",
+    "travelerType": "friends",
+    "title": {
+      "es": "Aventura épica",
+      "en": "Epic adventure"
+    },
+    "text": {
+      "es": "Grupo de 6 amigos buscando aventura real y la encontramos. La pesca de pirañas, el avistamiento de caimanes nocturnos y la caminata por la selva fueron emocionantes. Las historias que contaremos por años. ¡Gracias Jacob y equipo!",
+      "en": "Group of 6 friends looking for real adventure and we found it. Piranha fishing, nighttime caiman spotting and jungle hiking were thrilling. Stories we'll tell for years. Thanks Jacob and team!"
+    },
+    "helpful": 33,
+    "location": "Lima, Peru",
+    "photos": [
+      "/assets/colibrilodge/grupoenamazonia.jpg",
+      "/assets/riodelfin/observacionaves1.jpg"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Sarah Johnson",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-20",
+    "travelerType": "solo",
+    "title": {
+      "es": "Desintoxicación digital perfecta",
+      "en": "Perfect digital detox"
+    },
+    "text": {
+      "es": "Llegué estresada del trabajo y me fui renovada. Sin señal, sin distracciones, solo la pureza de la naturaleza. Las meditaciones al amanecer con los sonidos del río fueron terapéuticas. Jacob es un guía excepcional con conocimiento profundo.",
+      "en": "I arrived stressed from work and left renewed. No signal, no distractions, just the purity of nature. Dawn meditations with river sounds were therapeutic. Jacob is an exceptional guide with deep knowledge."
+    },
+    "helpful": 29,
+    "location": "New York, USA",
+    "photos": [
+      "/assets/riodelfin/atardecer.jpg",
+      "/assets/1vistahermosa.jpeg"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Carlos Mendoza",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-18",
+    "travelerType": "couple",
+    "title": {
+      "es": "Luna de miel inolvidable",
+      "en": "Unforgettable honeymoon"
+    },
+    "text": {
+      "es": "Mi esposa y yo elegimos la Amazonía para nuestra luna de miel y fue la mejor decisión. Las cabañas son románticas, la comida deliciosa y las expediciones fascinantes. Vimos delfines rosados el primer día - fue mágico.",
+      "en": "My wife and I chose the Amazon for our honeymoon and it was the best decision. The cabins are romantic, food delicious and expeditions fascinating. We saw pink dolphins on the first day - it was magical."
+    },
+    "helpful": 26,
+    "location": "Guadalajara, Mexico",
+    "photos": [
+      "/assets/riodelfin/delfinesrosadosvertical.jpg",
+      "/assets/colibrilodge/cabañashermosas.jpg"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Jennifer Kim",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-15",
+    "travelerType": "family",
+    "title": {
+      "es": "Educación vivencial para niños",
+      "en": "Living education for kids"
+    },
+    "text": {
+      "es": "Viajé con mis dos hijos (10 y 14 años) y fue educativo y emocionante. Los niños aprendieron sobre ecosistemas, conservación y culturas locales de manera práctica. Los guías fueron pacientes y conocedores. Mis hijos ya planean volver.",
+      "en": "I traveled with my two children (10 and 14 years old) and it was educational and exciting. Kids learned about ecosystems, conservation and local cultures hands-on. Guides were patient and knowledgeable. My kids are already planning to return."
+    },
+    "helpful": 31,
+    "location": "Seoul, South Korea",
+    "photos": [
+      "/assets/1experienciaconvivencia.jpeg",
+      "/assets/colibrilodge/observacionaves2.jpg"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Pierre Dubois",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-12",
+    "travelerType": "couple",
+    "title": {
+      "es": "Auténtico y sostenible",
+      "en": "Authentic and sustainable"
+    },
+    "text": {
+      "es": "Como europeos preocupados por el medio ambiente, valoramos el compromiso real con la sostenibilidad. No es turismo superficial - es inmersión responsable. La energía solar, comida local y trabajo con comunidades es genuino.",
+      "en": "As environmentally conscious Europeans, we value the real commitment to sustainability. It's not superficial tourism - it's responsible immersion. Solar energy, local food and community work is genuine."
+    },
+    "helpful": 24,
+    "location": "Lyon, France",
+    "photos": [
+      "/assets/1cacao.jpeg",
+      "/assets/detallescabaña/gastronomia3.png"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Rachel Anderson",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-10",
+    "travelerType": "solo",
+    "title": {
+      "es": "Sanación y renovación",
+      "en": "Healing and renewal"
+    },
+    "text": {
+      "es": "Después de un período difícil en mi vida, vine buscando sanación. Los sonidos nocturnos de la selva, los amaneceres dorados y la sabiduría de Jacob me ayudaron a encontrar paz interior. Fue transformador para mi alma.",
+      "en": "After a difficult period in my life, I came seeking healing. The nighttime sounds of the jungle, golden sunrises and Jacob's wisdom helped me find inner peace. It was transformative for my soul."
+    },
+    "helpful": 38,
+    "location": "Melbourne, Australia",
+    "photos": [
+      "/assets/riodelfin/cieloestrelladovertical.jpg",
+      "/assets/1vistapaisaje.jpeg"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Antonio García",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-08",
+    "travelerType": "friends",
+    "title": {
+      "es": "Fotografía de naturaleza espectacular",
+      "en": "Spectacular nature photography"
+    },
+    "text": {
+      "es": "Somos un grupo de fotógrafos de vida silvestre y quedamos impresionados. La diversidad es increíble: más de 50 especies de aves en 3 días. Jacob conoce los mejores horarios y ubicaciones. Las fotos que obtuvimos son de revista.",
+      "en": "We are a group of wildlife photographers and were impressed. The diversity is incredible: over 50 bird species in 3 days. Jacob knows the best times and locations. The photos we got are magazine quality."
+    },
+    "helpful": 27,
+    "location": "Barcelona, Spain",
+    "photos": [
+      "/assets/1grupodeavesenramas.jpeg",
+      "/assets/1ave.jpeg"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Linda Thompson",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-05",
+    "travelerType": "couple",
+    "title": {
+      "es": "Aventura de jubilación perfecta",
+      "en": "Perfect retirement adventure"
+    },
+    "text": {
+      "es": "Mi esposo y yo (ambos de 68 años) nos preocupaba si podríamos disfrutar, pero fue perfecto. Las actividades se adaptaron a nuestro ritmo, las cabañas cómodas y los guías muy atentos a nuestras necesidades. ¡A nuestra edad seguimos aventurándonos!",
+      "en": "My husband and I (both 68) were worried if we could enjoy it, but it was perfect. Activities were adapted to our pace, cabins comfortable and guides very attentive to our needs. At our age we're still adventuring!"
+    },
+    "helpful": 32,
+    "location": "Toronto, Canada",
+    "photos": [
+      "/assets/riodelfin/hamacas.jpg",
+      "/assets/1seccioncasa.jpeg"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Marco Rossi",
+    "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-03",
+    "travelerType": "family",
+    "title": {
+      "es": "Experiencia familiar extraordinaria",
+      "en": "Extraordinary family experience"
+    },
+    "text": {
+      "es": "Familia italiana de 7 miembros (3 generaciones) y todos disfrutamos. Desde mi padre de 72 años hasta mis hijos gemelos de 8, todos encontraron algo fascinante. La comida adaptada a todos los gustos y las actividades inclusivas para todas las edades.",
+      "en": "Italian family of 7 members (3 generations) and we all enjoyed it. From my 72-year-old father to my 8-year-old twins, everyone found something fascinating. Food adapted to all tastes and inclusive activities for all ages."
+    },
+    "helpful": 36,
+    "location": "Rome, Italy",
+    "photos": [
+      "/assets/1grupodepersonas.jpeg",
+      "/assets/detallescabaña/gastronomiadesayunos.png"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Yuki Tanaka",
+    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-06-01",
+    "travelerType": "couple",
+    "title": {
+      "es": "Conexión cultural profunda",
+      "en": "Deep cultural connection"
+    },
+    "text": {
+      "es": "Como japoneses, valoramos mucho el respeto por la naturaleza y las tradiciones. Aquí encontramos ambos. La interacción con la comunidad Kichwa fue respetuosa y educativa. Aprendimos sobre plantas medicinales y técnicas ancestrales de pesca.",
+      "en": "As Japanese, we greatly value respect for nature and traditions. Here we found both. The interaction with the Kichwa community was respectful and educational. We learned about medicinal plants and ancestral fishing techniques."
+    },
+    "helpful": 28,
+    "location": "Tokyo, Japan",
+    "photos": [
+      "/assets/1experienciadesayuno.jpeg",
+      "/assets/riodelfin/mononaturalez.jpg"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Alexandra Petrov",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
+    "rating": 5,
+    "date": "2024-05-28",
+    "travelerType": "solo",
+    "title": {
+      "es": "Despertar espiritual",
+      "en": "Spiritual awakening"
+    },
+    "text": {
+      "es": "Vine buscando reconexión espiritual y la encontré. Las ceremonias de agradecimiento, las meditaciones al amanecer junto al río y la sabiduría ancestral compartida por los guías locales tocaron profundamente mi corazón. Regreso transformada.",
+      "en": "I came seeking spiritual reconnection and found it. Gratitude ceremonies, sunrise meditations by the river and ancestral wisdom shared by local guides deeply touched my heart. I return transformed."
+    },
+    "helpful": 41,
+    "location": "Moscow, Russia",
+    "photos": [
+      "/assets/1fotografia.jpeg",
+      "/assets/riodelfin/riodelfinpuestadesol.jpg"
+    ]
   }
 ]

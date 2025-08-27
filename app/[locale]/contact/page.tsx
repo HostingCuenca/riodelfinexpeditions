@@ -125,13 +125,13 @@ function ContactForm({ messages, locale }: { messages: any, locale: Locale }) {
             onChange={handleChange}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-turquoise focus:border-transparent"
           >
-            <option value="">Select...</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6+">6+</option>
+            <option value="">{locale === 'es' ? 'Seleccionar...' : 'Select...'}</option>
+            <option value="1">1 {locale === 'es' ? 'persona' : 'person'}</option>
+            <option value="2">2 {locale === 'es' ? 'personas' : 'people'}</option>
+            <option value="3">3 {locale === 'es' ? 'personas' : 'people'}</option>
+            <option value="4">4 {locale === 'es' ? 'personas' : 'people'}</option>
+            <option value="5">5 {locale === 'es' ? 'personas' : 'people'}</option>
+            <option value="6+">6+ {locale === 'es' ? 'personas' : 'people'}</option>
           </select>
         </div>
         
@@ -146,9 +146,11 @@ function ContactForm({ messages, locale }: { messages: any, locale: Locale }) {
             onChange={handleChange}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-turquoise focus:border-transparent"
           >
-            <option value="">Select...</option>
-            <option value="cabin-rio">Cabaña Río / River Cabin</option>
-            <option value="cabin-delfin">Cabaña Delfín / Dolphin Cabin</option>
+            <option value="">{locale === 'es' ? 'Seleccionar...' : 'Select...'}</option>
+            <option value="colibri-lodge">{locale === 'es' ? 'Cabañas Colibri Lodge' : 'Colibri Lodge Cabins'}</option>
+            <option value="monkey-frog-lodge">{locale === 'es' ? 'Cabañas Monkey Frog Lodge' : 'Monkey Frog Lodge Cabins'}</option>
+            <option value="expedition-camping">{locale === 'es' ? 'Campamento de Expedición' : 'Expedition Camping'}</option>
+            <option value="not-sure">{locale === 'es' ? 'No estoy seguro/a' : 'Not sure yet'}</option>
           </select>
         </div>
       </div>
@@ -277,18 +279,25 @@ export default async function ContactPage({ params }: ContactPageProps) {
               </div>
             </div>
 
-            {/* Map Placeholder */}
+            {/* Map */}
             <div className="bg-white rounded-lg shadow-lg p-8">
               <h2 className="text-xl font-semibold text-deepBlue mb-6">
-                Location
+                {params.locale === 'es' ? 'Ubicación' : 'Location'}
               </h2>
-              <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center">
-                <p className="text-uiGray text-center">
-                  Interactive map will be loaded here<br />
-                  <span className="text-sm">
-                    Coordinates: {settings.coordinates.lat}, {settings.coordinates.lng}
-                  </span>
-                </p>
+              <div className="rounded-lg overflow-hidden h-64">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31854.123456789!2d-76.987654!3d-0.464123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91fd25a8f5b7a123%3A0x123456789abcdef!2sFrancisco%20de%20Orellana%2C%20Ecuador!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Río Delfín Lodge Location"
+                ></iframe>
+              </div>
+              <div className="mt-4 text-sm text-gray-600 text-center">
+                <p>Francisco de Orellana (El Coca), Provincia de Orellana, Ecuador</p>
               </div>
             </div>
           </div>
