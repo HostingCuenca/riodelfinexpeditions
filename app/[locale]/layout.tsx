@@ -3,6 +3,7 @@ import { getMessages, isValidLocale, type Locale } from '@/lib/i18n';
 import Navbar from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+import WebsiteBadge from '@/components/WebsiteBadge';
 
 export function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];
@@ -30,6 +31,7 @@ export default async function LocaleLayout({
       </main>
       <Footer messages={messages} />
       <FloatingWhatsApp locale={params.locale as Locale} />
+      <WebsiteBadge />
     </div>
   );
 }

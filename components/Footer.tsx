@@ -33,10 +33,10 @@ export function Footer({ messages }: FooterProps) {
               <img 
                 src="/favicon.jpg" 
                 alt="Río Delfín Logo" 
-                className="w-10 h-10 rounded-lg object-cover"
+                className="w-14 h-14 rounded-lg object-cover"
               />
               <div>
-                <div className="font-bold text-xl">Río Delfín</div>
+                <div className="font-bold text-2xl">Rio Delfin Expeditions</div>
                 <div className="text-sm text-emerald">Amazon Lodge & Expeditions</div>
               </div>
             </div>
@@ -123,19 +123,24 @@ export function Footer({ messages }: FooterProps) {
             </div>
 
             {/* TripAdvisor Recognition */}
-            <div className="space-y-3 mb-6">
-              <div className="flex items-center space-x-2">
+            <div className="space-y-2 mb-6">
+              {/* TripAdvisor Logo + Stars Line */}
+              <div className="flex items-center space-x-3">
                 <img 
                   src="https://static.tacdn.com/img2/brand_refresh_2025/logos/wordmark.svg" 
                   alt="TripAdvisor" 
-                  className="w-6 h-6 brightness-0 invert"
+                  className="h-5 w-auto brightness-0 invert"
                 />
-                <span className="text-sm text-emerald font-medium">
-                  Certificate of Excellence
-                </span>
+                <div className="flex items-center space-x-1">
+                  {[...Array(5)].map((_, i) => (
+                    <span key={i} className="text-yellow-400 text-sm">★</span>
+                  ))}
+                  <span className="text-sm text-gray-300 ml-1">5.0</span>
+                </div>
               </div>
-              <div className="text-xs text-gray-400">
-                4.9/5 • 200+ Reviews
+              {/* Certificate Line */}
+              <div className="text-xs text-emerald font-medium">
+                Certificate of Excellence 2024
               </div>
             </div>
 
@@ -163,33 +168,34 @@ export function Footer({ messages }: FooterProps) {
               </div>
             </div>
 
-            {/* Development Credit - Moved here for proper alignment */}
-            <div className="mt-8 pt-6 border-t border-emerald/20">
-              <div className="flex items-center space-x-2 text-sm text-gray-300">
-                <span>Desarrollado por</span>
-                <a 
-                  href="https://torisoftt.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-emerald hover:text-amazonGreen font-medium transition-colors duration-300"
-                >
-                  Torisoftt
-                </a>
-              </div>
-            </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-emerald/20 mt-8 pt-8">
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-gray-300">
-            <Link href={`/${locale}/privacy`} className="hover:text-emerald transition-colors duration-300">
-              {getNestedMessage(messages, 'footer.privacy')}
-            </Link>
-            <Link href={`/${locale}/terms`} className="hover:text-emerald transition-colors duration-300">
-              {getNestedMessage(messages, 'footer.terms')}
-            </Link>
-            <span>© {new Date().getFullYear()} Río Delfín Lodge</span>
+          <div className="flex flex-col sm:flex-row items-center justify-between text-sm text-gray-300">
+            <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
+              <Link href={`/${locale}/privacy`} className="hover:text-emerald transition-colors duration-300">
+                {getNestedMessage(messages, 'footer.privacy')}
+              </Link>
+              <Link href={`/${locale}/terms`} className="hover:text-emerald transition-colors duration-300">
+                {getNestedMessage(messages, 'footer.terms')}
+              </Link>
+              <span>© {new Date().getFullYear()} Rio Delfin Expeditions</span>
+            </div>
+            
+            {/* Developer Credit */}
+            <div className="flex items-center space-x-2 mt-4 sm:mt-0">
+              <span>Sitio web desarrollado por</span>
+              <a 
+                href="https://torisoftt.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-emerald hover:text-amazonGreen font-medium transition-colors duration-300"
+              >
+                Torisoftt
+              </a>
+            </div>
           </div>
         </div>
       </div>

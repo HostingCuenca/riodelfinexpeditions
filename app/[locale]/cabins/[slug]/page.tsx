@@ -174,12 +174,14 @@ export default async function CabinDetailPage({ params }: CabinDetailPageProps) 
           <div className="lg:col-span-1">
             <div className="bg-white rounded-lg p-6 sticky top-8">
               <div className="text-center mb-6">
-                <span className="text-3xl font-bold text-turquoise">
-                  ${cabin.pricePerNight}
-                </span>
-                <span className="text-uiGray ml-1">
-                  /{getNestedMessage(messages, 'common.perNight')}
-                </span>
+                <div className="bg-emerald/10 border border-emerald/20 rounded-lg p-4">
+                  <p className="text-lg font-semibold text-emerald text-center">
+                    {params.locale === 'es' ? 'Precio por consulta' : 'Price on request'}
+                  </p>
+                  <p className="text-sm text-gray-600 mt-1">
+                    {params.locale === 'es' ? 'Tarifas especiales para grupos' : 'Special rates for groups'}
+                  </p>
+                </div>
               </div>
 
               {/* Dummy availability calendar */}
