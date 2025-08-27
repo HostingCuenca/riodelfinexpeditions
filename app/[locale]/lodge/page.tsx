@@ -552,7 +552,12 @@ export default function LodgePage({ params }: LodgePageProps) {
               <MessageCircle className="h-5 w-5 mr-2" />
               WhatsApp: +593 99 065 7053
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-emerald font-semibold px-12 py-4 text-lg">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              onClick={() => window.open(`/${params.locale}/gallery`, '_blank')}
+              className="border-2 border-white text-white hover:bg-white hover:text-emerald font-semibold px-12 py-4 text-lg bg-white/10 backdrop-blur-sm"
+            >
               <Camera className="h-5 w-5 mr-2" />
               {messages?.lodge?.cta?.viewMore || 'View More Photos'}
             </Button>

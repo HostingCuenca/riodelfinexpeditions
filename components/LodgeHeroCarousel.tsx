@@ -94,7 +94,7 @@ export default function LodgeHeroCarousel({ messages, locale }: LodgeHeroCarouse
   };
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-screen w-full overflow-hidden pb-24 sm:pb-0">
       {/* Background Images */}
       <div className="absolute inset-0">
         {heroImages.map((image, index) => (
@@ -155,7 +155,7 @@ export default function LodgeHeroCarousel({ messages, locale }: LodgeHeroCarouse
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-32 sm:mb-16">
             <Button 
               size="lg" 
               onClick={handleWhatsApp}
@@ -168,7 +168,7 @@ export default function LodgeHeroCarousel({ messages, locale }: LodgeHeroCarouse
               size="lg"
               onClick={handleCall} 
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-deepBlue font-semibold px-8 py-4 text-lg transition-all duration-300 shadow-lg hover:scale-105"
+              className="border-2 border-white text-white hover:bg-white hover:text-deepBlue font-semibold px-8 py-4 text-lg transition-all duration-300 shadow-lg hover:scale-105 bg-black/10 backdrop-blur-sm"
             >
               <Phone className="h-5 w-5 mr-2" />
               {messages?.lodge?.hero?.contact || 'Call Now'}
@@ -178,7 +178,7 @@ export default function LodgeHeroCarousel({ messages, locale }: LodgeHeroCarouse
       </div>
 
       {/* Statistics Section */}
-      <div className="absolute bottom-0 left-0 right-0 z-30">
+      <div className="absolute -bottom-4 sm:bottom-0 left-0 right-0 z-30">
         <div className="bg-black/60 backdrop-blur-sm border-t border-white/20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center text-white">
@@ -253,24 +253,6 @@ export default function LodgeHeroCarousel({ messages, locale }: LodgeHeroCarouse
         </Button>
       </div>
 
-      {/* Dots Indicator */}
-      <div className="absolute bottom-24 sm:bottom-32 left-1/2 transform -translate-x-1/2 z-30">
-        <div className="flex space-x-2">
-          {heroImages.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentSlide(index)}
-              className={cn(
-                "w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300",
-                index === currentSlide 
-                  ? "bg-white scale-125" 
-                  : "bg-white/50 hover:bg-white/75"
-              )}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
-        </div>
-      </div>
     </div>
   );
 }
