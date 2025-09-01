@@ -113,7 +113,7 @@ export default function LodgeHeroCarousel({ messages, locale }: LodgeHeroCarouse
               priority={index === 0}
               sizes="100vw"
             />
-            {/* Luxury overlays with reduced opacity */}
+            {/* Background overlays with reduced opacity */}
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/40" />
             <div className="absolute inset-0 bg-gradient-to-br from-deepBlue/10 via-transparent to-emerald/5" />
@@ -177,39 +177,6 @@ export default function LodgeHeroCarousel({ messages, locale }: LodgeHeroCarouse
         </div>
       </div>
 
-      {/* Statistics Section */}
-      <div className="absolute -bottom-4 sm:bottom-0 left-0 right-0 z-30">
-        <div className="bg-black/60 backdrop-blur-sm border-t border-white/20">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center text-white">
-              <div className="space-y-1 sm:space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-emerald">∞</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  Cabañas Disponibles
-                </div>
-              </div>
-              <div className="space-y-1 sm:space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-emerald">15+</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  Años Experiencia
-                </div>
-              </div>
-              <div className="space-y-1 sm:space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-emerald">2K+</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  Aventureros Satisfechos
-                </div>
-              </div>
-              <div className="space-y-1 sm:space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-emerald">★★★★★</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  Excelencia TripAdvisor
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Navigation Controls */}
       <div className="absolute inset-y-0 left-2 sm:left-4 flex items-center z-30">

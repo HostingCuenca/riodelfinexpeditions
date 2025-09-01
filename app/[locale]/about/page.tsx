@@ -104,16 +104,6 @@ export default async function AboutPage({ params }: AboutPageProps) {
                 <p>{getNestedMessage(messages, 'about.story.paragraph3')}</p>
               </div>
               
-              <div className="mt-8 grid grid-cols-2 gap-6">
-                <div className="text-center p-4 bg-emerald/10 rounded-xl">
-                  <div className="text-3xl font-bold text-emerald mb-2">15+</div>
-                  <div className="text-sm text-darkGray">{getNestedMessage(messages, 'about.stats.experience')}</div>
-                </div>
-                <div className="text-center p-4 bg-deepBlue/10 rounded-xl">
-                  <div className="text-3xl font-bold text-deepBlue mb-2">2000+</div>
-                  <div className="text-sm text-darkGray">{getNestedMessage(messages, 'about.stats.guests')}</div>
-                </div>
-              </div>
             </div>
             
             <div className="relative">
@@ -125,18 +115,6 @@ export default async function AboutPage({ params }: AboutPageProps) {
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-              </div>
-              {/* Floating Stats */}
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-6">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-emerald/10 rounded-full flex items-center justify-center">
-                    <Star className="h-6 w-6 text-emerald" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-deepBlue">4.9</div>
-                    <div className="text-sm text-darkGray">{getNestedMessage(messages, 'about.stats.rating')}</div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -226,13 +204,6 @@ export default async function AboutPage({ params }: AboutPageProps) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-lg p-4">
-                <div className="flex items-center space-x-2">
-                  <Badge className="bg-emerald text-white">
-                    {getNestedMessage(messages, 'about.jacob.badge')}
-                  </Badge>
-                </div>
-              </div>
             </div>
             
             <div>
@@ -245,20 +216,6 @@ export default async function AboutPage({ params }: AboutPageProps) {
                 <p>{getNestedMessage(messages, 'about.jacob.bio3')}</p>
               </div>
               
-              <div className="mt-8 flex items-center space-x-6">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-emerald">15+</div>
-                  <div className="text-sm text-darkGray">{getNestedMessage(messages, 'about.jacob.years')}</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-emerald">500+</div>
-                  <div className="text-sm text-darkGray">{getNestedMessage(messages, 'about.jacob.expeditions')}</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-emerald">98%</div>
-                  <div className="text-sm text-darkGray">{getNestedMessage(messages, 'about.jacob.satisfaction')}</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

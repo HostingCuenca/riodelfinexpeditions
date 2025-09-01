@@ -442,15 +442,6 @@ export default function LodgePage({ params }: LodgePageProps) {
             <p className="text-xl text-darkGray max-w-3xl mx-auto">
               Experiencias reales de viajeros que han vivido la magia de la Amazonía con Río Delfín Expeditions
             </p>
-            <div className="flex items-center justify-center mt-6 space-x-4">
-              <div className="flex items-center">
-                {[1,2,3,4,5].map((star) => (
-                  <Star key={star} className="h-6 w-6 text-warmOrange fill-current" />
-                ))}
-              </div>
-              <span className="text-2xl font-bold text-deepBlue">5.0</span>
-              <span className="text-darkGray">basado en 200+ reseñas</span>
-            </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">

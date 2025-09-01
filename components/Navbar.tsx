@@ -34,6 +34,8 @@ export default function Navbar({ messages }: NavbarProps) {
 
   // Cerrar dropdown al hacer click fuera
   useEffect(() => {
+    if (!isLangOpen) return;
+    
     const handleClickOutside = (event: MouseEvent) => {
       // Don't close if clicking inside the dropdown
       if (langRef.current && !langRef.current.contains(event.target as Node)) {
@@ -41,10 +43,10 @@ export default function Navbar({ messages }: NavbarProps) {
       }
     };
 
-    // Use a delay to avoid conflicts with button clicks
+    // Add listener after a small delay to avoid immediate closure
     const timer = setTimeout(() => {
       document.addEventListener('mousedown', handleClickOutside);
-    }, 100);
+    }, 50);
     
     return () => {
       clearTimeout(timer);
@@ -158,7 +160,7 @@ export default function Navbar({ messages }: NavbarProps) {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-2">
+            <div className="hidden md:flex items-center space-x-2">
               {navItems.map((item) => (
                 <Link
                   key={item.key}
@@ -179,11 +181,16 @@ export default function Navbar({ messages }: NavbarProps) {
             </div>
 
             {/* Desktop Actions */}
-            <div className="hidden lg:flex items-center space-x-4">
+            <div className="hidden md:flex items-center space-x-4">
               {/* Language Switcher */}
               <div className="relative" ref={langRef}>
                 <button
-                  onClick={() => setIsLangOpen(!isLangOpen)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    console.log('Desktop lang button clicked, current state:', isLangOpen);
+                    setIsLangOpen(!isLangOpen);
+                  }}
                   className="flex items-center space-x-2 px-4 py-2 bg-gray-50 rounded-lg border border-gray-200 hover:border-lightOrange/30 transition-colors duration-200 cursor-pointer"
                 >
                   <Globe className="h-5 w-5 text-deepBlue" />
@@ -196,10 +203,15 @@ export default function Navbar({ messages }: NavbarProps) {
                 {isLangOpen && (
                   <div className="absolute top-full mt-2 right-0 bg-white border border-gray-200 rounded-lg shadow-xl py-2 z-[100] min-w-[120px]">
                     <button
-                      onClick={() => {
-                        console.log('Desktop: Switching to Spanish, current locale:', locale);
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        console.log('Desktop: Spanish button clicked, current locale:', locale);
+                        if (locale !== 'es') {
+                          console.log('Switching to Spanish...');
+                          switchLanguage('es');
+                        }
                         setIsLangOpen(false);
-                        switchLanguage('es');
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors duration-200 ${
                         locale === 'es' ? 'text-deepBlue font-medium bg-lightOrange/10' : 'text-gray-700'
@@ -208,10 +220,15 @@ export default function Navbar({ messages }: NavbarProps) {
                       Español
                     </button>
                     <button
-                      onClick={() => {
-                        console.log('Desktop: Switching to English, current locale:', locale);
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        console.log('Desktop: English button clicked, current locale:', locale);
+                        if (locale !== 'en') {
+                          console.log('Switching to English...');
+                          switchLanguage('en');
+                        }
                         setIsLangOpen(false);
-                        switchLanguage('en');
                       }}
                       className={`w-full text-left px-4 py-2 text-sm hover:bg-gray-50 transition-colors duration-200 ${
                         locale === 'en' ? 'text-deepBlue font-medium bg-lightOrange/10' : 'text-gray-700'
@@ -240,7 +257,7 @@ export default function Navbar({ messages }: NavbarProps) {
             </div>
 
             {/* Mobile menu button */}
-            <div className="lg:hidden flex items-center space-x-3">
+            <div className="md:hidden flex items-center space-x-3">
               {/* Mobile Language Switcher */}
               <div className="relative" ref={langRef}>
                 <button
@@ -303,7 +320,7 @@ export default function Navbar({ messages }: NavbarProps) {
 
           {/* Mobile Navigation */}
           {isMenuOpen && (
-            <div className="lg:hidden border-t border-gray-200 bg-white">
+            <div className="md:hidden border-t border-gray-200 bg-white">
               <div className="px-4 pt-4 pb-6 space-y-3">
                 {navItems.map((item) => (
                   <Link

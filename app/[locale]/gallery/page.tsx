@@ -488,65 +488,6 @@ function GalleryGrid({ messages, locale }: { messages: any; locale: string }) {
           <p className="text-darkGray">Avalados por las mejores plataformas de turismo mundial</p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-          
-          {/* TripAdvisor Section */}
-          <div className="text-center">
-            <div className="flex items-center justify-center mb-4">
-              <Image
-                src="/assets/tripadvisor-logo.png"
-                alt="TripAdvisor"
-                width={180}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-            <div className="flex items-center justify-center mb-2">
-              {[1,2,3,4,5].map((star) => (
-                <Star key={star} className="h-6 w-6 text-warmOrange fill-current" />
-              ))}
-              <span className="ml-2 text-2xl font-bold text-deepBlue">5.0</span>
-            </div>
-            <div className="bg-emerald/10 rounded-lg p-3">
-              <p className="font-semibold text-deepBlue text-lg">Certificado de Excelencia</p>
-              <p className="text-darkGray">200+ Reseñas Verificadas</p>
-            </div>
-          </div>
-
-          {/* Google Maps Section */}
-          <div className="text-center">
-            <div className="flex items-center justify-center mb-4">
-              <Image
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/2275px-Google_Maps_Logo_2020.svg.png"
-                alt="Google Maps"
-                width={160}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-            <div className="flex items-center justify-center mb-2">
-              {[1,2,3,4,5].map((star) => (
-                <Star key={star} className="h-6 w-6 text-warmOrange fill-current" />
-              ))}
-              <span className="ml-2 text-2xl font-bold text-deepBlue">5.0</span>
-            </div>
-            <div className="bg-warmOrange/10 rounded-lg p-3">
-              <p className="font-semibold text-deepBlue text-lg">Excelente Ubicación</p>
-              <p className="text-darkGray">150+ Reseñas de Ubicación</p>
-            </div>
-          </div>
-
-          {/* Statistics Section */}
-          <div className="text-center">
-            <div className="text-4xl mb-2">🏆</div>
-            <div className="text-3xl font-bold text-emerald mb-1">15+ Años</div>
-            <div className="bg-emerald/10 rounded-lg p-3">
-              <p className="font-semibold text-deepBlue text-lg">Experiencia Comprobada</p>
-              <p className="text-darkGray">2000+ Aventureros Satisfechos</p>
-            </div>
-          </div>
-          
-        </div>
       </div>
 
       {/* Why Visit Us - 4 Reasons Section */}

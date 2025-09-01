@@ -143,7 +143,7 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
           {/* Main Heading - More traditional like reference */}
           <div className="space-y-6 mb-8">
             <h2 className="text-2xl font-light text-gray-200 tracking-wider uppercase">
-              {messages ? getNestedMessage(messages, 'hero.subtitle') : 'Luxury Amazon Experience'}
+              {messages ? getNestedMessage(messages, 'hero.subtitle') : 'Premium Amazon Experience'}
             </h2>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white">
@@ -158,7 +158,7 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
           {/* Description */}
           <div className="space-y-6 mb-12">
             <p className="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-              {messages ? getNestedMessage(messages, 'hero.description') : 'Experience the pristine Ecuadorian Amazon with expert naturalist guidance. Luxury accommodations and world-class wildlife encounters await.'}
+              {messages ? getNestedMessage(messages, 'hero.description') : 'Experience the pristine Ecuadorian Amazon with expert naturalist guidance. Comfortable accommodations and world-class wildlife encounters await.'}
             </p>
             <div className="w-24 h-0.5 bg-lightOrange mx-auto"></div>
           </div>
@@ -193,39 +193,6 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
         </div>
       </div>
 
-      {/* Statistics Section - Like reference design */}
-      <div className="absolute bottom-0 left-0 right-0 z-30">
-        <div className="bg-black/70 backdrop-blur-sm border-t border-white/10">
-          <div className="max-w-6xl mx-auto px-6 py-6 sm:py-8">
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-center text-white">
-              <div className="space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">15+</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  {messages ? getNestedMessage(messages, 'hero.stats.experience') : 'Years of Experience'}
-                </div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">1.5K</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  {messages ? getNestedMessage(messages, 'hero.stats.guests') : 'Guests Hosted'}
-                </div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">300+</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  {messages ? getNestedMessage(messages, 'hero.stats.species') : 'Species Spotted'}
-                </div>
-              </div>
-              <div className="space-y-2">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-lightOrange">98%</div>
-                <div className="text-xs sm:text-sm text-gray-300 uppercase tracking-wide">
-                  {messages ? getNestedMessage(messages, 'hero.stats.satisfaction') : 'Guest Satisfaction'}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
       {/* Navigation Controls */}

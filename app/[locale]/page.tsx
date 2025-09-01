@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Star, MapPin, Clock, Users, Award, Camera, Heart, ChevronRight, Sparkles, Leaf, Mountain, MessageCircle, Bed, Wifi, Bath, Moon, Zap } from 'lucide-react';
+import { Star, MapPin, Clock, Users, Award, Camera, Heart, ChevronRight, Sparkles, Leaf, MessageCircle, Bed, Zap } from 'lucide-react';
 import { getMessages, getNestedMessage, type Locale } from '@/lib/i18n';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -97,38 +97,34 @@ export default async function HomePage({ params }: HomePageProps) {
 
       {/* Enhanced Quick Info Bar */}
       <div className="bg-gradient-to-r from-cream to-lightOrange/10 border-b border-warmOrange/20 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 items-center">
-            <div className="flex items-center space-x-3 group">
-              <div className="w-10 h-10 bg-warmOrange/10 rounded-full flex items-center justify-center group-hover:bg-warmOrange/20 transition-colors duration-300">
-                <MapPin className="h-5 w-5 text-warmOrange" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-12 items-center justify-center">
+            <div className="flex items-center space-x-4 group">
+              <div className="w-12 h-12 bg-warmOrange/10 rounded-full flex items-center justify-center group-hover:bg-warmOrange/20 transition-colors duration-300">
+                <MapPin className="h-6 w-6 text-warmOrange" />
               </div>
               <div>
-                <div className="text-xs text-gray-500 uppercase tracking-wide">Location</div>
-                <div className="text-sm font-medium text-darkGray">{getNestedMessage(messages, 'home.quickInfo.location')}</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wide font-medium">Location</div>
+                <div className="text-base font-semibold text-darkGray">{getNestedMessage(messages, 'home.quickInfo.location')}</div>
               </div>
             </div>
-            <div className="flex items-center space-x-3 group">
-              <div className="w-10 h-10 bg-emerald/10 rounded-full flex items-center justify-center group-hover:bg-emerald/20 transition-colors duration-300">
-                <Users className="h-5 w-5 text-emerald" />
+            <div className="flex items-center space-x-4 group">
+              <div className="w-12 h-12 bg-emerald/10 rounded-full flex items-center justify-center group-hover:bg-emerald/20 transition-colors duration-300">
+                <Users className="h-6 w-6 text-emerald" />
               </div>
               <div>
-                <div className="text-xs text-gray-500 uppercase tracking-wide">Group Size</div>
-                <div className="text-sm font-medium text-darkGray">{getNestedMessage(messages, 'home.quickInfo.groupSize')}</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wide font-medium">Group Size</div>
+                <div className="text-base font-semibold text-darkGray">{getNestedMessage(messages, 'home.quickInfo.groupSize')}</div>
               </div>
             </div>
-            <div className="flex items-center space-x-3 group">
-              <div className="w-10 h-10 bg-lightNavy/10 rounded-full flex items-center justify-center group-hover:bg-lightNavy/20 transition-colors duration-300">
-                <Award className="h-5 w-5 text-lightNavy" />
+            <div className="flex items-center space-x-4 group">
+              <div className="w-12 h-12 bg-lightNavy/10 rounded-full flex items-center justify-center group-hover:bg-lightNavy/20 transition-colors duration-300">
+                <Award className="h-6 w-6 text-lightNavy" />
               </div>
               <div>
-                <div className="text-xs text-gray-500 uppercase tracking-wide">Expert Guide</div>
-                <div className="text-sm font-medium text-darkGray">{getNestedMessage(messages, 'home.quickInfo.guide')}</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wide font-medium">Expert Guide</div>
+                <div className="text-base font-semibold text-darkGray">{getNestedMessage(messages, 'home.quickInfo.guide')}</div>
               </div>
-            </div>
-            <div className="text-center md:text-right">
-              <div className="text-xs text-gray-500 uppercase tracking-wide">Starting From</div>
-              <div className="text-2xl font-bold text-deepBlue">{getNestedMessage(messages, 'home.quickInfo.fromPrice')}</div>
             </div>
           </div>
         </div>
@@ -154,16 +150,6 @@ export default async function HomePage({ params }: HomePageProps) {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 </div>
-                {/* Floating Badge */}
-                <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-4 animate-float">
-                  <div className="flex items-center space-x-2">
-                    <Sparkles className="h-5 w-5 text-warmOrange" />
-                    <div>
-                      <div className="text-xs text-gray-500">Certified Guide</div>
-                      <div className="text-sm font-bold text-deepBlue">15+ Years</div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="order-1 lg:order-2 space-y-8">
@@ -186,26 +172,6 @@ export default async function HomePage({ params }: HomePageProps) {
                 {getNestedMessage(messages, 'home.jacob.description')}
               </p>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-                <div className="group bg-gradient-to-br from-deepBlue/5 to-lightNavy/10 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 border border-deepBlue/10">
-                  <div className="flex items-center space-x-3 mb-3">
-                    <Mountain className="h-6 w-6 text-deepBlue" />
-                    <div className="text-3xl font-bold text-deepBlue group-hover:scale-110 transition-transform duration-300">500+</div>
-                  </div>
-                  <div className="text-sm text-darkGray font-medium">
-                    {getNestedMessage(messages, 'home.jacob.expeditionsLed')}
-                  </div>
-                </div>
-                <div className="group bg-gradient-to-br from-emerald/5 to-amazonGreen/10 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 border border-emerald/10">
-                  <div className="flex items-center space-x-3 mb-3">
-                    <Star className="h-6 w-6 text-emerald" />
-                    <div className="text-3xl font-bold text-emerald group-hover:scale-110 transition-transform duration-300">98%</div>
-                  </div>
-                  <div className="text-sm text-darkGray font-medium">
-                    {getNestedMessage(messages, 'home.jacob.satisfactionRate')}
-                  </div>
-                </div>
-              </div>
               
               <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6 pt-4">
                 <a
@@ -257,13 +223,6 @@ export default async function HomePage({ params }: HomePageProps) {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                 </div>
                 
-                {/* Floating Elements */}
-                <div className="absolute -top-6 -right-6 bg-yellow-400 rounded-full p-4 animate-bounce shadow-xl">
-                  <Zap className="h-6 w-6 text-black" />
-                </div>
-                <div className="absolute -bottom-4 -left-4 bg-emerald rounded-full p-3 animate-float shadow-xl">
-                  <Moon className="h-5 w-5 text-white" />
-                </div>
               </div>
             </div>
 
