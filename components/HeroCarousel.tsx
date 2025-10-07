@@ -115,9 +115,9 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
               sizes="100vw"
             />
             {/* Luxury overlays with reduced opacity */}
-            <div className="absolute inset-0 bg-black/50" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/50" />
-            <div className="absolute inset-0 bg-gradient-to-br from-deepBlue/10 via-transparent to-lightOrange/5" />
+            <div className="absolute inset-0 bg-black/30" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-black/30" />
+            <div className="absolute inset-0 bg-gradient-to-br from-deepBlue/5 via-transparent to-lightOrange/5" />
           </div>
         ))}
       </div>
