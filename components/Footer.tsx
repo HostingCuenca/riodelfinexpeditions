@@ -82,7 +82,12 @@ export function Footer({ messages }: FooterProps) {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-emerald flex-shrink-0" />
-                <span className="text-sm text-gray-300">{settings.contact.email}</span>
+                <a
+                  href={`mailto:${settings.contact.email}`}
+                  className="text-sm text-gray-300 hover:text-emerald transition-colors duration-300"
+                >
+                  {settings.contact.email}
+                </a>
               </div>
             </div>
           </div>
