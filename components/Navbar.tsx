@@ -118,13 +118,13 @@ export default function Navbar({ messages }: NavbarProps) {
           <div className="flex items-center space-x-2">
             <WhatsAppIcon className="h-4 w-4 text-emerald-400" />
             <span className="text-gray-200">WhatsApp:</span>
-            <a 
-              href="https://wa.me/593990657053" 
-              target="_blank" 
+            <a
+              href="https://wa.me/593962190756"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-emerald-400 hover:text-emerald-300 font-medium transition-colors duration-200"
             >
-              +593 99 065 7053
+              +593 96 219 0756
             </a>
           </div>
           <div className="hidden md:flex items-center space-x-4 text-xs">
@@ -242,8 +242,8 @@ export default function Navbar({ messages }: NavbarProps) {
               
               {/* Book Now Button */}
               <a
-                href={`https://wa.me/593990657053?text=${encodeURIComponent(
-                  locale === 'es' 
+                href={`https://wa.me/593962190756?text=${encodeURIComponent(
+                  locale === 'es'
                     ? '¡Hola! Me gustaría reservar una experiencia amazónica. ¿Podrían ayudarme con información y disponibilidad?'
                     : 'Hello! I would like to book an Amazon experience. Could you help me with information and availability?'
                 )}`}
@@ -350,14 +350,14 @@ export default function Navbar({ messages }: NavbarProps) {
 
                 {/* Mobile WhatsApp */}
                 <div className="pt-2 px-4">
-                  <a 
-                    href="https://wa.me/593990657053" 
-                    target="_blank" 
+                  <a
+                    href="https://wa.me/593962190756"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-2 w-full py-3 text-emerald-600 hover:text-emerald-700 hover:bg-emerald-50 rounded-lg transition-colors duration-200"
                   >
                     <WhatsAppIcon className="h-5 w-5" />
-                    <span className="font-medium">+593 99 065 7053</span>
+                    <span className="font-medium">+593 96 219 0756</span>
                   </a>
                 </div>
               </div>
