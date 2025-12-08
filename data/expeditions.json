@@ -26,7 +26,7 @@
       "/assets/detallescabaña/experiencias inolvidables.jpg"
     ],
     "price": {
-      "amount": 340,
+      "amount": 450,
       "currency": "USD",
       "per": "persona (mínimo 2 participantes)"
     },
@@ -176,7 +176,7 @@
       "/assets/riodelfin/cieloestrelladovertical.jpg"
     ],
     "price": {
-      "amount": 495,
+      "amount": 630,
       "currency": "USD",
       "per": "persona (mínimo 2 participantes)"
     },
@@ -304,6 +304,615 @@
         "name": "Gissela Quintero",
         "whatsapp": "+593992991985",
         "location": "Monkey Frog Lodge / Wildlife Refuge"
+      }
+    ]
+  },
+  {
+    "slug": "5-days-colibri-rainforest",
+    "title": {
+      "es": "Expedición Selva Amazónica - 5 Días",
+      "en": "Amazon Rainforest Expedition - 5 Days"
+    },
+    "subtitle": {
+      "es": "Colibri Lodge - Aventura Profunda",
+      "en": "Colibri Lodge - Deep Adventure"
+    },
+    "duration": {
+      "es": "5 Días / 4 Noches",
+      "en": "5 Days / 4 Nights"
+    },
+    "description": {
+      "es": "Adéntrate en el corazón de la Amazonía ecuatoriana en un viaje transformador de 5 días. Experimenta selvas remotas, vida silvestre rara y cultura indígena, con comodidad, guía experto y Wi-Fi incluido.",
+      "en": "Venture into the heart of the Ecuadorian Amazon on a transformative 5-day journey. Experience remote rainforests, rare wildlife, and indigenous culture—with comfort, expert guidance, and Wi-Fi included."
+    },
+    "images": [
+      "/assets/amazonrainforest/WhatsApp Image 2025-12-02 at 13.55.10(1).jpeg",
+      "/assets/amazonrainforest/WhatsApp Image 2025-12-02 at 13.55.10.jpeg",
+      "/assets/amazonrainforest/WhatsApp Image 2025-12-02 at 13.55.11(1).jpeg",
+      "/assets/amazonrainforest/WhatsApp Image 2025-12-02 at 13.55.11.jpeg",
+      "/assets/amazonrainforest/WhatsApp Image 2025-12-02 at 13.55.12(1).jpeg",
+      "/assets/amazonrainforest/WhatsApp Image 2025-12-02 at 13.55.12.jpeg"
+    ],
+    "price": {
+      "amount": 860,
+      "currency": "USD",
+      "per": "persona (mínimo 2 participantes)"
+    },
+    "difficulty": "moderate",
+    "groupSize": "2-8 personas",
+    "itinerary": {
+      "es": [
+        {
+          "day": 1,
+          "title": "Hacia lo Salvaje - Llegada e Inmersión Amazónica",
+          "description": "Tu viaje comienza en Coca, donde serás recibido calurosamente por tu guía bilingüe (inglés, francés, español). Desde aquí, viajamos en vehículo privado (aprox. 1.5 horas) hasta Puerto Tierras Orientales, ubicado a lo largo del río Aguarico. Después de registrarnos en la entrada del parque, embarcamos en un viaje escénico en canoa de 6–7 horas profundo en la Amazonía. En el camino, presencia vida silvestre vibrante incluyendo monos, aves, delfines de río y tortugas, y visita la comunidad indígena Cofán, guardianes de la sabiduría ancestral de la selva. Llegada al Bosque Colibrí Lodge para una cena abundante. Por la noche, únete a una caminata nocturna guiada para observar especies nocturnas fascinantes como anfibios, insectos y reptiles.",
+          "highlights": ["Recepción en Coca", "Viaje en canoa 6-7h", "Comunidad Cofán", "Caminata nocturna"]
+        },
+        {
+          "day": 2,
+          "title": "Encuentros con Vida Silvestre y Exploración Cultural",
+          "description": "Despierta con los sonidos de la selva tropical y disfruta un nutritivo desayuno amazónico. Luego partimos en canoa hacia Lagarto Cocha, una laguna remota y biodiversa en la frontera con Perú. Los aspectos destacados de hoy incluyen: exploración de Delfín Cocha, hogar de esquivos delfines rosados de río; navegación en canoa por el río Imuya; visita cultural con la comunidad Secoya, incluyendo alimentos tradicionales y narración de historias; encuentros con vida silvestre: nutrias gigantes, tucanes, loros y más. Por la tarde, disfruta un refrescante baño en la laguna y un impresionante atardecer amazónico desde tu canoa. Después del anochecer, ve a buscar caimanes, luego pasa la noche acampando a la orilla del río en tiendas cómodas bajo un refugio.",
+          "highlights": ["Lagarto Cocha", "Delfines rosados", "Comunidad Secoya", "Campamento nocturno"]
+        },
+        {
+          "day": 3,
+          "title": "Canto de Aves y Senderos de la Selva",
+          "description": "Levántate temprano para la observación de aves al amanecer alrededor de la laguna. Después del desayuno, regresamos al Colibrí Lodge, deteniéndonos en una unión de ríos donde a menudo se ven delfines rosados. Relájate en el lodge, disfruta el almuerzo, luego comienza el Sendero Marco Tangoy: una caminata guiada de 3 horas a través de la selva prístina repleta de vida. Regreso al lodge para la cena y una tarde tranquila.",
+          "highlights": ["Observación de aves al amanecer", "Delfines rosados", "Sendero Marco Tangoy 3h", "Regreso al lodge"]
+        },
+        {
+          "day": 4,
+          "title": "La Gran Laguna - Imuya Cocha",
+          "description": "Después del desayuno, nos aventuramos a Imuya Cocha, una de las lagunas más impresionantes y biodiversas de la Amazonía. Explora en canoa de remo, disfruta nadando y empápate de un hipnotizante atardecer antes de regresar al Colibrí Lodge para tu cena final en la selva.",
+          "highlights": ["Imuya Cocha", "Canoa de remo", "Natación", "Atardecer amazónico"]
+        },
+        {
+          "day": 5,
+          "title": "Viaje de Regreso",
+          "description": "Después del desayuno, partimos en canoa y autobús a las 7:00 AM, regresando a Coca. El transporte a tu próximo destino será organizado al llegar.",
+          "highlights": ["Salida 7:00 AM", "Regreso a Coca", "Transporte organizado", "Despedida"]
+        }
+      ],
+      "en": [
+        {
+          "day": 1,
+          "title": "Into the Wild – Arrival and Amazon Immersion",
+          "description": "Your journey begins in Coca, where you'll be warmly welcomed by your bilingual guide (English, French, Spanish). From here, we travel by private vehicle (approx. 1.5 hours) to Puerto Tierras Orientales, located along the Aguarico River. After registering at the park entrance, we embark on a scenic 6–7 hour canoe ride deep into the Amazon. Along the way, witness vibrant wildlife including monkeys, birds, freshwater dolphins, and river turtles, and visit the indigenous Cofán community, guardians of ancestral jungle wisdom. Arrive at Bosque Colibrí Lodge for a hearty dinner. In the evening, join a guided night walk to observe fascinating nocturnal species like amphibians, insects, and reptiles.",
+          "highlights": ["Coca welcome", "6-7h canoe journey", "Cofán community", "Night walk"]
+        },
+        {
+          "day": 2,
+          "title": "Wildlife Encounters & Cultural Exploration",
+          "description": "Wake to the sounds of the rainforest and enjoy a nourishing Amazonian breakfast. We then set out by canoe to Lagarto Cocha, a remote and biodiverse lagoon at the border with Peru. Today's highlights include: exploration of Delfín Cocha, home to elusive pink river dolphins; canoeing up the Imuya River; cultural visit with the Secoya community, including traditional foods and storytelling; wildlife encounters with giant otters, toucans, parrots, and more. In the afternoon, enjoy a refreshing swim in the lagoon and a breathtaking Amazon sunset from your canoe. After dark, go caiman spotting, then spend the night camping riverside in comfortable tents under a shelter.",
+          "highlights": ["Lagarto Cocha", "Pink dolphins", "Secoya community", "Riverside camping"]
+        },
+        {
+          "day": 3,
+          "title": "Birdsong & Jungle Trails",
+          "description": "Rise early for sunrise birdwatching around the lagoon. After breakfast, we return to Colibrí Lodge, stopping at a river junction where pink river dolphins are often spotted. Relax at the lodge, enjoy lunch, then begin the Marco Tangoy Trail—a 3-hour guided hike through pristine rainforest teeming with life. Return to the lodge for dinner and a peaceful evening.",
+          "highlights": ["Sunrise birdwatching", "Pink dolphins", "Marco Tangoy Trail 3h", "Return to lodge"]
+        },
+        {
+          "day": 4,
+          "title": "The Great Lagoon – Imuya Cocha",
+          "description": "After breakfast, we venture to Imuya Cocha, one of the Amazon's most stunning and biodiverse lagoons. Explore by paddle canoe, enjoy swimming, and soak in a mesmerizing sunset before returning to Colibrí Lodge for your final dinner in the jungle.",
+          "highlights": ["Imuya Cocha", "Paddle canoe", "Swimming", "Amazon sunset"]
+        },
+        {
+          "day": 5,
+          "title": "Journey Back",
+          "description": "After breakfast, we depart by canoe and bus at 7:00 AM, returning to Coca. Transportation to your next destination will be arranged upon arrival.",
+          "highlights": ["7:00 AM departure", "Return to Coca", "Arranged transport", "Farewell"]
+        }
+      ]
+    },
+    "included": {
+      "es": [
+        "Transporte terrestre y fluvial",
+        "Todos los alojamientos (Lodge + 1 noche de campamento)",
+        "Tres comidas al día (incluye desayuno del Día 1)",
+        "Servicio de Wi-Fi en Colibrí Lodge",
+        "Agua potable purificada",
+        "Guía naturalista bilingüe (Inglés, Francés, Español)",
+        "Botas de caucho para caminatas",
+        "Tarifas de entrada a áreas protegidas y comunidades"
+      ],
+      "en": [
+        "Ground and river transportation",
+        "All accommodations (Lodge + 1 night camping)",
+        "Three meals per day (including breakfast on Day 1)",
+        "Wi-Fi service at Colibrí Lodge",
+        "Purified drinking water",
+        "Bilingual naturalist guide (English, French, Spanish)",
+        "Rubber boots for hikes",
+        "Entrance fees to protected areas and communities"
+      ]
+    },
+    "notIncluded": {
+      "es": [
+        "Cena el día final",
+        "Bebidas extra",
+        "Propinas"
+      ],
+      "en": [
+        "Dinner on the final day",
+        "Extra beverages",
+        "Tips"
+      ]
+    },
+    "whatToBring": {
+      "es": [
+        "Repelente fuerte para insectos (base DEET, no aerosol)",
+        "Protector solar, gafas de sol, sombrero",
+        "Camisas de manga larga, pantalones largos, traje de baño",
+        "Chaqueta impermeable o poncho",
+        "Linterna o lámpara frontal",
+        "Sandalias y zapatos de senderismo",
+        "Binoculares, cámara (baterías extra)",
+        "Efectivo pequeño para souvenirs o compras comunitarias"
+      ],
+      "en": [
+        "Strong insect repellent (DEET-based, non-aerosol)",
+        "Sunscreen, sunglasses, hat",
+        "Long-sleeve shirts, long pants, swimsuit",
+        "Waterproof jacket or poncho",
+        "Flashlight or headlamp",
+        "Sandals and hiking shoes",
+        "Binoculars, camera (extra batteries)",
+        "Small cash for souvenirs or community purchases"
+      ]
+    },
+    "featured": true,
+    "location": "Colibri Lodge, Aguarico River",
+    "contacts": [
+      {
+        "name": "Jacob Tangoy",
+        "whatsapp": "+593990657053",
+        "whatsapp2": "+593992981985"
+      }
+    ]
+  },
+  {
+    "slug": "10-days-waorani-yasuni",
+    "title": {
+      "es": "Expediciones Waorani - 10 Días",
+      "en": "Waorani Expeditions - 10 Days"
+    },
+    "subtitle": {
+      "es": "En el Corazón del Parque Nacional Yasuní",
+      "en": "In the Heart of Yasuní National Park"
+    },
+    "duration": {
+      "es": "10 Días / 9 Noches",
+      "en": "10 Days / 9 Nights"
+    },
+    "description": {
+      "es": "Aventura Cultural y de Vida Silvestre en la Amazonía Profunda. Sumérgete en el territorio Waorani y experimenta una de las culturas más auténticas de la Amazonía ecuatoriana.",
+      "en": "Deep Amazon Cultural & Wildlife Adventure. Immerse yourself in Waorani territory and experience one of the most authentic cultures of the Ecuadorian Amazon."
+    },
+    "images": [
+      "/assets/colibrilodge/bosquecolibrilodge.jpg",
+      "/assets/riodelfin/cieloestrelladovertical.jpg",
+      "/assets/colibrilodge/observacionaves2.jpg",
+      "/assets/colibrilodge/grupoenamazonia.jpg",
+      "/assets/riodelfin/atardecer.jpg"
+    ],
+    "price": {
+      "amount": 1990,
+      "currency": "USD",
+      "per": "persona (mínimo 2 participantes recomendado)"
+    },
+    "difficulty": "challenging",
+    "groupSize": "2-6 personas",
+    "itinerary": {
+      "es": [
+        {
+          "day": 1,
+          "title": "Reserva Forestal Jacob y Caminata Nocturna",
+          "description": "Comienza tu aventura con una caminata guiada a través de la Reserva Forestal Jacob. Observa vida silvestre de la selva tropical como ranas venenosas, serpientes, insectos y más. Cena y noche en Monkey Frog Lodge.",
+          "highlights": ["Reserva Forestal Jacob", "Ranas venenosas", "Caminata nocturna", "Monkey Frog Lodge"]
+        },
+        {
+          "day": 2,
+          "title": "Saladeros de Loros y Vida Silvestre Nocturna",
+          "description": "Salida temprano en la mañana para visitar los saladeros de loros y guacamayos, un colorido evento de vida silvestre. Por la noche, explora la laguna para observar luciérnagas y caimanes. Cena y noche.",
+          "highlights": ["Saladeros de loros", "Guacamayos", "Luciérnagas", "Caimanes"]
+        },
+        {
+          "day": 3,
+          "title": "Viaje al Territorio Waorani",
+          "description": "Viaje profundo en tierra Waorani: 2 horas en camión, 9 horas en canoa motorizada. Llega y establece campamento en el bosque. Cena y noche acampando rodeado por la selva tropical.",
+          "highlights": ["Territorio Waorani", "Viaje en canoa 9h", "Campamento en selva", "Inmersión cultural"]
+        },
+        {
+          "day": 4,
+          "title": "Observación de Aves en Canoa y Exploración del Bosque",
+          "description": "Observación temprana de aves durante 3 horas en canoa de remo. Luego caminata a través del bosque primario antes de viajar al siguiente campamento de la familia Waorani. Cena y noche.",
+          "highlights": ["Observación de aves 3h", "Bosque primario", "Campamento Waorani", "Canoa de remo"]
+        },
+        {
+          "day": 5,
+          "title": "Cultura de Caza Tradicional",
+          "description": "Observa cómo los Waorani preparan curare (curi) para sus cerbatanas, utilizadas para cazar monos y pecaríes. Por la tarde, ve de caza y pesca con la familia Waorani. Cena y noche.",
+          "highlights": ["Preparación de curare", "Cerbatanas", "Caza tradicional", "Pesca"]
+        },
+        {
+          "day": 6,
+          "title": "Búsqueda Nocturna de Anfibios y Reptiles",
+          "description": "Viaje a un nuevo campamento profundo en la selva amazónica. Exploración nocturna para buscar ranas, serpientes y otra vida silvestre nocturna. Cena y noche.",
+          "highlights": ["Campamento profundo", "Exploración nocturna", "Ranas", "Serpientes"]
+        },
+        {
+          "day": 7,
+          "title": "Visita a Bameno, una Comunidad Waorani Remota",
+          "description": "Viaje a Bameno, una de las comunidades Waorani más tradicionales. Pasa el día compartiendo experiencias culturales y aprendiendo de las familias. Cena y noche.",
+          "highlights": ["Comunidad Bameno", "Experiencias culturales", "Familias Waorani", "Tradiciones"]
+        },
+        {
+          "day": 8,
+          "title": "Artesanía Tradicional y Técnicas de Supervivencia",
+          "description": "Aprende cómo los Waorani hacen: redes de pesca, trampas de caza. Disfruta del tiempo observando actividades diarias y conocimiento del bosque. Cena y noche.",
+          "highlights": ["Redes de pesca", "Trampas de caza", "Conocimiento tradicional", "Artesanía"]
+        },
+        {
+          "day": 9,
+          "title": "Observación de Aves y Regreso al Campamento",
+          "description": "Observación temprana de aves, incluyendo guacamayos y loros. Regreso al campamento para relajarse y disfrutar de la selva tropical. Cena y noche.",
+          "highlights": ["Guacamayos", "Loros", "Regreso a campamento", "Relajación"]
+        },
+        {
+          "day": 10,
+          "title": "Caminata Final en la Selva y Regreso a Coca",
+          "description": "A las 5:00 AM, caminata en el bosque para observar vida silvestre durante las horas más activas. Después del desayuno, comienza el viaje de regreso a Coca. Llegada estimada: 8:00 PM.",
+          "highlights": ["Caminata 5:00 AM", "Vida silvestre activa", "Regreso a Coca", "Llegada 8:00 PM"]
+        }
+      ],
+      "en": [
+        {
+          "day": 1,
+          "title": "Jacob Forest Reserve & Night Walk",
+          "description": "Begin your adventure with a guided hike through the Jacob Forest Reserve. Observe tropical rainforest wildlife such as poison dart frogs, snakes, insects, and more. Dinner and overnight stay at Monkey Frog Lodge.",
+          "highlights": ["Jacob Forest Reserve", "Poison dart frogs", "Night walk", "Monkey Frog Lodge"]
+        },
+        {
+          "day": 2,
+          "title": "Parrot Clay Licks & Nocturnal Wildlife",
+          "description": "Early morning departure to visit the parrot and macaw saladeros, a colorful wildlife event. At night, explore the lagoon to observe fireflies and caimans. Dinner and overnight stay.",
+          "highlights": ["Parrot clay licks", "Macaws", "Fireflies", "Caimans"]
+        },
+        {
+          "day": 3,
+          "title": "Journey Into Waorani Territory",
+          "description": "Travel deep into Waorani land: 2-hour journey by truck, 9-hours journey by motorized canoe. Arrive and set up camp in the forest. Dinner and overnight camping surrounded by the rainforest.",
+          "highlights": ["Waorani territory", "9h canoe journey", "Forest camping", "Cultural immersion"]
+        },
+        {
+          "day": 4,
+          "title": "Canoe Birdwatching & Forest Exploration",
+          "description": "Early morning birdwatching for 3 hours by paddle canoe. Then hike through primary forest before traveling to the next Waorani family campsite. Dinner and overnight stay.",
+          "highlights": ["3h birdwatching", "Primary forest", "Waorani campsite", "Paddle canoe"]
+        },
+        {
+          "day": 5,
+          "title": "Traditional Hunting Culture",
+          "description": "Observe how the Waorani prepare curare (curi) for their blowguns, used for hunting monkeys and peccaries. In the afternoon, go hunting and fishing with the Waorani family. Dinner and overnight stay.",
+          "highlights": ["Curare preparation", "Blowguns", "Traditional hunting", "Fishing"]
+        },
+        {
+          "day": 6,
+          "title": "Night Search for Amphibians & Reptiles",
+          "description": "Travel to a new campsite deep in the Amazon rainforest. Night exploration to look for frogs, snakes, and other nocturnal wildlife. Dinner and overnight stay.",
+          "highlights": ["Deep campsite", "Night exploration", "Frogs", "Snakes"]
+        },
+        {
+          "day": 7,
+          "title": "Visit Bameno, a Remote Waorani Community",
+          "description": "Travel to Bameno, one of the most traditional Waorani communities. Spend the day sharing cultural experiences and learning from the families. Dinner and overnight stay.",
+          "highlights": ["Bameno community", "Cultural experiences", "Waorani families", "Traditions"]
+        },
+        {
+          "day": 8,
+          "title": "Traditional Handcraft & Survival Techniques",
+          "description": "Learn how the Waorani make: fishing nets, hunting keels (traps). Enjoy time observing daily activities and forest knowledge. Dinner and overnight stay.",
+          "highlights": ["Fishing nets", "Hunting traps", "Traditional knowledge", "Handcraft"]
+        },
+        {
+          "day": 9,
+          "title": "Birdwatching & Return to Camp",
+          "description": "Early morning birdwatching, including macaws and parrots. Return to camp to relax and enjoy the rainforest. Dinner and overnight stay.",
+          "highlights": ["Macaws", "Parrots", "Return to camp", "Relaxation"]
+        },
+        {
+          "day": 10,
+          "title": "Final Jungle Walk & Return to Coca",
+          "description": "At 5:00 AM, hike in the forest to observe wildlife during the most active hours. After breakfast, begin the return journey to Coca. Estimated arrival: 8:00 PM.",
+          "highlights": ["5:00 AM walk", "Active wildlife", "Return to Coca", "8:00 PM arrival"]
+        }
+      ]
+    },
+    "included": {
+      "es": [
+        "Transporte terrestre y fluvial",
+        "9 noches de alojamiento (lodge + campamento)",
+        "3 comidas diarias (menú amazónico)",
+        "Agua potable purificada",
+        "Guías locales expertos",
+        "Guía traductor (Inglés - Español - Francés)",
+        "Equipo básico de campamento",
+        "Tarifas de entrada a comunidades y áreas protegidas"
+      ],
+      "en": [
+        "Land and river transportation",
+        "9 nights accommodation (lodge + camping)",
+        "3 daily meals (Amazonian menu)",
+        "Purified drinking water",
+        "Expert local guides",
+        "Translator guide (English - Spanish - French)",
+        "Basic camping equipment",
+        "Entrance fees to communities and protected areas"
+      ]
+    },
+    "notIncluded": {
+      "es": [
+        "Bebidas extra",
+        "Propinas",
+        "Equipo personal de fotografía"
+      ],
+      "en": [
+        "Extra beverages",
+        "Tips",
+        "Personal photography equipment"
+      ]
+    },
+    "whatToBring": {
+      "es": [
+        "Repelente fuerte para insectos (base DEET)",
+        "Protector solar y sombrero",
+        "Ropa de manga larga y pantalones",
+        "Botas de senderismo resistentes al agua",
+        "Linterna frontal con baterías extra",
+        "Bolsa impermeable para equipo",
+        "Cámara con baterías extra",
+        "Binoculares",
+        "Kit de primeros auxilios personal",
+        "Efectivo pequeño para artesanías"
+      ],
+      "en": [
+        "Strong insect repellent (DEET-based)",
+        "Sunscreen and hat",
+        "Long-sleeve clothing and pants",
+        "Waterproof hiking boots",
+        "Headlamp with extra batteries",
+        "Waterproof bag for equipment",
+        "Camera with extra batteries",
+        "Binoculars",
+        "Personal first aid kit",
+        "Small cash for handicrafts"
+      ]
+    },
+    "featured": true,
+    "location": "Yasuní National Park, Waorani Territory",
+    "contacts": [
+      {
+        "name": "Jacob Tangoy",
+        "whatsapp": "+593990657053",
+        "whatsapp2": "+593992981985"
+      }
+    ]
+  },
+  {
+    "slug": "9-days-sport-fishing",
+    "title": {
+      "es": "Expedición de Pesca Deportiva - 9 Días",
+      "en": "Sport Fishing Expedition - 9 Days"
+    },
+    "subtitle": {
+      "es": "Captura y Suelta - Región Baja del Amazonas",
+      "en": "Catch & Release - Lower Amazon Region"
+    },
+    "duration": {
+      "es": "9 Días / 8 Noches",
+      "en": "9 Days / 8 Nights"
+    },
+    "description": {
+      "es": "Expedición de pesca deportiva en la Amazonía baja. Captura paco, tucunaré, paiche y bagres gigantes en ríos y lagunas remotas. Todas las actividades siguen estrictas pautas de captura y liberación.",
+      "en": "Sport fishing expedition in the Lower Amazon. Catch paco, peacock bass, paiche, and giant catfish in remote rivers and lagoons. All fishing activities follow strict catch-and-release guidelines."
+    },
+    "images": [
+      "/assets/colibrilodge/fishingtrip.jpg",
+      "/assets/WhatsApp Image 2025-11-24 at 20.39.43.jpeg",
+      "/assets/WhatsApp Image 2025-11-24 at 20.39.40(1).jpeg",
+      "/assets/WhatsApp Image 2025-11-24 at 20.39.41(3).jpeg",
+      "/assets/riodelfin/atardecer.jpg",
+      "/assets/colibrilodge/en lancha 1 expedicion.jpg",
+      "/assets/colibrilodge/bosquecolibrilodge.jpg"
+    ],
+    "price": {
+      "amount": 1860,
+      "currency": "USD",
+      "per": "persona (mínimo 2 participantes)"
+    },
+    "difficulty": "moderate",
+    "groupSize": "2-6 personas",
+    "itinerary": {
+      "es": [
+        {
+          "day": 1,
+          "title": "Hacia la Amazonía Profunda y Primera Sesión de Pesca",
+          "description": "Salida desde El Coca en vehículo privado (1h30). Continuamos en canoa durante 5 horas río abajo hacia una zona remota de pesca de paco. Primera sesión de pesca al atardecer. Cena y campamento en el corazón de la selva tropical.",
+          "highlights": ["Salida desde El Coca", "5h en canoa", "Pesca de paco", "Campamento"]
+        },
+        {
+          "day": 2,
+          "title": "Pesca de Paco en el Río Pacu",
+          "description": "Día completo de pesca deportiva de paco en diferentes sectores del río. Naturaleza intacta, silencio y peces de fuerte pelea. Cena y campamento.",
+          "highlights": ["Pesca de paco", "Río Pacu", "Pesca deportiva", "Naturaleza prístina"]
+        },
+        {
+          "day": 3,
+          "title": "Hacia el Río Aguarico y Pesca de Bagres",
+          "description": "Viaje al majestuoso río Aguarico. Tarde dedicada a capturar bagres gigantes amazónicos. Cena y noche.",
+          "highlights": ["Río Aguarico", "Bagres gigantes", "Pesca amazónica", "Campamento"]
+        },
+        {
+          "day": 4,
+          "title": "Tucunaré (Pavón) en Laguna Zancudo Cocha",
+          "description": "Visita a una de las lagunas más hermosas de la Amazonía. Día completo pescando pavón en lagunas de aguas negras. Cena y noche.",
+          "highlights": ["Zancudo Cocha", "Tucunaré", "Aguas negras", "Laguna hermosa"]
+        },
+        {
+          "day": 5,
+          "title": "Amanecer con Tucunaré y Pesca Nocturna",
+          "description": "Pesca temprano en la mañana de tucunaré y otras especies. Por la tarde, regreso al río Aguarico. Por la noche, pesca en ríos de aguas blancas. Cena y alojamiento en Colibrí Lodge.",
+          "highlights": ["Pesca al amanecer", "Río Aguarico", "Pesca nocturna", "Colibrí Lodge"]
+        },
+        {
+          "day": 6,
+          "title": "Pesca de Paiche en Imuya",
+          "description": "Viaje a las lagunas de Imuya, hogar del paiche gigante. Tarde completa dedicada a la pesca deportiva de esta especie icónica. Cena y campamento.",
+          "highlights": ["Lagunas Imuya", "Paiche gigante", "Especie icónica", "Campamento"]
+        },
+        {
+          "day": 7,
+          "title": "Paiche + Tucunaré en Lagunas Remotas",
+          "description": "Pesca temprano de paiche en la mañana. Día completo pescando tucunaré y otras especies en lagunas aisladas. Cena y campamento.",
+          "highlights": ["Paiche", "Tucunaré", "Lagunas aisladas", "Pesca completa"]
+        },
+        {
+          "day": 8,
+          "title": "Paiche Yaku y Pesca Nocturna",
+          "description": "Pesca matutina en Laguna Paiche Yaku. Por la tarde, regreso al río Aguarico para pesca nocturna. Cena y alojamiento en Colibrí Lodge.",
+          "highlights": ["Paiche Yaku", "Río Aguarico", "Pesca nocturna", "Colibrí Lodge"]
+        },
+        {
+          "day": 9,
+          "title": "Regreso a El Coca",
+          "description": "Después del desayuno, traslado en canoa y vehículo de regreso a la ciudad de El Coca. Hora estimada de llegada: 18:00.",
+          "highlights": ["Desayuno", "Traslado", "Regreso a El Coca", "Llegada 18:00"]
+        }
+      ],
+      "en": [
+        {
+          "day": 1,
+          "title": "Into the Deep Amazon & First Fishing Session",
+          "description": "Departure from El Coca in a private vehicle (1h30). We then continue by canoe for 5 hours downriver to a remote paco fishing area. First fishing session at sunset. Dinner and camping in the heart of the rainforest.",
+          "highlights": ["Departure from El Coca", "5h canoe ride", "Paco fishing", "Camping"]
+        },
+        {
+          "day": 2,
+          "title": "Paco Fishing on the Pacu River",
+          "description": "Full day of sport fishing for paco in different sectors of the river. Untouched nature, silence, and strong fighting fish. Dinner and camping.",
+          "highlights": ["Paco fishing", "Pacu River", "Sport fishing", "Pristine nature"]
+        },
+        {
+          "day": 3,
+          "title": "Toward the Aguarico River & Catfish Fishing",
+          "description": "Travel to the majestic Aguarico River. Afternoon dedicated to catching giant Amazonian catfish. Dinner and overnight stay.",
+          "highlights": ["Aguarico River", "Giant catfish", "Amazon fishing", "Camping"]
+        },
+        {
+          "day": 4,
+          "title": "Peacock Bass (Tucunaré) at Zancudo Cocha Lagoon",
+          "description": "Visit to one of the most beautiful lagoons in the Amazon. Full day fishing for peacock bass in blackwater lakes. Dinner and overnight stay.",
+          "highlights": ["Zancudo Cocha", "Peacock bass", "Blackwater", "Beautiful lagoon"]
+        },
+        {
+          "day": 5,
+          "title": "Sunrise Peacock Bass & Night Fishing",
+          "description": "Early morning fishing for tucunaré and other species. In the afternoon, return to the Aguarico River. At night, fishing in whitewater rivers. Dinner and lodging at Colibrí Lodge.",
+          "highlights": ["Sunrise fishing", "Aguarico River", "Night fishing", "Colibrí Lodge"]
+        },
+        {
+          "day": 6,
+          "title": "Paiche Fishing in Imuya",
+          "description": "Travel to the Imuya lagoons, home of the giant paiche. Full afternoon dedicated to sport fishing for this iconic species. Dinner and camping.",
+          "highlights": ["Imuya lagoons", "Giant paiche", "Iconic species", "Camping"]
+        },
+        {
+          "day": 7,
+          "title": "Paiche + Peacock Bass in Remote Lagoons",
+          "description": "Early morning paiche fishing. Full day fishing tucunaré and other species in isolated lagoons. Dinner and camping.",
+          "highlights": ["Paiche", "Peacock bass", "Isolated lagoons", "Full day fishing"]
+        },
+        {
+          "day": 8,
+          "title": "Paiche Yaku & Night Fishing",
+          "description": "Morning fishing at Paiche Yaku Lagoon. In the afternoon, return to the Aguarico River for night fishing. Dinner and lodging at Colibrí Lodge.",
+          "highlights": ["Paiche Yaku", "Aguarico River", "Night fishing", "Colibrí Lodge"]
+        },
+        {
+          "day": 9,
+          "title": "Return to El Coca",
+          "description": "After breakfast, canoe and vehicle transfer back to the city of El Coca. Estimated arrival time: 18:00.",
+          "highlights": ["Breakfast", "Transfer", "Return to El Coca", "18:00 arrival"]
+        }
+      ]
+    },
+    "included": {
+      "es": [
+        "8 noches de alojamiento (lodge + campamento)",
+        "3 comidas diarias (menú amazónico)",
+        "Agua potable purificada durante toda la expedición",
+        "Guías locales expertos de pesca",
+        "Guía traductor (Inglés - Español - Francés)",
+        "Canoa pequeña para cada salida de pesca",
+        "Transporte terrestre y fluvial ida y vuelta",
+        "Equipo básico de campamento"
+      ],
+      "en": [
+        "8 nights of accommodation (lodge + camping)",
+        "3 daily meals (Amazonian menu)",
+        "Purified drinking water throughout the expedition",
+        "Expert local fishing guides",
+        "Translator guide (English - Spanish - French)",
+        "Small canoe for each fishing outing",
+        "Round-trip land and river transportation",
+        "Basic camping equipment"
+      ]
+    },
+    "notIncluded": {
+      "es": [
+        "Equipo de pesca personal (cañas, carnadas)",
+        "Bebidas extra",
+        "Propinas"
+      ],
+      "en": [
+        "Personal fishing equipment (rods, bait)",
+        "Extra beverages",
+        "Tips"
+      ]
+    },
+    "whatToBring": {
+      "es": [
+        "Caña de pescar y equipo personal (opcional)",
+        "Repelente de insectos fuerte",
+        "Protector solar y sombrero",
+        "Ropa de manga larga y pantalones",
+        "Chaqueta impermeable",
+        "Zapatos resistentes al agua",
+        "Cámara con baterías extra",
+        "Linterna frontal",
+        "Efectivo pequeño"
+      ],
+      "en": [
+        "Fishing rod and personal equipment (optional)",
+        "Strong insect repellent",
+        "Sunscreen and hat",
+        "Long-sleeve clothing and pants",
+        "Waterproof jacket",
+        "Water-resistant shoes",
+        "Camera with extra batteries",
+        "Headlamp",
+        "Small cash"
+      ]
+    },
+    "featured": true,
+    "location": "Lower Amazon Region, Aguarico River",
+    "contacts": [
+      {
+        "name": "Jacob Tangoy",
+        "whatsapp": "+593990657053",
+        "whatsapp2": "+593992981985"
       }
     ]
   }
