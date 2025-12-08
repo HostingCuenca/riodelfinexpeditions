@@ -915,5 +915,173 @@
         "whatsapp2": "+593992981985"
       }
     ]
+  },
+  {
+    "slug": "5-days-ancestral-healing",
+    "title": {
+      "es": "Viaje de Limpieza Ancestral con Plantas Sagradas - 5 Días",
+      "en": "Ancestral Healing Journey with Sacred Plants - 5 Days"
+    },
+    "subtitle": {
+      "es": "Sanación Espiritual y Conexión con la Naturaleza",
+      "en": "Spiritual Healing and Connection with Nature"
+    },
+    "duration": {
+      "es": "5 Días / 4 Noches",
+      "en": "5 Days / 4 Nights"
+    },
+    "description": {
+      "es": "Embárcate en una experiencia profunda de sanación, conexión espiritual y naturaleza viva, guiada por familias kichwa y curanderos tradicionales de la Amazonía ecuatoriana. Un viaje lleno de significado, donde cada día está pensado para armonizar cuerpo, mente y espíritu.",
+      "en": "Embark on a profound experience of healing, spiritual connection and living nature, guided by Kichwa families and traditional healers of the Ecuadorian Amazon. A meaningful journey, where each day is designed to harmonize body, mind and spirit."
+    },
+    "images": [
+      "/assets/colibrilodge/bosquecolibrilodge.jpg",
+      "/assets/riodelfin/cieloestrelladovertical.jpg",
+      "/assets/colibrilodge/observacionaves1.jpg",
+      "/assets/riodelfin/atardecer.jpg",
+      "/assets/colibrilodge/grupoenamazonia.jpg"
+    ],
+    "price": {
+      "amount": 960,
+      "currency": "USD",
+      "per": "persona (mínimo 2 participantes)"
+    },
+    "difficulty": "easy",
+    "groupSize": "2-8 personas",
+    "itinerary": {
+      "es": [
+        {
+          "day": 1,
+          "title": "Bienvenida y Relajación en Familia Kichwa",
+          "description": "Visita a la familia de Doña Simona, ubicada a orillas del majestuoso río Napo. Caminata suave por el bosque para adaptarte a la energía de la selva y prepararte para las actividades de sanación que vendrán en los próximos días.",
+          "highlights": ["Familia de Doña Simona", "Río Napo", "Caminata adaptación", "Energía de la selva"]
+        },
+        {
+          "day": 2,
+          "title": "Ritual de Guayusa Upina y Caminata Medicinal",
+          "description": "A las 04:00 am participamos en la ceremonia tradicional de Guayusa Upina, una bebida ancestral que limpia, despierta y protege. Los kichwas cuentan que debe tomarse antes de que el colibrí se acerque al río a robar su energía. Después, caminata guiada para reconocer plantas medicinales y aprender sobre sus usos tradicionales.",
+          "highlights": ["Ceremonia 04:00 AM", "Guayusa Upina", "Plantas medicinales", "Sabiduría ancestral"]
+        },
+        {
+          "day": 3,
+          "title": "Laguna de Limoncocha y Baño Energético",
+          "description": "Viaje a la Reserva Biológica Limoncocha para convivir con una familia kichwa local. A las 05:00 am realizamos un baño purificador en una cascada de agua fría, práctica ancestral para revitalizar el cuerpo. Durante el día, recorrido para observar la flora y fauna de esta hermosa zona húmeda amazónica.",
+          "highlights": ["Reserva Limoncocha", "Baño purificador 05:00 AM", "Cascada agua fría", "Flora y fauna"]
+        },
+        {
+          "day": 4,
+          "title": "Limpieza Espiritual con Curandero",
+          "description": "Encuentro con un curandero ancestral para realizar la limpieza tradicional con tabaco, hierbas sagradas y baño con aguas de flores. Un proceso profundo de armonización energética. Cena y alojamiento.",
+          "highlights": ["Curandero ancestral", "Limpieza con tabaco", "Hierbas sagradas", "Baño de flores"]
+        },
+        {
+          "day": 5,
+          "title": "Saladero de Guacamayas y Monos / Retorno",
+          "description": "Visita al saladero de guacamayas y monos en el Parque Nacional Yasuní, uno de los lugares más biodiversos del planeta. Retorno hacia El Coca. Fin del tour: 18h00.",
+          "highlights": ["Saladero Yasuní", "Guacamayas y monos", "Parque Nacional", "Retorno 18:00"]
+        }
+      ],
+      "en": [
+        {
+          "day": 1,
+          "title": "Welcome and Relaxation with Kichwa Family",
+          "description": "Visit to Doña Simona's family, located on the banks of the majestic Napo River. Gentle forest walk to adapt to the jungle's energy and prepare for the healing activities that will come in the following days.",
+          "highlights": ["Doña Simona's family", "Napo River", "Adaptation walk", "Jungle energy"]
+        },
+        {
+          "day": 2,
+          "title": "Guayusa Upina Ritual and Medicinal Walk",
+          "description": "At 04:00 am we participate in the traditional Guayusa Upina ceremony, an ancestral drink that cleanses, awakens and protects. The Kichwa say it must be taken before the hummingbird approaches the river to steal its energy. Afterwards, guided walk to recognize medicinal plants and learn about their traditional uses.",
+          "highlights": ["04:00 AM ceremony", "Guayusa Upina", "Medicinal plants", "Ancestral wisdom"]
+        },
+        {
+          "day": 3,
+          "title": "Limoncocha Lagoon and Energy Bath",
+          "description": "Journey to Limoncocha Biological Reserve to live with a local Kichwa family. At 05:00 am we perform a purifying bath in a cold water waterfall, an ancestral practice to revitalize the body. During the day, tour to observe the flora and fauna of this beautiful Amazonian wetland.",
+          "highlights": ["Limoncocha Reserve", "05:00 AM purifying bath", "Cold water waterfall", "Flora and fauna"]
+        },
+        {
+          "day": 4,
+          "title": "Spiritual Cleansing with Healer",
+          "description": "Meeting with an ancestral healer to perform the traditional cleansing with tobacco, sacred herbs and flower water bath. A profound process of energetic harmonization. Dinner and accommodation.",
+          "highlights": ["Ancestral healer", "Tobacco cleansing", "Sacred herbs", "Flower bath"]
+        },
+        {
+          "day": 5,
+          "title": "Macaw and Monkey Clay Lick / Return",
+          "description": "Visit to the macaw and monkey clay lick in Yasuní National Park, one of the most biodiverse places on the planet. Return to El Coca. End of tour: 18h00.",
+          "highlights": ["Yasuní clay lick", "Macaws and monkeys", "National Park", "18:00 return"]
+        }
+      ]
+    },
+    "included": {
+      "es": [
+        "Hospedaje en cada destino",
+        "Transporte fluvial durante todo el recorrido",
+        "3 comidas diarias",
+        "Guía local experto",
+        "Agua purificada",
+        "Limpieza espiritual con el curandero",
+        "Equipo de excursión en la selva"
+      ],
+      "en": [
+        "Accommodation at each destination",
+        "River transportation throughout the journey",
+        "3 daily meals",
+        "Expert local guide",
+        "Purified water",
+        "Spiritual cleansing with the healer",
+        "Jungle excursion equipment"
+      ]
+    },
+    "notIncluded": {
+      "es": [
+        "Bebidas extra",
+        "Propinas",
+        "Gastos personales"
+      ],
+      "en": [
+        "Extra beverages",
+        "Tips",
+        "Personal expenses"
+      ]
+    },
+    "whatToBring": {
+      "es": [
+        "Ropa cómoda de manga larga",
+        "Pantalones largos",
+        "Repelente de insectos natural",
+        "Protector solar",
+        "Sombrero o gorra",
+        "Sandalias y zapatos cerrados",
+        "Linterna o lámpara frontal",
+        "Ropa de baño",
+        "Toalla",
+        "Botella de agua reutilizable",
+        "Mente abierta y corazón receptivo"
+      ],
+      "en": [
+        "Comfortable long-sleeve clothing",
+        "Long pants",
+        "Natural insect repellent",
+        "Sunscreen",
+        "Hat or cap",
+        "Sandals and closed shoes",
+        "Flashlight or headlamp",
+        "Swimsuit",
+        "Towel",
+        "Reusable water bottle",
+        "Open mind and receptive heart"
+      ]
+    },
+    "featured": true,
+    "location": "Río Napo, Limoncocha, Yasuní",
+    "contacts": [
+      {
+        "name": "Jacob Tangoy",
+        "whatsapp": "+593990657053",
+        "whatsapp2": "+593992981985"
+      }
+    ]
   }
 ]
