@@ -149,13 +149,18 @@ export default function Navbar({ messages }: NavbarProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <Link 
-              href={`/${locale}`} 
-              className="flex items-center group transition-all duration-300 hover:scale-105"
+            <Link
+              href={`/${locale}`}
+              className="flex items-center space-x-2 group transition-all duration-300 hover:scale-105"
             >
+              <img
+                src="/assets/delfinlogo.png"
+                alt="Río Delfín Logo"
+                className="h-12 w-12 object-contain flex-shrink-0"
+              />
               <div className="text-deepBlue">
-                <div className="font-bold text-2xl tracking-tight leading-none">Río Delfín</div>
-                <div className="text-sm text-lightNavy font-medium tracking-wide leading-none">Amazon Lodge & Expeditions</div>
+                <div className="font-bold text-xl tracking-tight leading-none">Río Delfín</div>
+                <div className="text-xs text-lightNavy font-medium tracking-wide leading-none">Amazon Lodge & Expeditions</div>
               </div>
             </Link>
 

@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "María González",
-    "avatar": "https://images.unsplash.com/photo-1494790108755-2616c595653c?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://ui-avatars.com/api/?name=Maria+Gonzalez&size=200&background=34C6D3&color=fff&bold=true",
     "rating": 5,
     "date": "2024-08-15",
     "travelerType": "family",
@@ -24,7 +24,7 @@
   {
     "id": "2",
     "name": "James Mitchell",
-    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://ui-avatars.com/api/?name=James+Mitchell&size=200&background=0F5E3A&color=fff&bold=true",
     "rating": 5,
     "date": "2024-08-10", 
     "travelerType": "couple",
@@ -46,7 +46,7 @@
   {
     "id": "3",
     "name": "Ana Rodríguez",
-    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://ui-avatars.com/api/?name=Ana+Rodriguez&size=200&background=D97706&color=fff&bold=true",
     "rating": 5,
     "date": "2024-08-05",
     "travelerType": "solo",
@@ -68,7 +68,7 @@
   {
     "id": "4",
     "name": "David Chen",
-    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://ui-avatars.com/api/?name=David+Chen&size=200&background=0B3A5B&color=fff&bold=true",
     "rating": 5,
     "date": "2024-07-28",
     "travelerType": "friends",
@@ -90,7 +90,7 @@
   {
     "id": "5",
     "name": "Isabella Santos",
-    "avatar": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face",
+    "avatar": "https://ui-avatars.com/api/?name=Isabella+Santos&size=200&background=EC4899&color=fff&bold=true",
     "rating": 5,
     "date": "2024-07-20",
     "travelerType": "family",

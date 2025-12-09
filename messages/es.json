@@ -150,6 +150,31 @@
         "description": "4.9/5 estrellas en TripAdvisor con más de 200 reseñas verificadas de aventureros satisfechos"
       }
     },
+    "communitySupport": {
+      "title": "Raíces y Comunidad",
+      "subtitle": "Turismo Responsable y Sostenible",
+      "description": "En Río Delfín Expeditions somos 100% indígenas de la Amazonía y trabajamos de la mano con las comunidades Siona, Kichwa y Waorani, en cuyos territorios realizamos nuestras expediciones. Nuestro compromiso es fortalecer su bienestar y honrar su importante rol en la conservación del bosque amazónico.",
+      "commitment": "Contribuimos donando materiales escolares, ofreciendo cursos de primeros auxilios y entregando regalos navideños para las niñas y niños de las comunidades. Además, todo el transporte fluvial y gran parte del equipo de trabajo son proporcionados por las mismas familias indígenas, promoviendo un turismo responsable, sostenible y directamente beneficioso para ellas.",
+      "belief": "Creemos en un turismo que respete, proteja y retribuya...",
+      "features": {
+        "indigenous": {
+          "title": "Liderazgo Indígena",
+          "description": "Operado por comunidades Siona, Kichwa y Waorani"
+        },
+        "education": {
+          "title": "Futuro Educativo",
+          "description": "Materiales escolares y cursos de primeros auxilios"
+        },
+        "employment": {
+          "title": "Economía Local",
+          "description": "Transporte y equipo proporcionado por familias indígenas"
+        },
+        "conservation": {
+          "title": "Guardianes del Bosque",
+          "description": "Protegiendo el bosque amazónico ancestral"
+        }
+      }
+    },
     "cta": {
       "title": "¿Listo para tu Aventura Amazónica?",
       "description": "Contacta a Jacob directamente para planificar tu expedición amazónica perfecta. Servicio bilingüe en inglés, francés y español.",

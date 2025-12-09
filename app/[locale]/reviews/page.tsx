@@ -193,22 +193,25 @@ export default function ReviewsPage({ params }: ReviewsPageProps) {
           </div>
 
           {/* Reviews Carousel - 4 Reviews per Page */}
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <div className="flex items-center justify-between mb-8">
-              <h3 className="text-2xl font-bold text-deepBlue">Reseñas de Huéspedes</h3>
-              <div className="flex items-center space-x-2">
+          <div className="bg-gradient-to-br from-white via-gray-50 to-white rounded-3xl shadow-2xl p-10 border border-gray-100">
+            <div className="flex items-center justify-between mb-10">
+              <div>
+                <h3 className="text-3xl font-bold text-deepBlue mb-2">Reseñas de Huéspedes</h3>
+                <p className="text-darkGray">Experiencias auténticas de viajeros reales</p>
+              </div>
+              <div className="flex items-center space-x-3">
                 <button
                   onClick={() => setCurrentPage(currentPage === 0 ? totalPages - 1 : currentPage - 1)}
-                  className="p-2 rounded-full bg-emerald/10 hover:bg-emerald/20 text-emerald transition-colors duration-200"
+                  className="p-3 rounded-full bg-white hover:bg-emerald/10 text-emerald transition-all duration-200 shadow-md hover:shadow-lg border border-gray-200"
                 >
                   <ChevronLeft className="h-5 w-5" />
                 </button>
-                <span className="text-sm text-darkGray px-3">
+                <span className="text-sm text-darkGray px-4 py-2 bg-white rounded-full shadow-sm font-medium">
                   {currentPage + 1} de {totalPages}
                 </span>
                 <button
                   onClick={() => setCurrentPage(currentPage === totalPages - 1 ? 0 : currentPage + 1)}
-                  className="p-2 rounded-full bg-emerald/10 hover:bg-emerald/20 text-emerald transition-colors duration-200"
+                  className="p-3 rounded-full bg-white hover:bg-emerald/10 text-emerald transition-all duration-200 shadow-md hover:shadow-lg border border-gray-200"
                 >
                   <ChevronRight className="h-5 w-5" />
                 </button>
@@ -226,32 +229,35 @@ export default function ReviewsPage({ params }: ReviewsPageProps) {
                       {reviews
                         .slice(pageIndex * reviewsPerPage, (pageIndex + 1) * reviewsPerPage)
                         .map((review) => (
-                          <div key={review.id} className="bg-lightGray rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300">
+                          <div key={review.id} className="bg-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-emerald/20">
                             {/* Review Header */}
-                            <div className="flex items-start space-x-4 mb-4">
-                              <Image
-                                src={review.avatar}
-                                alt={review.name}
-                                width={56}
-                                height={56}
-                                className="rounded-full object-cover"
-                              />
+                            <div className="flex items-start space-x-5 mb-6">
+                              <div className="relative">
+                                <div className="absolute -inset-1 bg-gradient-to-br from-emerald/30 to-amazonGreen/30 rounded-full blur-sm"></div>
+                                <Image
+                                  src={review.avatar}
+                                  alt={review.name}
+                                  width={72}
+                                  height={72}
+                                  className="rounded-full object-cover ring-4 ring-white shadow-lg relative"
+                                />
+                              </div>
                               <div className="flex-1">
                                 <div className="flex items-center justify-between mb-2">
-                                  <h4 className="text-lg font-semibold text-deepBlue">{review.name}</h4>
-                                  <Badge className="bg-emerald/10 text-emerald border-emerald/20 text-xs">
+                                  <h4 className="text-xl font-bold text-deepBlue">{review.name}</h4>
+                                  <Badge className="bg-gradient-to-r from-emerald/10 to-amazonGreen/10 text-emerald border-0 px-3 py-1 text-xs font-semibold">
                                     {getTravelerTypeLabel(review.travelerType)}
                                   </Badge>
                                 </div>
-                                <div className="flex items-center space-x-2 text-sm text-darkGray mb-2">
-                                  <MapPin className="h-3 w-3" />
-                                  <span>{review.location}</span>
-                                  <span>•</span>
-                                  <Calendar className="h-3 w-3" />
+                                <div className="flex items-center space-x-2 text-sm text-darkGray mb-3">
+                                  <MapPin className="h-4 w-4 text-emerald" />
+                                  <span className="font-medium">{review.location}</span>
+                                  <span className="text-gray-300">•</span>
+                                  <Calendar className="h-4 w-4 text-emerald" />
                                   <span>{formatDate(review.date)}</span>
                                 </div>
                                 <div className="flex items-center space-x-2">
-                                  <div className="flex items-center">
+                                  <div className="flex items-center bg-yellow-50 px-3 py-1 rounded-full">
                                     {[...Array(5)].map((_, i) => (
                                       <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                                     ))}
@@ -261,33 +267,36 @@ export default function ReviewsPage({ params }: ReviewsPageProps) {
                             </div>
 
                             {/* Tourist Photos */}
-                            <div className="grid grid-cols-2 gap-3 mb-4">
+                            <div className="grid grid-cols-2 gap-4 mb-6">
                               {review.photos?.map((photo, photoIndex) => (
-                                <div key={photoIndex} className="relative h-24 rounded-lg overflow-hidden">
+                                <div key={photoIndex} className="relative h-32 rounded-2xl overflow-hidden group shadow-md">
                                   <Image
                                     src={photo}
                                     alt={`Foto de ${review.name}`}
                                     fill
-                                    className="object-cover hover:scale-110 transition-transform duration-300"
+                                    className="object-cover group-hover:scale-110 transition-transform duration-500"
                                   />
+                                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                                 </div>
                               ))}
                             </div>
 
                             {/* Review Content */}
-                            <div>
-                              <h5 className="font-semibold text-deepBlue mb-2">
+                            <div className="space-y-4">
+                              <h5 className="font-bold text-deepBlue text-lg mb-3">
                                 {review.title[params.locale as keyof typeof review.title] || review.title.en}
                               </h5>
-                              <p className="text-darkGray text-sm leading-relaxed mb-3 line-clamp-4">
+                              <p className="text-darkGray leading-relaxed line-clamp-4 text-base">
                                 {review.text[params.locale as keyof typeof review.text] || review.text.en}
                               </p>
-                              <div className="flex items-center justify-between">
-                                <button className="flex items-center space-x-1 text-darkGray hover:text-emerald transition-colors duration-200">
-                                  <ThumbsUp className="h-3 w-3" />
-                                  <span className="text-xs">Útil ({review.helpful})</span>
+                              <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                                <button className="flex items-center space-x-2 text-darkGray hover:text-emerald transition-colors duration-200 group">
+                                  <div className="p-2 rounded-full bg-gray-50 group-hover:bg-emerald/10 transition-colors">
+                                    <ThumbsUp className="h-4 w-4" />
+                                  </div>
+                                  <span className="text-sm font-medium">Útil ({review.helpful})</span>
                                 </button>
-                                <div className="text-xs text-gray-500">
+                                <div className="text-sm text-gray-400 font-mono">
                                   #{review.id}
                                 </div>
                               </div>

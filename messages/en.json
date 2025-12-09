@@ -150,6 +150,31 @@
         "description": "4.9/5 stars on TripAdvisor with 200+ verified reviews from satisfied adventurers"
       }
     },
+    "communitySupport": {
+      "title": "Roots and Community",
+      "subtitle": "Responsible and Sustainable Tourism",
+      "description": "At Río Delfín Expeditions we are 100% indigenous from the Amazon and work hand in hand with the Siona, Kichwa and Waorani communities, in whose territories we carry out our expeditions. Our commitment is to strengthen their well-being and honor their important role in the conservation of the Amazon rainforest.",
+      "commitment": "We contribute by donating school supplies, offering first aid courses and delivering Christmas gifts for the children of the communities. In addition, all river transportation and much of the work team are provided by the indigenous families themselves, promoting responsible, sustainable tourism that directly benefits them.",
+      "belief": "We believe in tourism that respects, protects and gives back...",
+      "features": {
+        "indigenous": {
+          "title": "Indigenous Leadership",
+          "description": "Operated by Siona, Kichwa and Waorani communities"
+        },
+        "education": {
+          "title": "Educational Future",
+          "description": "School supplies and first aid courses"
+        },
+        "employment": {
+          "title": "Local Economy",
+          "description": "Transportation and equipment provided by indigenous families"
+        },
+        "conservation": {
+          "title": "Forest Guardians",
+          "description": "Protecting the ancestral Amazon rainforest"
+        }
+      }
+    },
     "cta": {
       "title": "Ready for Your Amazon Adventure?",
       "description": "Contact Jacob directly to plan your perfect Amazon expedition. Bilingual service in English, French, and Spanish.",

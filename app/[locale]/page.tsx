@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Star, MapPin, Clock, Users, Award, Camera, Heart, ChevronRight, Sparkles, Leaf, MessageCircle, Bed, Zap } from 'lucide-react';
+import { Star, MapPin, Clock, Users, Award, Camera, Heart, ChevronRight, Sparkles, Leaf, MessageCircle, Bed, Zap, Globe, BookOpen, Briefcase, Shield } from 'lucide-react';
 import { getMessages, getNestedMessage, type Locale } from '@/lib/i18n';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -576,7 +576,7 @@ export default async function HomePage({ params }: HomePageProps) {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-deepBlue text-center mb-12">
             {getNestedMessage(messages, 'home.whyChoose.title')}
           </h2>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-8">
             <div className="text-center">
               <div className="w-16 h-16 bg-emerald rounded-full flex items-center justify-center mx-auto mb-6">
@@ -589,7 +589,7 @@ export default async function HomePage({ params }: HomePageProps) {
                 {getNestedMessage(messages, 'home.whyChoose.expertGuide.description')}
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-emerald rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-8 w-8 text-white" />
@@ -601,7 +601,7 @@ export default async function HomePage({ params }: HomePageProps) {
                 {getNestedMessage(messages, 'home.whyChoose.smallGroup.description')}
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="w-16 h-16 bg-emerald rounded-full flex items-center justify-center mx-auto mb-6">
                 <Star className="h-8 w-8 text-white" />
@@ -612,6 +612,60 @@ export default async function HomePage({ params }: HomePageProps) {
               <p className="text-darkGray leading-relaxed">
                 {getNestedMessage(messages, 'home.whyChoose.exceptionalReviews.description')}
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Community Support Section */}
+      <section className="relative min-h-[600px] lg:min-h-[700px] overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/assets/fondoseccionmensaje.png"
+            alt="Amazon River Background"
+            fill
+            className="object-cover"
+          />
+          {/* Overlay for better text readability */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+            {/* Left Content */}
+            <div className="space-y-6 text-white">
+              <div>
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-cream mb-4">
+                  {getNestedMessage(messages, 'home.communitySupport.title')}
+                </h2>
+                <p className="text-base sm:text-lg leading-relaxed text-white/90">
+                  {getNestedMessage(messages, 'home.communitySupport.description')}
+                </p>
+              </div>
+
+              <p className="text-sm sm:text-base leading-relaxed text-white/85">
+                {getNestedMessage(messages, 'home.communitySupport.commitment')}
+              </p>
+
+              {/* Quote Box */}
+              <div className="bg-gradient-to-br from-cream/20 to-warmOrange/10 backdrop-blur-sm rounded-2xl p-6 border-l-4 border-warmOrange shadow-lg">
+                <p className="text-lg sm:text-xl italic text-cream leading-relaxed font-serif">
+                  "{getNestedMessage(messages, 'home.communitySupport.belief')}"
+                </p>
+              </div>
+            </div>
+
+            {/* Right Side - Flower Image */}
+            <div className="flex justify-center lg:justify-end items-center">
+              <div className="relative w-full max-w-[400px] lg:max-w-[500px] aspect-square">
+                <Image
+                  src="/assets/imagenseccionmensaje.png"
+                  alt="Community Values - Indigenous Leadership, Education, Local Economy, Forest Guardians"
+                  fill
+                  className="object-contain drop-shadow-2xl"
+                />
+              </div>
             </div>
           </div>
         </div>
