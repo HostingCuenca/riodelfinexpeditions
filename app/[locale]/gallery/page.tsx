@@ -463,6 +463,187 @@ function GalleryGrid({ messages, locale }: { messages: any; locale: string }) {
         es: 'Camping con vista hermosa al río',
         en: 'Camping with beautiful river view'
       }
+    },
+    // Nuevas fotos de la galería
+    {
+      id: '49',
+      url: '/assets/galeria/148A1023.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Vida silvestre amazónica',
+        en: 'Amazon wildlife'
+      }
+    },
+    {
+      id: '50',
+      url: '/assets/galeria/148A1267.jpg',
+      category: 'river',
+      caption: {
+        es: 'Naturaleza amazónica',
+        en: 'Amazon nature'
+      }
+    },
+    {
+      id: '51',
+      url: '/assets/galeria/148A4383.jpg',
+      category: 'expeditions',
+      caption: {
+        es: 'Experiencia amazónica',
+        en: 'Amazon experience'
+      }
+    },
+    {
+      id: '52',
+      url: '/assets/galeria/_48A1846.jpg',
+      category: 'expeditions',
+      caption: {
+        es: 'Aventura en la selva',
+        en: 'Jungle adventure'
+      }
+    },
+    {
+      id: '53',
+      url: '/assets/galeria/_48A4726.jpg',
+      category: 'river',
+      caption: {
+        es: 'Selva tropical amazónica',
+        en: 'Amazon rainforest'
+      }
+    },
+    {
+      id: '54',
+      url: '/assets/galeria/_48A5321.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Encuentro con vida silvestre',
+        en: 'Wildlife encounter'
+      }
+    },
+    {
+      id: '55',
+      url: '/assets/galeria/_48A6260.jpg',
+      category: 'river',
+      caption: {
+        es: 'Selva amazónica',
+        en: 'Amazon jungle'
+      }
+    },
+    {
+      id: '56',
+      url: '/assets/galeria/_48A7132.jpg',
+      category: 'expeditions',
+      caption: {
+        es: 'Expedición amazónica',
+        en: 'Amazon expedition'
+      }
+    },
+    {
+      id: '57',
+      url: '/assets/galeria/_MG_5467.jpg',
+      category: 'river',
+      caption: {
+        es: 'Paisaje amazónico',
+        en: 'Amazon landscape'
+      }
+    },
+    {
+      id: '58',
+      url: '/assets/galeria/_MG_8778.jpg',
+      category: 'river',
+      caption: {
+        es: 'Flora amazónica',
+        en: 'Amazon flora'
+      }
+    },
+    {
+      id: '59',
+      url: '/assets/galeria/_MG_8987.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Fauna amazónica',
+        en: 'Amazon fauna'
+      }
+    },
+    {
+      id: '60',
+      url: '/assets/galeria/_MG_9282.jpg',
+      category: 'river',
+      caption: {
+        es: 'Río amazónico',
+        en: 'Amazon river'
+      }
+    },
+    {
+      id: '61',
+      url: '/assets/galeria/DJI_0687.jpg',
+      category: 'river',
+      caption: {
+        es: 'Vista aérea de la Amazonía',
+        en: 'Amazon aerial view'
+      }
+    },
+    {
+      id: '62',
+      url: '/assets/galeria/IMG_2147.jpg',
+      category: 'expeditions',
+      caption: {
+        es: 'Exploración amazónica',
+        en: 'Amazon exploration'
+      }
+    },
+    {
+      id: '63',
+      url: '/assets/galeria/IMG_8404.jpg',
+      category: 'river',
+      caption: {
+        es: 'Ecosistema amazónico',
+        en: 'Amazon ecosystem'
+      }
+    },
+    {
+      id: '64',
+      url: '/assets/galeria/IMG_9743.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Biodiversidad amazónica',
+        en: 'Amazon biodiversity'
+      }
+    },
+    {
+      id: '65',
+      url: '/assets/galeria/Lagarto_54.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Lagarto amazónico',
+        en: 'Amazon lizard'
+      }
+    },
+    {
+      id: '66',
+      url: '/assets/galeria/Lagarto_55.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Reptil amazónico',
+        en: 'Amazon reptile'
+      }
+    },
+    {
+      id: '67',
+      url: '/assets/galeria/Lagarto_56.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Especies de vida silvestre',
+        en: 'Wildlife species'
+      }
+    },
+    {
+      id: '68',
+      url: '/assets/galeria/Lagarto_59.jpg',
+      category: 'fauna',
+      caption: {
+        es: 'Vida silvestre del bosque',
+        en: 'Forest wildlife'
+      }
     }
   ];
 
@@ -794,7 +975,7 @@ export default function GalleryPage({ params }: GalleryPageProps) {
               </Badge>
               <Badge className="bg-warmOrange/90 text-white px-4 py-2 text-sm border-0">
                 <Camera className="h-4 w-4 mr-1" />
-                48 Fotos Auténticas
+                68 Fotos Auténticas
               </Badge>
             </div>
             

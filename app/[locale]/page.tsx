@@ -82,12 +82,36 @@ export default async function HomePage({ params }: HomePageProps) {
   ];
 
   const galleryImages = [
+    // Fotos originales
     { src: '/assets/colibrilodge/grupoenamazonia.jpg', alt: 'Amazon group experience', category: 'Experience' },
     { src: '/assets/colibrilodge/observacionaves1.jpg', alt: 'Bird watching', category: 'Wildlife' },
     { src: '/assets/colibrilodge/cabañashermosas.jpg', alt: 'Beautiful lodge cabins', category: 'Accommodation' },
     { src: '/assets/riodelfin/atardecer.jpg', alt: 'Amazon sunset', category: 'Nature' },
     { src: '/assets/1experienciadesayuno.jpeg', alt: 'Breakfast experience', category: 'Experience' },
-    { src: '/assets/riodelfin/delfinesrosadosvertical.jpg', alt: 'Pink dolphins', category: 'Wildlife' }
+    { src: '/assets/riodelfin/delfinesrosadosvertical.jpg', alt: 'Pink dolphins', category: 'Wildlife' },
+    // Fotos nuevas de la galería
+    { src: '/assets/galeria/148A1023.jpg', alt: 'Amazon wildlife', category: 'Wildlife' },
+    { src: '/assets/galeria/148A1267.jpg', alt: 'Amazon nature', category: 'Nature' },
+    { src: '/assets/galeria/148A4383.jpg', alt: 'Amazon experience', category: 'Experience' },
+    { src: '/assets/galeria/_48A1846.jpg', alt: 'Amazon adventure', category: 'Expeditions' },
+    { src: '/assets/galeria/_48A4726.jpg', alt: 'Amazon rainforest', category: 'Nature' },
+    { src: '/assets/galeria/_48A5321.jpg', alt: 'Amazon wildlife encounter', category: 'Wildlife' },
+    { src: '/assets/galeria/_48A6260.jpg', alt: 'Amazon jungle', category: 'Nature' },
+    { src: '/assets/galeria/_48A7132.jpg', alt: 'Amazon expedition', category: 'Expeditions' },
+    { src: '/assets/galeria/_MG_5467.jpg', alt: 'Amazon landscape', category: 'Nature' },
+    { src: '/assets/galeria/_MG_8778.jpg', alt: 'Amazon flora', category: 'Nature' },
+    { src: '/assets/galeria/_MG_8987.jpg', alt: 'Amazon fauna', category: 'Wildlife' },
+    { src: '/assets/galeria/_MG_9282.jpg', alt: 'Amazon river', category: 'Rivers' },
+    { src: '/assets/galeria/DJI_0687.jpg', alt: 'Amazon aerial view', category: 'Nature' },
+    { src: '/assets/galeria/IMG_2147.jpg', alt: 'Amazon exploration', category: 'Expeditions' },
+    { src: '/assets/galeria/IMG_8404.jpg', alt: 'Amazon ecosystem', category: 'Nature' },
+    { src: '/assets/galeria/IMG_9743.jpg', alt: 'Amazon biodiversity', category: 'Wildlife' },
+    { src: '/assets/galeria/Lagarto_54.jpg', alt: 'Amazon lizard', category: 'Wildlife' },
+    { src: '/assets/galeria/Lagarto_55.jpg', alt: 'Amazon reptile', category: 'Wildlife' },
+    { src: '/assets/galeria/Lagarto_56.jpg', alt: 'Amazon wildlife species', category: 'Wildlife' },
+    { src: '/assets/galeria/Lagarto_59.jpg', alt: 'Amazon forest life', category: 'Wildlife' },
+    // Foto adicional para completar múltiplo de 3
+    { src: '/assets/colibrilodge/en lancha 1 expedicion.jpg', alt: 'Boat expedition', category: 'Expeditions' }
   ];
 
   return (
