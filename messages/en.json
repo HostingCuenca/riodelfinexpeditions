@@ -123,6 +123,13 @@
       ],
       "cta": "Book Fireflies Tour"
     },
+    "mackaws": {
+      "title": "Macaw Sightings",
+      "subtitle": "Colors in the Heart of the Amazon",
+      "description": "Macaws are one of the most vibrant treasures of the Amazon rainforest. On our expeditions you can witness these magnificent birds in their natural habitat, flying in groups over the Napo River and perching at the forest clay licks.",
+      "badge": "Wildlife",
+      "photos": "Field photos"
+    },
     "cabins": {
       "title": "Our Cabins",
       "description": "Comfortable and authentic accommodations in the heart of the Amazon",

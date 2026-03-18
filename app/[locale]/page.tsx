@@ -355,6 +355,65 @@ export default async function HomePage({ params }: HomePageProps) {
         </div>
       </section>
 
+      {/* Macaw Sightings Section */}
+      <section className="py-20 bg-gradient-to-br from-jungle/5 via-white to-emerald/5 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-72 h-72 bg-warmOrange/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-56 h-56 bg-jungle/5 rounded-full blur-3xl"></div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          {/* Header */}
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center space-x-2 mb-4">
+              <div className="w-12 h-12 bg-warmOrange/10 rounded-full flex items-center justify-center">
+                <Camera className="h-6 w-6 text-warmOrange" />
+              </div>
+              <Badge className="bg-warmOrange/10 text-warmOrange border-warmOrange/20">
+                {getNestedMessage(messages, 'home.mackaws.badge')}
+              </Badge>
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-deepBlue leading-tight mb-4">
+              {getNestedMessage(messages, 'home.mackaws.title')}
+            </h2>
+            <p className="text-xl text-darkGray max-w-3xl mx-auto leading-relaxed">
+              {getNestedMessage(messages, 'home.mackaws.description')}
+            </p>
+            <p className="text-sm text-gray-400 mt-3 italic">
+              {getNestedMessage(messages, 'home.mackaws.photos')}
+            </p>
+          </div>
+
+          {/* Photo Grid */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { src: '/assets/mackaws/1000103719.jpg', alt: 'Guacamayo en la Amazonía' },
+              { src: '/assets/mackaws/1000103720.jpg', alt: 'Guacamayo en vuelo' },
+              { src: '/assets/mackaws/1000103724.jpg', alt: 'Guacamayos en saladero' },
+              { src: '/assets/mackaws/1000103736.jpg', alt: 'Guacamayo en la selva' },
+            ].map((photo, index) => (
+              <div
+                key={index}
+                className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500"
+              >
+                <div className="relative h-64 sm:h-72 lg:h-80">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute bottom-3 left-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <Badge className="bg-warmOrange text-white border-none text-xs">
+                      Guacamayo
+                    </Badge>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Our Cabins Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

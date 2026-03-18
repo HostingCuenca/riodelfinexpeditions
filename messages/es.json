@@ -123,6 +123,13 @@
       ],
       "cta": "Reservar Tour de Luciérnagas"
     },
+    "mackaws": {
+      "title": "Avistamiento de Guacamayos",
+      "subtitle": "Colores en el Corazón de la Amazonía",
+      "description": "Los guacamayos son uno de los tesoros más vibrantes de la selva amazónica. Desde nuestras expediciones podrás presenciar estas magníficas aves en su hábitat natural, volando en grupos sobre el río Napo y posándose en los saladeros del bosque.",
+      "badge": "Vida Silvestre",
+      "photos": "Fotos de campo"
+    },
     "cabins": {
       "title": "Nuestras Cabañas",
       "description": "Alojamientos cómodos y auténticos en el corazón de la Amazonía",
