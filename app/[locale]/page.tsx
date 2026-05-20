@@ -5,6 +5,7 @@ import { getMessages, getNestedMessage, type Locale } from '@/lib/i18n';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import HeroCarousel from '@/components/HeroCarousel';
+import ExpeditionPhotosSection from '@/components/ExpeditionPhotosSection';
 
 interface HomePageProps {
   params: {
@@ -163,27 +164,22 @@ export default async function HomePage({ params }: HomePageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
-              <div className="relative group">
-                <div className="absolute -inset-4 bg-gradient-to-r from-warmOrange/20 to-emerald/20 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-                <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-500">
-                  <Image
-                    src="/assets/colibrilodge/turistas con jacobtangoy.jpg"
-                    alt="Jacob Tangoy with tourists - Amazon Expert Guide"
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+              {/* Polaroid */}
+              <div className="-rotate-2">
+                <div className="bg-white p-3 pb-14">
+                  <div className="relative w-full h-[380px] sm:h-[500px] md:h-[580px] overflow-hidden">
+                    <Image
+                      src="/assets/colibrilodge/turistas con jacobtangoy.jpg"
+                      alt="Jacob Tangoy con turistas - Guía Naturalista Experto"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
             <div className="order-1 lg:order-2 space-y-8">
               <div className="space-y-4">
-                <div className="flex items-center space-x-2">
-                  <div className="w-12 h-12 bg-emerald/10 rounded-full flex items-center justify-center">
-                    <Leaf className="h-6 w-6 text-emerald" />
-                  </div>
-                  <Badge className="bg-emerald/10 text-emerald border-emerald/20">Expert Naturalist</Badge>
-                </div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-deepBlue leading-tight">
                   {getNestedMessage(messages, 'home.jacob.title')}
                   <span className="block text-lg sm:text-xl md:text-2xl font-normal text-warmOrange mt-3">
@@ -232,36 +228,10 @@ export default async function HomePage({ params }: HomePageProps) {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            
-            {/* Image Side */}
-            <div className="order-2 lg:order-1">
-              <div className="relative group">
-                <div className="absolute -inset-4 bg-gradient-to-r from-yellow-400/20 to-emerald/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-500"></div>
-                <div className="relative w-full h-[400px] sm:h-[500px] rounded-3xl overflow-hidden shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-500">
-                  <Image
-                    src="/toursluciernagas.jpeg"
-                    alt="Fireflies Tour - Amazon Night Experience"
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-                </div>
-                
-              </div>
-            </div>
 
-            {/* Content Side */}
-            <div className="order-1 lg:order-2 text-white space-y-8">
+            {/* Content Side — izquierda */}
+            <div className="order-1 text-white space-y-8">
               <div className="space-y-4">
-                <div className="flex items-center space-x-2">
-                  <div className="w-12 h-12 bg-yellow-400/20 rounded-full flex items-center justify-center">
-                    <Sparkles className="h-6 w-6 text-yellow-400" />
-                  </div>
-                  <Badge className="bg-yellow-400/20 text-yellow-400 border-yellow-400/30">
-                    {getNestedMessage(messages, 'home.fireflies.subtitle')}
-                  </Badge>
-                </div>
-                
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
                   {getNestedMessage(messages, 'home.fireflies.title')}
                 </h2>
@@ -271,37 +241,34 @@ export default async function HomePage({ params }: HomePageProps) {
                 {getNestedMessage(messages, 'home.fireflies.description')}
               </p>
               
-              {/* Features Grid */}
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:bg-white/10 transition-all duration-300">
-                  <Clock className="h-6 w-6 text-yellow-400 mb-2" />
-                  <div className="text-sm text-gray-400 mb-1">Duración</div>
-                  <div className="text-white font-semibold">
-                    {getNestedMessage(messages, 'home.fireflies.features.timing')}
+              {/* Features — icono + texto en línea */}
+              <div className="grid grid-cols-2 gap-3">
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
+                  <Clock className="h-5 w-5 text-yellow-400 shrink-0" />
+                  <div>
+                    <div className="text-xs text-gray-400">{params.locale === 'es' ? 'Duración' : 'Duration'}</div>
+                    <div className="text-white text-sm font-semibold leading-tight">{getNestedMessage(messages, 'home.fireflies.features.timing')}</div>
                   </div>
                 </div>
-                
-                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:bg-white/10 transition-all duration-300">
-                  <Leaf className="h-6 w-6 text-emerald mb-2" />
-                  <div className="text-sm text-gray-400 mb-1">{params.locale === 'es' ? 'Tipo' : 'Type'}</div>
-                  <div className="text-white font-semibold">
-                    {getNestedMessage(messages, 'home.fireflies.features.season')}
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
+                  <Leaf className="h-5 w-5 text-emerald shrink-0" />
+                  <div>
+                    <div className="text-xs text-gray-400">{params.locale === 'es' ? 'Tipo' : 'Type'}</div>
+                    <div className="text-white text-sm font-semibold leading-tight">{getNestedMessage(messages, 'home.fireflies.features.season')}</div>
                   </div>
                 </div>
-                
-                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:bg-white/10 transition-all duration-300">
-                  <Award className="h-6 w-6 text-orange-400 mb-2" />
-                  <div className="text-sm text-gray-400 mb-1">Guía</div>
-                  <div className="text-white font-semibold">
-                    {getNestedMessage(messages, 'home.fireflies.features.experience')}
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
+                  <Award className="h-5 w-5 text-orange-400 shrink-0" />
+                  <div>
+                    <div className="text-xs text-gray-400">{params.locale === 'es' ? 'Guía' : 'Guide'}</div>
+                    <div className="text-white text-sm font-semibold leading-tight">{getNestedMessage(messages, 'home.fireflies.features.experience')}</div>
                   </div>
                 </div>
-                
-                <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10 hover:bg-white/10 transition-all duration-300">
-                  <Star className="h-6 w-6 text-yellow-400 mb-2" />
-                  <div className="text-sm text-gray-400 mb-1">Experiencia</div>
-                  <div className="text-white font-semibold">
-                    {getNestedMessage(messages, 'home.fireflies.features.magic')}
+                <div className="flex items-center gap-3 bg-white/5 rounded-xl px-4 py-3 border border-white/10">
+                  <Star className="h-5 w-5 text-yellow-400 shrink-0" />
+                  <div>
+                    <div className="text-xs text-gray-400">{params.locale === 'es' ? 'Experiencia' : 'Experience'}</div>
+                    <div className="text-white text-sm font-semibold leading-tight">{getNestedMessage(messages, 'home.fireflies.features.magic')}</div>
                   </div>
                 </div>
               </div>
@@ -337,20 +304,37 @@ export default async function HomePage({ params }: HomePageProps) {
               <div className="pt-6">
                 <a
                   href={`https://wa.me/593990657053?text=${encodeURIComponent(
-                    params.locale === 'es' 
+                    params.locale === 'es'
                       ? '¡Hola! Me interesa el tour nocturno de luciérnagas. ¿Podrían darme más información sobre disponibilidad y precios?'
                       : 'Hello! I\'m interested in the fireflies night tour. Could you give me more information about availability and prices?'
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className="bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-500 hover:to-orange-500 text-black font-bold px-8 py-4 text-lg shadow-2xl hover:shadow-yellow-400/25 transition-all duration-300 hover:scale-105">
+                  <Button className="bg-gradient-to-r from-yellow-400 to-orange-400 hover:from-yellow-500 hover:to-orange-500 text-black font-bold px-8 py-4 text-lg transition-all duration-300 hover:scale-105">
                     <Zap className="h-5 w-5 mr-2" />
                     {getNestedMessage(messages, 'home.fireflies.cta')}
                   </Button>
                 </a>
               </div>
             </div>
+
+            {/* Foto polaroid — derecha */}
+            <div className="order-2">
+              <div className="rotate-2">
+                <div className="bg-white p-3 pb-14">
+                  <div className="relative w-full h-[380px] sm:h-[500px] md:h-[580px] overflow-hidden">
+                    <Image
+                      src="/toursluciernagas.jpeg"
+                      alt="Tour de luciérnagas - Experiencia nocturna amazónica"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -413,6 +397,9 @@ export default async function HomePage({ params }: HomePageProps) {
           </div>
         </div>
       </section>
+
+      {/* Expedition Photos - field photography section */}
+      <ExpeditionPhotosSection locale={params.locale} />
 
       {/* Our Cabins Section */}
       <section className="py-16 bg-white">

@@ -15,32 +15,32 @@ interface HeroCarouselProps {
 
 const heroImages = [
   {
-    src: '/heroimage.png',
-    alt: 'Río Delfín Lodge Main View',
+    src: '/assets/galeria/nuevasfotos/Amazon 2-23.jpg',
+    alt: 'Guacamayo escarlata en la selva amazónica',
     title: 'Welcome to Paradise',
     subtitle: 'Your Amazon Adventure Begins Here'
   },
   {
-    src: '/1vistahermosa.jpeg',
-    alt: 'Beautiful Amazon Vista',
+    src: '/assets/galeria/nuevasfotos/Amazon 2-38.jpg',
+    alt: 'Guacamayo azul en vuelo sobre la Amazonía',
     title: 'Breathtaking Views',
     subtitle: 'Panoramic Amazon Rainforest'
   },
   {
-    src: '/1rio.jpeg',
-    alt: 'Amazon River Experience',
-    title: 'River Expeditions',
-    subtitle: 'Navigate the Amazon Waters'
-  },
-  {
-    src: '/1ave.jpeg',
-    alt: 'Amazon Wildlife Birds',
+    src: '/assets/galeria/nuevasfotos/Amazon 2-17.jpg',
+    alt: 'Garza blanca en el río amazónico',
     title: 'Wildlife Encounters',
     subtitle: 'Discover Exotic Birds'
   },
   {
-    src: '/1grupodepersonas.jpeg',
-    alt: 'Group Adventure Experience',
+    src: '/heroimage.png',
+    alt: 'Río Delfín Lodge Main View',
+    title: 'River Expeditions',
+    subtitle: 'Navigate the Amazon Waters'
+  },
+  {
+    src: '/1vistahermosa.jpeg',
+    alt: 'Beautiful Amazon Vista',
     title: 'Unforgettable Memories',
     subtitle: 'Share Amazing Experiences'
   }
@@ -114,24 +114,25 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
               priority={index === 0}
               sizes="100vw"
             />
-            {/* Luxury overlays with reduced opacity */}
-            <div className="absolute inset-0 bg-black/30" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-black/30" />
-            <div className="absolute inset-0 bg-gradient-to-br from-deepBlue/5 via-transparent to-lightOrange/5" />
+            {/* Gradiente derecha oscuro → izquierda transparente, para apreciar la foto */}
+            <div className="absolute inset-0 bg-black/20" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-transparent" />
           </div>
         ))}
       </div>
 
-      {/* Main Content - Centered like reference */}
-      <div className="relative z-20 h-full flex items-center justify-center">
-        <div className="text-center text-white max-w-4xl px-6 pb-24 sm:pb-8">
-          
+      {/* Main Content — mismo contenedor que el navbar para alineación perfecta */}
+      <div className="relative z-20 h-full flex items-center">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 sm:pb-8">
+        <div className="text-white max-w-xl sm:max-w-2xl lg:max-w-3xl">
+
           {/* Trust Badge */}
-          <div className="flex justify-center mb-8">
-            <div className="flex items-center space-x-3 bg-black/20 backdrop-blur-md rounded-full px-6 py-3 border border-white/10">
+          <div className="flex mb-7">
+            <div className="flex items-center space-x-3 bg-black/25 backdrop-blur-md rounded-full px-5 py-2.5 border border-white/10">
               <div className="flex items-center space-x-1">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-4 w-4 fill-lightOrange text-lightOrange" />
+                  <Star key={i} className="h-3.5 w-3.5 fill-white text-white" />
                 ))}
                 <span className="text-sm font-medium ml-2 text-white">
                   {messages ? getNestedMessage(messages, 'hero.rating') : '4.9 Excellence'}
@@ -140,60 +141,56 @@ export default function HeroCarousel({ messages, locale }: HeroCarouselProps) {
             </div>
           </div>
 
-          {/* Main Heading - More traditional like reference */}
-          <div className="space-y-6 mb-8">
-            <h2 className="text-2xl font-light text-gray-200 tracking-wider uppercase">
-              {messages ? getNestedMessage(messages, 'hero.subtitle') : 'Premium Amazon Experience'}
-            </h2>
-            
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white">
-              {messages ? getNestedMessage(messages, 'hero.title.part1') : 'Welcome To Your'}
-              <br />
-              <span className="text-lightOrange">
-                {messages ? getNestedMessage(messages, 'hero.title.part2') : 'Nature Retreat'}
-              </span>
-            </h1>
-          </div>
+          {/* Eyebrow */}
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/60 mb-5">
+            {messages ? getNestedMessage(messages, 'hero.subtitle') : 'Río Delfín Lodge & Expeditions · Ecuadorian Amazon'}
+          </p>
 
-          {/* Description */}
-          <div className="space-y-6 mb-12">
-            <p className="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-              {messages ? getNestedMessage(messages, 'hero.description') : 'Experience the pristine Ecuadorian Amazon with expert naturalist guidance. Comfortable accommodations and world-class wildlife encounters await.'}
-            </p>
-            <div className="w-24 h-0.5 bg-lightOrange mx-auto"></div>
-          </div>
+          {/* Main Heading */}
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.0] text-white mb-8">
+            {messages ? getNestedMessage(messages, 'hero.title.part1') : 'Live the Amazon,'}
+            <br />
+            <span>
+              {messages ? getNestedMessage(messages, 'hero.title.part2') : 'welcome to your Natural Retreat'}
+            </span>
+          </h1>
+
+          {/* Separator + Description */}
+          <div className="w-12 h-px bg-white/40 mb-6" />
+          <p className="text-base sm:text-lg text-white/75 max-w-md leading-relaxed mb-10">
+            {messages ? getNestedMessage(messages, 'hero.description') : 'Experience the pristine Ecuadorian Amazon with expert naturalist guidance. Comfortable accommodations and world-class wildlife encounters await.'}
+          </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-32 sm:mb-16 px-4">
+          <div className="flex flex-col sm:flex-row gap-4 mb-32 sm:mb-0">
             <a
               href={`https://wa.me/593990657053?text=${encodeURIComponent(
-                locale === 'es' 
+                locale === 'es'
                   ? '¡Hola! Me gustaría reservar una expedición amazónica con Río Delfín Lodge. ¿Podrían ayudarme con información sobre disponibilidad y precios?'
                   : 'Hello! I would like to book an Amazon expedition with Río Delfín Lodge. Could you help me with information about availability and prices?'
               )}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button 
-                size="lg" 
-                className="bg-amazonGreen hover:bg-emerald text-white font-semibold min-h-[48px] px-6 py-3 sm:px-8 sm:py-4 text-base transition-all duration-300 border-0 shadow-lg hover:shadow-xl hover:scale-105"
+              <Button
+                size="lg"
+                className="bg-amazonGreen hover:bg-emerald text-white font-semibold min-h-[48px] px-8 py-4 text-base transition-all duration-300 border-0 shadow-lg hover:shadow-xl hover:scale-105"
               >
                 {messages ? getNestedMessage(messages, 'hero.buttons.book') : 'Book Now'}
               </Button>
             </a>
             <Link href={`/${locale || 'es'}/expeditions`}>
-              <Button 
-                size="lg" 
-                className="bg-lightNavy border-2 border-lightNavy text-white hover:bg-white hover:text-lightNavy font-semibold min-h-[48px] px-6 py-3 sm:px-8 sm:py-4 text-base transition-all duration-300 shadow-lg hover:scale-105"
+              <Button
+                size="lg"
+                className="bg-white/10 border border-white/40 text-white hover:bg-white hover:text-deepBlue font-semibold min-h-[48px] px-8 py-4 text-base transition-all duration-300 shadow-lg hover:scale-105"
               >
                 {messages ? getNestedMessage(messages, 'hero.buttons.explore') : 'View More'}
               </Button>
             </Link>
           </div>
         </div>
+        </div>
       </div>
-
-
 
       {/* Navigation Controls */}
       <div className="absolute inset-y-0 left-4 flex items-center z-30">

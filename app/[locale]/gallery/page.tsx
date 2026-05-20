@@ -640,11 +640,49 @@ function GalleryGrid({ messages, locale }: { messages: any; locale: string }) {
       id: '68',
       url: '/assets/galeria/Lagarto_59.jpg',
       category: 'fauna',
-      caption: {
-        es: 'Vida silvestre del bosque',
-        en: 'Forest wildlife'
-      }
-    }
+      caption: { es: 'Vida silvestre del bosque', en: 'Forest wildlife' }
+    },
+
+    // Serie Amazon 2024 — fotografías de expediciones
+    { id: '69',  url: '/assets/galeria/nuevasfotos/Amazon 1-01.jpg', category: 'amazon', caption: { es: 'Amanecer en la selva amazónica',          en: 'Dawn in the Amazon jungle' } },
+    { id: '70',  url: '/assets/galeria/nuevasfotos/Amazon 1-03.jpg', category: 'amazon', caption: { es: 'Vida silvestre en la expedición',           en: 'Wildlife on expedition' } },
+    { id: '71',  url: '/assets/galeria/nuevasfotos/Amazon 1-04.jpg', category: 'amazon', caption: { es: 'Colores de la Amazonía ecuatoriana',         en: 'Colors of the Ecuadorian Amazon' } },
+    { id: '72',  url: '/assets/galeria/nuevasfotos/Amazon 1-05.jpg', category: 'amazon', caption: { es: 'Bosque tropical en flor',                   en: 'Tropical forest in bloom' } },
+    { id: '73',  url: '/assets/galeria/nuevasfotos/Amazon 1-06.jpg', category: 'amazon', caption: { es: 'Flora amazónica espectacular',              en: 'Spectacular Amazon flora' } },
+    { id: '74',  url: '/assets/galeria/nuevasfotos/Amazon 1-08.jpg', category: 'amazon', caption: { es: 'Naturaleza exuberante',                     en: 'Lush nature' } },
+    { id: '75',  url: '/assets/galeria/nuevasfotos/Amazon 1-09.jpg', category: 'amazon', caption: { es: 'Árboles en la selva profunda',              en: 'Trees in the deep jungle' } },
+    { id: '76',  url: '/assets/galeria/nuevasfotos/Amazon 1-12.jpg', category: 'amazon', caption: { es: 'Paisaje tropical amazónico',                en: 'Amazon tropical landscape' } },
+    { id: '77',  url: '/assets/galeria/nuevasfotos/Amazon 1-13.jpg', category: 'amazon', caption: { es: 'Selva en colores vibrantes',                en: 'Jungle in vibrant colors' } },
+    { id: '78',  url: '/assets/galeria/nuevasfotos/Amazon 1-16.jpg', category: 'amazon', caption: { es: 'Fauna en su hábitat natural',               en: 'Fauna in its natural habitat' } },
+    { id: '79',  url: '/assets/galeria/nuevasfotos/Amazon 1-17.jpg', category: 'amazon', caption: { es: 'Exploración entre la vegetación',           en: 'Exploration through vegetation' } },
+    { id: '80',  url: '/assets/galeria/nuevasfotos/Amazon 1-18.jpg', category: 'amazon', caption: { es: 'Vista del río entre la vegetación',         en: 'River view through vegetation' } },
+    { id: '81',  url: '/assets/galeria/nuevasfotos/Amazon 1-19.jpg', category: 'amazon', caption: { es: 'Reflejos amazónicos en el agua',            en: 'Amazon reflections on water' } },
+    { id: '82',  url: '/assets/galeria/nuevasfotos/Amazon 1-22.jpg', category: 'amazon', caption: { es: 'Atardecer en la Amazonía',                  en: 'Sunset in the Amazon' } },
+    { id: '83',  url: '/assets/galeria/nuevasfotos/Amazon 2-01.jpg', category: 'amazon', caption: { es: 'Expedición por los ríos amazónicos',        en: 'Expedition through Amazon rivers' } },
+    { id: '84',  url: '/assets/galeria/nuevasfotos/Amazon 2-02.jpg', category: 'amazon', caption: { es: 'Navegando la selva amazónica',              en: 'Navigating the Amazon jungle' } },
+    { id: '85',  url: '/assets/galeria/nuevasfotos/Amazon 2-03.jpg', category: 'amazon', caption: { es: 'Grupo en expedición amazónica',             en: 'Group on Amazon expedition' } },
+    { id: '86',  url: '/assets/galeria/nuevasfotos/Amazon 2-06.jpg', category: 'amazon', caption: { es: 'Guías locales entre la naturaleza',         en: 'Local guides in nature' } },
+    { id: '87',  url: '/assets/galeria/nuevasfotos/Amazon 2-10.jpg', category: 'amazon', caption: { es: 'Aventureros en la Amazonía',                en: 'Adventurers in the Amazon' } },
+    { id: '88',  url: '/assets/galeria/nuevasfotos/Amazon 2-11.jpg', category: 'amazon', caption: { es: 'Explorando el dosel tropical',             en: 'Exploring the tropical canopy' } },
+    { id: '89',  url: '/assets/galeria/nuevasfotos/Amazon 2-12.jpg', category: 'amazon', caption: { es: 'Momento especial en la selva',             en: 'Special moment in the jungle' } },
+    { id: '90',  url: '/assets/galeria/nuevasfotos/Amazon 2-14.jpg', category: 'amazon', caption: { es: 'Experiencia única en la Amazonía',          en: 'Unique Amazon experience' } },
+    { id: '91',  url: '/assets/galeria/nuevasfotos/Amazon 2-15.jpg', category: 'amazon', caption: { es: 'Descubriendo la Amazonía',                  en: 'Discovering the Amazon' } },
+    { id: '92',  url: '/assets/galeria/nuevasfotos/Amazon 2-16.jpg', category: 'amazon', caption: { es: 'Entre la vegetación exótica',               en: 'Among exotic vegetation' } },
+    { id: '93',  url: '/assets/galeria/nuevasfotos/Amazon 2-17.jpg', category: 'amazon', caption: { es: 'Biodiversidad amazónica',                   en: 'Amazon biodiversity' } },
+    { id: '94',  url: '/assets/galeria/nuevasfotos/Amazon 2-20.jpg', category: 'amazon', caption: { es: 'Maravillas naturales del Amazonas',         en: 'Natural wonders of the Amazon' } },
+    { id: '95',  url: '/assets/galeria/nuevasfotos/Amazon 2-21.jpg', category: 'amazon', caption: { es: 'Río y selva en armonía',                    en: 'River and jungle in harmony' } },
+    { id: '96',  url: '/assets/galeria/nuevasfotos/Amazon 2-23.jpg', category: 'amazon', caption: { es: 'Vida silvestre amazónica',                  en: 'Amazon wildlife' } },
+    { id: '97',  url: '/assets/galeria/nuevasfotos/Amazon 2-24.jpg', category: 'amazon', caption: { es: 'Fotografiando la naturaleza',               en: 'Photographing nature' } },
+    { id: '98',  url: '/assets/galeria/nuevasfotos/Amazon 2-25.jpg', category: 'amazon', caption: { es: 'Amanecer en la expedición',                 en: 'Dawn on expedition' } },
+    { id: '99',  url: '/assets/galeria/nuevasfotos/Amazon 2-27.jpg', category: 'amazon', caption: { es: 'Exploradores amazónicos',                   en: 'Amazon explorers' } },
+    { id: '100', url: '/assets/galeria/nuevasfotos/Amazon 2-30.jpg', category: 'amazon', caption: { es: 'Flora tropical en esplendor',               en: 'Tropical flora in splendor' } },
+    { id: '101', url: '/assets/galeria/nuevasfotos/Amazon 2-31.jpg', category: 'amazon', caption: { es: 'Comunidad y naturaleza',                    en: 'Community and nature' } },
+    { id: '102', url: '/assets/galeria/nuevasfotos/Amazon 2-34.jpg', category: 'amazon', caption: { es: 'Momentos únicos en la selva',               en: 'Unique jungle moments' } },
+    { id: '103', url: '/assets/galeria/nuevasfotos/Amazon 2-35.jpg', category: 'amazon', caption: { es: 'Colores vibrantes de la Amazonía',          en: 'Vibrant Amazon colors' } },
+    { id: '104', url: '/assets/galeria/nuevasfotos/Amazon 2-36.jpg', category: 'amazon', caption: { es: 'Expedición amazónica 2024',                 en: 'Amazon expedition 2024' } },
+    { id: '105', url: '/assets/galeria/nuevasfotos/Amazon 2-37.jpg', category: 'amazon', caption: { es: 'Naturaleza en su estado puro',              en: 'Nature in its pure state' } },
+    { id: '106', url: '/assets/galeria/nuevasfotos/Amazon 2-38.jpg', category: 'amazon', caption: { es: 'Aventura en tierra amazónica',              en: 'Adventure in Amazon land' } },
+    { id: '107', url: '/assets/galeria/nuevasfotos/Amazon 2-39.jpg', category: 'amazon', caption: { es: 'Recuerdos amazónicos inolvidables',         en: 'Unforgettable Amazon memories' } },
   ];
 
   const categories = [
@@ -654,6 +692,7 @@ function GalleryGrid({ messages, locale }: { messages: any; locale: string }) {
     { id: 'cabins', name: 'Cabañas & Lodge', icon: '🏡' },
     { id: 'expeditions', name: 'Expediciones', icon: '🚤' },
     { id: 'community', name: 'Comunidad & Gastronomía', icon: '👥' },
+    { id: 'amazon', name: 'Serie Amazon 2024', icon: '📸' },
   ];
 
   const filteredImages = selectedCategory === 'all' 
@@ -975,7 +1014,7 @@ export default function GalleryPage({ params }: GalleryPageProps) {
               </Badge>
               <Badge className="bg-warmOrange/90 text-white px-4 py-2 text-sm border-0">
                 <Camera className="h-4 w-4 mr-1" />
-                68 Fotos Auténticas
+                107 Fotos Auténticas
               </Badge>
             </div>
             

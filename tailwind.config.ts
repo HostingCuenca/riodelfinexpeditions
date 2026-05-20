@@ -79,6 +79,9 @@ const config: Config = {
         lexend: ['var(--font-lexend)', 'sans-serif'],
         'source-sans': ['var(--font-source-sans)', 'sans-serif'],
       },
+      maxWidth: {
+        '7xl': '96rem', // override: 1280px → 1536px (+2 pasos), aplica a todos los max-w-7xl del proyecto
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
